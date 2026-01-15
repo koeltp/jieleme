@@ -1,0 +1,637 @@
+/* 详情页容器 */
+.profile-detail-container {
+  padding: 20px 0;
+}
+
+.detail-content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* 删除detail-card样式 */
+
+/* 详情页上半部分：关于我和期待的你并列 */
+.detail-top-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+  .detail-top-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* 详情页中间部分：我的网站项目单独一行 */
+.websites-section {
+  margin-bottom: 40px;
+}
+
+/* 详情页下半部分：不介意的细节和希望避免并列 */
+.detail-bottom-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .detail-bottom-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* 详情页各部分通用样式 */
+.detail-section {
+  background: white;
+  border-radius: 20px;
+  padding: 35px;
+  box-shadow: 0 8px 25px rgba(255, 105, 180, 0.08);
+  border: 1px solid #ffe4ec;
+  height: 100%;
+}
+
+.section-title {
+  color: #ff6b9d;
+  font-size: 1.5rem;
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-weight: 700;
+}
+
+.detail-list {
+  list-style: none;
+  padding: 0;
+}
+
+.detail-list li {
+  padding: 12px 0;
+  border-bottom: 1px dashed #ffe4ec;
+  display: flex;
+  align-items: flex-start;
+  color: #6a4a6c;
+}
+
+.detail-list li:last-child {
+  border-bottom: none;
+}
+
+.detail-list li i {
+  color: #ff85a2;
+  margin-right: 15px;
+  margin-top: 3px;
+  min-width: 20px;
+}
+
+/* 网站项目样式 */
+.websites-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 25px;
+  margin-top: 20px;
+}
+
+.website-card {
+  background: linear-gradient(to bottom, #fff9fb, #fff5f8);
+  padding: 25px;
+  border-radius: 15px;
+  border: 1px solid #ffe4ec;
+  transition: transform 0.3s;
+}
+
+.website-card:hover {
+  transform: translateY(-5px);
+}
+
+.website-card h4 {
+  color: #ff6b9d;
+  margin-bottom: 12px;
+  font-size: 1.2rem;
+}
+
+.website-card p {
+  color: #8a6d8c;
+  margin-bottom: 15px;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.website-link {
+  color: #ff85a2;
+  text-decoration: none;
+  font-weight: 600;
+  word-break: break-all;
+  font-size: 0.9rem;
+}
+
+.website-link:hover {
+  text-decoration: underline;
+}
+
+/* 幻灯片样式 - 不限制高度 */
+.photo-slider {
+  margin: 20px 0 40px;
+}
+
+.slider-container {
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  background: #f8f8f8;
+  min-height: 300px;
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slide.active {
+  opacity: 1;
+  z-index: 1;
+}
+
+.slide-photo {
+  width: 100%;
+  object-fit: contain;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.slide-photo:hover {
+  transform: scale(1.02);
+}
+
+.slider-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.slider-btn {
+  background: linear-gradient(to right, #ff9ebb, #ff85a2);
+  border: none;
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  transition: all 0.3s;
+  box-shadow: 0 3px 10px rgba(255, 133, 162, 0.3);
+}
+
+.slider-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(255, 133, 162, 0.4);
+}
+
+.slide-dots {
+  display: flex;
+  gap: 10px;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ffccdc;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.dot.active {
+  background-color: #ff85a2;
+  transform: scale(1.2);
+}
+
+.dot:hover {
+  background-color: #ff9ebb;
+}
+
+/* 共同活动样式 */
+.together-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 25px;
+  margin-top: 20px;
+}
+
+.together-card {
+  text-align: center;
+  padding: 30px 20px;
+  background: linear-gradient(to bottom, #fff9fb, #fff5f8);
+  border-radius: 15px;
+  border: 1px solid #ffe4ec;
+  transition: transform 0.3s;
+}
+
+.together-card:hover {
+  transform: translateY(-5px);
+}
+
+.together-card i {
+  font-size: 2.5rem;
+  color: #ff85a2;
+  margin-bottom: 15px;
+}
+
+.together-card h4 {
+  color: #ff6b9d;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.together-card p {
+  color: #8a6d8c;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* 联系方式样式（放在最下面） */
+.contact-section {
+  background: linear-gradient(135deg, #ff9ebb 0%, #ff85a2 100%);
+  color: white;
+  border-radius: 20px;
+  padding: 50px;
+  box-shadow: 0 15px 35px rgba(255, 133, 162, 0.2);
+  margin-top: 20px;
+}
+
+.contact-title {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.contact-content {
+  line-height: 1.8;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contact-content p {
+  margin-bottom: 20px;
+  opacity: 0.95;
+  font-size: 1.1rem;
+}
+
+.wechat-info {
+  background-color: rgba(255, 255, 255, 0.15);
+  padding: 25px;
+  border-radius: 15px;
+  margin: 30px 0;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.wechat-info:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: translateY(-3px);
+}
+
+.wechat-id {
+  font-family: 'Courier New', monospace;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.wechat-text {
+  font-weight: 600;
+}
+
+.copy-icon {
+  color: #ffd9e4;
+  font-size: 1.1rem;
+  transition: transform 0.3s;
+}
+
+.wechat-info:hover .copy-icon {
+  transform: scale(1.2);
+}
+
+.btn-contact {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  background: white;
+  color: #ff6b9d;
+  border: none;
+  padding: 18px;
+  font-size: 1.2rem;
+  border-radius: 50px;
+  cursor: pointer;
+  margin: 30px auto 0;
+  font-weight: 600;
+  transition: all 0.3s;
+  text-align: center;
+}
+
+.btn-contact:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* 自定义弹窗样式 */
+.custom-modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1100;
+  justify-content: center;
+  align-items: center;
+  animation: fadeIn 0.3s ease;
+}
+
+.modal-content-box {
+  background: white;
+  border-radius: 20px;
+  padding: 40px;
+  max-width: 400px;
+  width: 90%;
+  text-align: center;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+  position: relative;
+  animation: slideUp 0.3s ease;
+}
+
+.modal-icon {
+  font-size: 4rem;
+  color: #ff85a2;
+  margin-bottom: 20px;
+}
+
+.modal-title {
+  color: #ff6b9d;
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.modal-text {
+  color: #6a4a6c;
+  font-size: 1.1rem;
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+.wechat-id-modal {
+  background: linear-gradient(to right, #fff9fb, #fff5f8);
+  padding: 20px;
+  border-radius: 15px;
+  margin: 20px 0;
+  border: 2px dashed #ff9ebb;
+  font-family: 'Courier New', monospace;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #ff6b9d;
+  letter-spacing: 2px;
+}
+
+.modal-close-btn {
+  background: linear-gradient(to right, #ff9ebb, #ff85a2);
+  color: white;
+  border: none;
+  padding: 14px 40px;
+  border-radius: 50px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin-top: 20px;
+  box-shadow: 0 5px 15px rgba(255, 133, 162, 0.3);
+}
+
+.modal-close-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(255, 133, 162, 0.4);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 模态框样式 - 支持多图导航 */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.95);
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  animation: fadeIn 0.3s ease;
+}
+
+.modal-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 90%;
+  max-width: 1200px;
+}
+
+.modal-content {
+  max-width: 80%;
+  max-height: 70vh;
+  border-radius: 10px;
+  box-shadow: 0 0 40px rgba(255, 255, 255, 0.1);
+  object-fit: contain;
+}
+
+.modal-caption {
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.2rem;
+  max-width: 90%;
+}
+
+.close-modal {
+  position: absolute;
+  top: 30px;
+  right: 40px;
+  color: white;
+  font-size: 40px;
+  cursor: pointer;
+  transition: transform 0.3s;
+  z-index: 1001;
+  background: none;
+  border: none;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.close-modal:hover {
+  transform: scale(1.1);
+  color: #ff85a2;
+}
+
+.modal-nav {
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+  backdrop-filter: blur(5px);
+}
+
+.modal-nav:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: scale(1.1);
+}
+
+.modal-nav.prev {
+  left: 20px;
+}
+
+.modal-nav.next {
+  right: 20px;
+}
+
+/* 引用样式 */
+.quote-text {
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.2rem;
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  text-align: center;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .detail-section {
+    padding: 25px;
+  }
+  
+  .websites-grid,
+  .together-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .contact-section {
+    padding: 30px 20px;
+  }
+  
+  .close-modal {
+    top: 20px;
+    right: 25px;
+    font-size: 35px;
+  }
+  
+  .modal-content {
+    max-width: 95%;
+    max-height: 60vh;
+  }
+  
+  .modal-navigation {
+    width: 95%;
+    gap: 10px;
+  }
+  
+  .modal-nav {
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+  }
+  
+  .wechat-id {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .modal-content-box {
+    padding: 25px;
+    width: 85%;
+  }
+  
+  .modal-icon {
+    font-size: 3rem;
+  }
+  
+  .modal-title {
+    font-size: 1.5rem;
+  }
+  
+  .wechat-id-modal {
+    font-size: 1.2rem;
+    padding: 15px;
+  }
+  
+  .slider-btn {
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+  }
+  
+  .slider-container {
+    min-height: 200px;
+  }
+  
+  .slide-photo {
+    max-height: 400px;
+  }
+}

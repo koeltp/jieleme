@@ -1,0 +1,262 @@
+/* contact.css - 联系我们页面专用样式 */
+
+.contact-container {
+  margin: 0 auto;
+}
+
+/* 联系信息卡片 */
+.contact-info-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-bottom: 60px;
+}
+
+.contact-card {
+  background: white;
+  border-radius: 20px;
+  padding: 40px 30px;
+  text-align: center;
+  box-shadow: 0 8px 25px rgba(255, 105, 180, 0.08);
+  border: 1px solid #ffe4ec;
+  transition: transform 0.3s;
+}
+
+.contact-card:hover {
+  transform: translateY(-10px);
+}
+
+.contact-icon {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 25px;
+  background: linear-gradient(135deg, #ff9ebb 0%, #ff85a2 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-icon i {
+  font-size: 2.5rem;
+  color: white;
+}
+
+.contact-card h3 {
+  color: #ff6b9d;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.contact-card p {
+  color: #6a4a6c;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.contact-action-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: linear-gradient(135deg, #ff9ebb 0%, #ff85a2 100%);
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 50px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 1rem;
+  transition: all 0.3s;
+}
+
+.contact-action-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(255, 133, 162, 0.4);
+}
+
+/* FAQ部分 */
+.faq-section {
+  background: white;
+  border-radius: 20px;
+  padding: 50px;
+  margin-bottom: 60px;
+  box-shadow: 0 8px 25px rgba(255, 105, 180, 0.08);
+  border: 1px solid #ffe4ec;
+}
+
+.faq-title {
+  color: #ff6b9d;
+  font-size: 2rem;
+  margin-bottom: 40px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.faq-list {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.faq-item {
+  border-bottom: 1px solid #ffe4ec;
+  margin-bottom: 20px;
+}
+
+.faq-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  cursor: pointer;
+  color: #ff6b9d;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.faq-question i {
+  transition: transform 0.3s;
+  color: #ff85a2;
+}
+
+.faq-item.active .faq-question i {
+  transform: rotate(180deg);
+}
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  color: #6a4a6c;
+  line-height: 1.6;
+}
+
+.faq-item.active .faq-answer {
+  max-height: 500px;
+  padding-bottom: 20px;
+}
+
+/* 地址部分 */
+.location-section {
+  background: white;
+  border-radius: 20px;
+  padding: 50px;
+  box-shadow: 0 8px 25px rgba(255, 105, 180, 0.08);
+  border: 1px solid #ffe4ec;
+}
+
+.location-title {
+  color: #ff6b9d;
+  font-size: 2rem;
+  margin-bottom: 40px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.location-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.address-card {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  padding: 30px;
+  background: linear-gradient(to bottom, #fff9fb, #fff5f8);
+  border-radius: 15px;
+  border: 1px solid #ffe4ec;
+  transition: transform 0.3s;
+}
+
+.address-card:hover {
+  transform: translateY(-5px);
+}
+
+.address-icon {
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(135deg, #ff9ebb 0%, #ff85a2 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.address-icon i {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.address-info h4 {
+  color: #ff6b9d;
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.address-info p {
+  color: #6a4a6c;
+  margin-bottom: 5px;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .contact-info-section {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .contact-form-section,
+  .faq-section,
+  .location-section {
+    padding: 30px 20px;
+  }
+  
+  .location-content {
+    grid-template-columns: 1fr;
+  }
+  
+  .address-card {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .address-icon {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-card {
+    padding: 30px 20px;
+  }
+  
+  .contact-icon {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .contact-icon i {
+    font-size: 2rem;
+  }
+  
+  .submit-btn {
+    width: 100%;
+    justify-content: center;
+  }
+}

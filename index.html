@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>结了么 | 缘来于此，遇见美好</title>
+    <link rel="icon" href="images/jieleme.png" type="image/x-icon" />
+    <link rel="keywords" content="结了么, 征婚, 交友, 免注册, 真诚交友平台" />
+    <link rel="description" content="结了么是一个免注册的真诚交友平台，帮助用户寻找生活伴侣与心灵契合。" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- 导航栏 - 全宽 -->
+    <nav class="main-nav">
+      <div class="nav-content">
+        <div class="nav-logo">
+          <a href="index.html" class="nav-logo">
+            <img src="images/jieleme.png" alt="结了么 Logo" />
+            <span>结了么</span>
+          </a>
+        </div>
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link active">首页</a></li>
+          <li><a href="about.html" class="nav-link">关于我们</a></li>
+          <li><a href="contact.html" class="nav-link">联系我们</a></li>
+        </ul>
+        <div class="nav-mobile-toggle">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </nav>
+
+    <!-- 主要内容区 -->
+    <main class="main-content">
+      <header class="page-header">
+        <div class="header-content">
+          <h2 class="tagline">缘来于此，遇见美好</h2>
+          <p class="description">
+            免注册的真诚交友平台。在这里，不同背景的人们相互了解，共同寻找生活的伴侣与心灵的契合。
+          </p>
+        </div>
+      </header>
+
+      <div class="filters">
+        <h3><i class="fas fa-filter"></i> 筛选条件</h3>
+        <div class="filter-options">
+          <div class="filter-group">
+            <label for="age-range">年龄范围</label>
+            <select id="age-range">
+              <option value="all">全部年龄</option>
+              <option value="25-30">25-30岁</option>
+              <option value="30-35">30-35岁</option>
+              <option value="35-40">35-40岁</option>
+              <option value="40+">40岁以上</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label for="city">所在城市</label>
+            <select id="city">
+              <option value="all">全部城市</option>
+              <option value="shenzhen">深圳</option>
+              <option value="beijing">北京</option>
+              <option value="shanghai">上海</option>
+              <option value="hangzhou">杭州</option>
+              <option value="guangzhou">广州</option>
+              <option value="chengdu">成都</option>
+              <option value="wuhan">武汉</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label for="occupation">职业类型</label>
+            <select id="occupation">
+              <option value="all">全部职业</option>
+              <option value="tech">科技/互联网</option>
+              <option value="finance">金融/投资</option>
+              <option value="education">教育/科研</option>
+              <option value="medical">医疗/健康</option>
+              <option value="creative">创意/艺术</option>
+              <option value="business">商业/管理</option>
+              <option value="engineer">工程师</option>
+              <option value="other">其他行业</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label for="gender">性别</label>
+            <select id="gender">
+              <option value="all">全部</option>
+              <option value="male">男性</option>
+              <option value="female">女性</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label for="keyword">关键词搜索</label>
+            <input type="text" id="keyword" placeholder="输入关键词..." />
+          </div>
+        </div>
+        <div class="filter-actions">
+          <button class="btn btn-secondary" id="reset-filters">重置筛选</button>
+          <button class="btn btn-primary" id="apply-filters">应用筛选</button>
+        </div>
+      </div>
+
+      <div class="profiles-container">
+        <div class="profiles-header">
+          <h2>征婚信息</h2>
+          <div class="profiles-count">
+            共 <span id="profile-count">0</span> 个征婚信息
+          </div>
+        </div>
+
+        <div class="profiles-grid" id="profiles-grid">
+          <div class="loading" id="loading">
+            <i class="fas fa-spinner fa-spin"></i>
+            <h3>正在加载征婚信息...</h3>
+            <p>请稍候，我们正在为您准备精彩内容</p>
+          </div>
+        </div>
+
+        <!-- 分页 -->
+        <div class="pagination">
+          <a href="#" class="pagination-btn active">1</a>
+          <a href="#" class="pagination-btn">2</a>
+          <a href="#" class="pagination-btn">3</a>
+          <div class="pagination-ellipsis">...</div>
+          <a href="#" class="pagination-btn">5</a>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer将由JS动态生成 -->
+    <div id="footer-container"></div>
+
+    <script src="js/index.js"></script>
+    <script src="js/footer.js"></script>
+  </body>
+</html>

@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>结了么 | 征婚详情</title>
+    <link rel="icon" href="images/jieleme.png" type="image/x-icon" />
+    <link rel="keywords" content="结了么, 征婚, 交友, 免注册, 真诚交友平台" />
+    <link rel="description" content="结了么是一个免注册的真诚交友平台，帮助用户寻找生活伴侣与心灵契合。" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/detail.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- 导航栏 -->
+    <nav class="main-nav">
+      <div class="nav-content">
+        <div class="nav-logo">
+          <a href="index.html" class="nav-logo">
+            <img src="images/jieleme.png" alt="结了么 Logo" />
+            <span>结了么</span>
+          </a>
+        </div>
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link">首页</a></li>
+          <li><a href="about.html" class="nav-link">关于我们</a></li>
+          <li><a href="contact.html" class="nav-link">联系我们</a></li>
+        </ul>
+        <div class="nav-mobile-toggle">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </nav>
+
+    <!-- 主要内容区 -->
+    <main class="main-content">
+      <div class="profile-detail-container">
+        <!-- 详情内容将由JS动态生成 -->
+        <div id="loading" class="loading">
+          <i class="fas fa-spinner fa-spin"></i>
+          <h3>正在加载详细信息...</h3>
+        </div>
+        <div id="profile-detail"></div>
+        <div id="not-found" class="empty-state" style="display: none">
+          <i class="fas fa-user-slash"></i>
+          <h3>未找到征婚信息</h3>
+          <p>该征婚信息可能已被移除或不存在</p>
+          <a href="index.html" class="btn btn-primary" style="margin-top: 20px"
+            >返回首页</a
+          >
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer将由JS动态生成 -->
+    <div id="footer-container"></div>
+
+    <script src="js/detail.js"></script>
+    <script src="js/footer.js"></script>
+  </body>
+</html>

@@ -1,0 +1,229 @@
+[
+  {
+    "id": "001",
+    "name": "逻辑与远方",
+    "age": 36,
+    "gender": "male",
+    "occupation": "程序员 & 股票投资者",
+    "location": "深圳 · 南山",
+    "city": "shenzhen",
+    "occupationType": "tech",
+    "headerClass": "tech-header",
+    "tags": [
+      {"text": "全栈开发", "class": "tag-tech"},
+      {"text": "股票投资", "class": "tag-finance"},
+      {"text": "ISTJ型人格", "class": "tag-personality"},
+      {"text": "爬山/骑行", "class": "tag-hobby"}
+    ],
+    "details": [
+      {"icon": "fas fa-briefcase", "text": "职业：职业程序员 + 股票投资者（理性分析型）"},
+      {"icon": "fas fa-heart", "text": "生活：不吸烟不喝酒，无不良嗜好"},
+      {"icon": "fas fa-hiking", "text": "爱好：周末爬山/骑行、羽毛球、研究美食"},
+      {"icon": "fas fa-home", "text": "财务：有车无房，无负债，有应急存款和养老规划"}
+    ],
+    "quote": "在代码世界创造价值，在K线图前寻找规律，不变的是对理性的坚持。人生就像编程和投资，需要逻辑、耐心和长期主义，而我希望与你一起编写未来的每一行代码，规划每一个投资决策。",
+    "detailUrl": "detail.html?id=001",
+    "icons": ["fas fa-code", "fas fa-chart-line"],
+    "fullDetails": {
+      "tagline": "代码与K线，理性与远方",
+      "aboutMe": [
+        "职业：职业程序员 + 股票投资者（理性分析型）",
+        "生活：不吸烟不喝酒，无泡吧等不良嗜好",
+        "爱好：周末爬山/骑行、打羽毛球、做点不算难吃的家常菜",
+        "性格：ISTJ型人格，理性＞感性，但愿意为对的人学习浪漫",
+        "财务：有车无房，无负债，有应急存款和养老规划"
+      ],
+      "expectations": [
+        "年龄28-36岁，情绪稳定，善于沟通",
+        "尊重彼此独立空间，也享受共同时光",
+        "对技术和投资不反感（但不必懂代码或K线）",
+        "对未来有基本规划，愿意一起经营小家庭",
+        "长期在深圳发展"
+      ],
+      "notImportant": [
+        "偶尔需要关注市场行情（但会合理安排时间）",
+        "衣柜里纯色T恤占比70%",
+        "喜欢研究经济、技术和历史书籍",
+        "偶尔会戴着耳机专注工作/学习"
+      ],
+      "avoid": [
+        "长期异地",
+        "冷暴力沟通",
+        "过度依赖短视频获取信息",
+        "对未来没有任何规划"
+      ],
+      "websites": [
+        {
+          "name": "TP投资周报系统",
+          "description": "记录和分析我的投资决策，追踪市场动态",
+          "url": "https://tz.taipi.top"
+        },
+        {
+          "name": "导航网站",
+          "description": "收集整理常用工具和资源，提高工作效率",
+          "url": "https://nav.taipi.top"
+        },
+        {
+          "name": "在线工具箱",
+          "description": "各种实用小工具集合，解决日常开发和生活需求",
+          "url": "https://tools.taipi.top"
+        }
+      ],
+      "togetherActivities": [
+        {"icon": "fas fa-utensils", "title": "研究美食", "description": "周末研究菜谱，探索城市小众角落"},
+        {"icon": "fas fa-paw", "title": "养只宠物", "description": "养一只猫或狗，如果你喜欢"},
+        {"icon": "fas fa-book", "title": "共同学习", "description": "一起学习新技能，探索有趣的知识领域"}
+      ],
+      "contactInfo": {
+        "wechat": "_171717_171717_",
+        "email": "tp@taipi.top",
+        "phone": "136-0000-0000"
+      },
+      "travelPhotos": [
+        "images/travel1.jpg",
+        "images/travel2.jpg",
+        "images/travel3.jpg"
+      ]
+    }
+  },
+  {
+    "id": "002",
+    "name": "医者仁心",
+    "age": 32,
+    "gender": "female",
+    "occupation": "心脏内科医生",
+    "location": "北京 · 朝阳",
+    "city": "beijing",
+    "occupationType": "medical",
+    "headerClass": "medical-header",
+    "tags": [
+      {"text": "心脏内科", "class": "tag-medical"},
+      {"text": "古典音乐", "class": "tag-hobby"},
+      {"text": "INFJ型", "class": "tag-personality"},
+      {"text": "烹饪", "class": "tag-hobby"}
+    ],
+    "details": [
+      {"icon": "fas fa-briefcase", "text": "职业：三甲医院心脏内科医生"},
+      {"icon": "fas fa-music", "text": "爱好：古典音乐、阅读医学文献、烹饪"},
+      {"icon": "fas fa-graduation-cap", "text": "教育：医学博士，曾在国外进修"},
+      {"icon": "fas fa-home", "text": "生活：工作繁忙但注重生活品质，喜欢安静的环境"}
+    ],
+    "quote": "医学是科学，也是艺术；生活是责任，也是享受。",
+    "detailUrl": "detail.html?id=002",
+    "icons": ["fas fa-stethoscope", "fas fa-heartbeat"],
+    "fullDetails": {
+      "tagline": "用专业守护健康，用真诚温暖人心",
+      "aboutMe": [
+        "职业：三甲医院心脏内科医生",
+        "教育：医学博士，曾在国外进修",
+        "生活：工作繁忙但注重生活品质，喜欢安静的环境",
+        "爱好：古典音乐、阅读医学文献、烹饪",
+        "性格：INFJ型人格，既有理性的专业素养，也有感性的生活态度"
+      ],
+      "expectations": [
+        "年龄30-40岁，有责任心和上进心",
+        "理解医疗工作的特殊性",
+        "注重家庭和生活品质",
+        "有相似的价值观和人生观",
+        "长期在北京发展"
+      ],
+      "notImportant": [
+        "工作时间不固定，偶尔需要值夜班",
+        "会花时间阅读专业文献",
+        "对生活细节有一定要求",
+        "喜欢安静的家庭氛围"
+      ],
+      "avoid": [
+        "不接受医生职业",
+        "缺乏家庭责任感",
+        "过度关注物质条件",
+        "不支持事业发展"
+      ],
+      "togetherActivities": [
+        {"icon": "fas fa-music", "title": "欣赏音乐", "description": "一起听古典音乐会或在家欣赏音乐"},
+        {"icon": "fas fa-utensils", "title": "烹饪美食", "description": "周末一起研究新菜谱，享受烹饪乐趣"},
+        {"icon": "fas fa-book", "title": "阅读学习", "description": "分享有趣的书籍和知识"}
+      ],
+      "contactInfo": {
+        "wechat": "doctor_heart_002",
+        "email": "doctor002@example.com",
+        "phone": "138-0000-0000"
+      },
+      "travelPhotos": [
+        "images/travel1.jpg",
+        "images/travel2.jpg",
+        "images/travel3.jpg"
+      ]
+    }
+  },
+  {
+    "id": "003",
+    "name": "建筑诗人",
+    "age": 35,
+    "gender": "male",
+    "occupation": "建筑设计师",
+    "location": "上海 · 浦东",
+    "city": "shanghai",
+    "occupationType": "creative",
+    "headerClass": "creative-header",
+    "tags": [
+      {"text": "建筑设计", "class": "tag-creative"},
+      {"text": "摄影", "class": "tag-hobby"},
+      {"text": "ENFP型", "class": "tag-personality"},
+      {"text": "旅行", "class": "tag-hobby"}
+    ],
+    "details": [
+      {"icon": "fas fa-briefcase", "text": "职业：知名建筑设计公司主创设计师"},
+      {"icon": "fas fa-camera", "text": "爱好：建筑摄影、城市探索、水彩画"},
+      {"icon": "fas fa-globe-asia", "text": "经历：游历过30多个国家，研究各地建筑风格"},
+      {"icon": "fas fa-home", "text": "生活：注重美学与功能的平衡，喜欢有设计感的空间"}
+    ],
+    "quote": "建筑是凝固的音乐，生活是流动的诗歌。",
+    "detailUrl": "detail.html?id=003",
+    "icons": ["fas fa-drafting-compass", "fas fa-paint-brush"],
+    "fullDetails": {
+      "tagline": "用设计诠释生活，用艺术装点人生",
+      "aboutMe": [
+        "职业：知名建筑设计公司主创设计师",
+        "教育：建筑学硕士，多次获得设计奖项",
+        "经历：游历过30多个国家，研究各地建筑风格",
+        "爱好：建筑摄影、城市探索、水彩画",
+        "生活：注重美学与功能的平衡，喜欢有设计感的空间"
+      ],
+      "expectations": [
+        "年龄28-38岁，有审美眼光",
+        "理解创意工作者的思维方式",
+        "对生活有热情和好奇心",
+        "愿意一起探索世界的美好",
+        "长期在上海发展"
+      ],
+      "notImportant": [
+        "工作有时需要灵感，作息可能不规律",
+        "会花时间在摄影和绘画上",
+        "对居住环境有较高要求",
+        "喜欢收藏设计品"
+      ],
+      "avoid": [
+        "缺乏生活情趣",
+        "不接受创意工作特性",
+        "过于追求物质享受",
+        "不愿意尝试新事物"
+      ],
+      "togetherActivities": [
+        {"icon": "fas fa-camera", "title": "摄影创作", "description": "一起探索城市，记录美好瞬间"},
+        {"icon": "fas fa-paint-brush", "title": "艺术创作", "description": "周末一起画画或做手工"},
+        {"icon": "fas fa-plane", "title": "旅行探索", "description": "规划旅行，探索不同的建筑和文化"}
+      ],
+      "contactInfo": {
+        "wechat": "architect_003",
+        "email": "architect003@example.com",
+        "phone": "139-0000-0000"
+      },
+      "travelPhotos": [
+        "images/travel1.jpg",
+        "images/travel2.jpg",
+        "images/travel3.jpg"
+      ]
+    }
+  }
+]

@@ -1,0 +1,398 @@
+/* 筛选条件样式 */
+.filters {
+  background: linear-gradient(to bottom, #fff9fb, #fff5f8);
+  padding: 30px;
+  border-radius: 20px;
+  margin: 0 0 50px;
+  border: 1px solid #ffe4ec;
+  box-shadow: 0 8px 25px rgba(255, 105, 180, 0.08);
+}
+
+.filters h3 {
+  color: #ff6b9d;
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 1.5rem;
+}
+
+.filter-options {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  margin-bottom: 15px;
+}
+
+.filter-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.filter-group label {
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #ff85a2;
+  font-size: 0.95rem;
+}
+
+.filter-group select,
+.filter-group input {
+  padding: 12px 18px;
+  border: 2px solid #ffccdc;
+  border-radius: 12px;
+  font-size: 1rem;
+  background-color: white;
+  color: #6a4a6c;
+  transition: all 0.3s;
+}
+
+.filter-group select:focus,
+.filter-group input:focus {
+  outline: none;
+  border-color: #ff9ebb;
+  box-shadow: 0 0 0 3px rgba(255, 158, 187, 0.2);
+}
+
+.filter-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+  margin-top: 25px;
+}
+
+/* 征婚信息列表样式 */
+.profiles-container {
+  padding: 0 0 50px;
+}
+
+.profiles-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.profiles-header h2 {
+  color: #ff6b9d;
+  font-size: 2rem;
+  font-weight: 700;
+  position: relative;
+  padding-left: 20px;
+}
+
+.profiles-header h2::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 6px;
+  background: linear-gradient(to bottom, #ff9ebb, #ff85a2);
+  border-radius: 3px;
+}
+
+.profiles-count {
+  color: #ff85a2;
+  font-size: 1.2rem;
+  font-weight: 600;
+  background: linear-gradient(to right, #fff9fb, #fff5f8);
+  padding: 10px 20px;
+  border-radius: 50px;
+  border: 1px solid #ffe4ec;
+}
+
+.profiles-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 35px;
+}
+
+/* 征婚卡片样式 */
+.profile-card {
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(255, 105, 180, 0.1);
+  transition: all 0.4s ease;
+  border: 1px solid #ffe4ec;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: relative;
+}
+
+.profile-card:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 20px 40px rgba(255, 105, 180, 0.2);
+}
+
+.profile-header {
+  color: white;
+  padding: 30px;
+  text-align: center;
+  position: relative;
+}
+
+/* 不同职业使用不同的头部颜色 */
+.tech-header {
+  background: linear-gradient(to right, #ff9ebb, #ff85a2);
+}
+
+.finance-header {
+  background: linear-gradient(to right, #ffb8d9, #ffa8d0);
+}
+
+.education-header {
+  background: linear-gradient(to right, #c9a8ff, #f0c8ff);
+}
+
+.medical-header {
+  background: linear-gradient(to right, #ffb8d9, #ffd0e7);
+}
+
+.creative-header {
+  background: linear-gradient(to right, #ffe0cc, #ffcfb3);
+}
+
+.business-header {
+  background: linear-gradient(to right, #ffb8d9, #ffd0e7);
+}
+
+.engineer-header {
+  background: linear-gradient(to right, #ffb8d9, #ffa8d0);
+}
+
+.profile-id {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background-color: rgba(255, 255, 255, 0.25);
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  backdrop-filter: blur(5px);
+}
+
+.profile-name {
+  font-size: 1.9rem;
+  margin-bottom: 8px;
+  font-weight: 700;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.profile-age {
+  font-size: 1.2rem;
+  opacity: 0.95;
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+
+.profile-occupation {
+  font-size: 1.3rem;
+  margin-bottom: 12px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.profile-location {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 1.05rem;
+  opacity: 0.95;
+}
+
+.occupation-icons {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.occupation-icons i {
+  font-size: 1.8rem;
+  opacity: 0.95;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.profile-body {
+  padding: 30px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 25px;
+}
+
+.profile-tag {
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+}
+
+.tag-tech {
+  background: linear-gradient(to right, #ffe4ec, #ffd9e4);
+  color: #cc5577;
+}
+
+.tag-finance {
+  background: linear-gradient(to right, #e8f5e9, #dcedc8);
+  color: #2e7d32;
+}
+
+.tag-education {
+  background: linear-gradient(to right, #f3e5f5, #e1bee7);
+  color: #7b1fa2;
+}
+
+.tag-medical {
+  background: linear-gradient(to right, #ffebee, #ffcdd2);
+  color: #c62828;
+}
+
+.tag-creative {
+  background: linear-gradient(to right, #fff8e1, #ffecb3);
+  color: #f57c00;
+}
+
+.tag-business {
+  background: linear-gradient(to right, #e8f5e9, #dcedc8);
+  color: #388e3c;
+}
+
+.tag-personality {
+  background: linear-gradient(to right, #e3f2fd, #bbdefb);
+  color: #1565c0;
+}
+
+.tag-hobby {
+  background: linear-gradient(to right, #f1f8e9, #dcedc8);
+  color: #689f38;
+}
+
+.profile-details {
+  margin-bottom: 30px;
+}
+
+.profile-detail {
+  display: flex;
+  margin-bottom: 15px;
+  align-items: flex-start;
+}
+
+.profile-detail i {
+  color: #ff85a2;
+  width: 24px;
+  margin-right: 15px;
+  margin-top: 3px;
+  font-size: 1.1rem;
+}
+
+.profile-quote {
+  font-style: italic;
+  color: #8a6d8c;
+  padding: 20px;
+  background: linear-gradient(to right, #fff9fb, #fff5f8);
+  border-radius: 15px;
+  margin-top: auto;
+  font-size: 1rem;
+  border-left: 5px solid #ff85a2;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.02);
+}
+
+.profile-footer {
+  padding: 25px 30px;
+  background: linear-gradient(to right, #fff9fb, #fff5f8);
+  border-top: 1px solid #ffe4ec;
+  text-align: center;
+}
+
+.btn-view {
+  display: inline-block;
+  background: linear-gradient(to right, #ff9ebb, #ff85a2);
+  color: white;
+  padding: 14px 35px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s;
+  border: none;
+  cursor: pointer;
+  font-size: 1.05rem;
+  letter-spacing: 0.5px;
+  box-shadow: 0 5px 15px rgba(255, 133, 162, 0.3);
+}
+
+.btn-view:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(255, 133, 162, 0.4);
+  text-decoration: none;
+  color: white;
+}
+
+/* 分页样式 */
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 10px;
+}
+
+.pagination-btn {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #fff9fb, #fff5f8);
+  border-radius: 12px;
+  color: #ff85a2;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s;
+  border: 1px solid #ffe4ec;
+}
+
+.pagination-btn.active {
+  background: linear-gradient(to right, #ff9ebb, #ff85a2);
+  color: white;
+  box-shadow: 0 5px 15px rgba(255, 133, 162, 0.3);
+}
+
+.pagination-btn:hover:not(.active) {
+  background: linear-gradient(to right, #ffd9e4, #ffccdc);
+  transform: translateY(-3px);
+}
+
+.pagination-ellipsis {
+  display: flex;
+  align-items: center;
+  color: #ff85a2;
+  padding: 0 5px;
+}
+
+@media (max-width: 768px) {
+  .profiles-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .filters {
+    margin: 0 0 30px;
+  }
+  
+  .main-content {
+    padding: 20px;
+  }
+}
