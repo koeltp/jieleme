@@ -49,7 +49,7 @@
 .detail-section {
   background: white;
   border-radius: 20px;
-  padding: 35px;
+  padding: 18px;
   box-shadow: 0 8px 25px rgba(255, 105, 180, 0.08);
   border: 1px solid #ffe4ec;
   height: 100%;
@@ -136,7 +136,7 @@
 
 /* 幻灯片样式 - 不限制高度 */
 .photo-slider {
-  margin: 20px 0 40px;
+  margin: 20px 0 20px;
 }
 
 .slider-container {
@@ -145,7 +145,7 @@
   overflow: hidden;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
   background: #f8f8f8;
-  min-height: 300px;
+  min-height: 580px;
 }
 
 .slide {
@@ -555,8 +555,8 @@
   margin-top: 20px;
   padding-top: 20px;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
-  text-align: center;
-  max-width: 700px;
+  text-align: left;
+  max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
   line-height: 1.6;
@@ -564,7 +564,7 @@
 
 @media (max-width: 768px) {
   .detail-section {
-    padding: 25px;
+    padding: 20px;
   }
   
   .websites-grid,
@@ -625,10 +625,6 @@
     width: 40px;
     height: 40px;
     font-size: 1rem;
-  }
-  
-  .slider-container {
-    min-height: 200px;
   }
   
   .slide-photo {
