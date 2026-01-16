@@ -133,19 +133,17 @@ function createDetailPage(profile) {
                 <img src="${photo}" alt="照片 ${index + 1}" class="slide-photo" data-index="${index}">
               </div>
             `).join('')}
-          </div>
-          <div class="slider-controls">
-            <button class="slider-btn prev-btn">
+            <button class="slider-btn prev-btn" style="position: absolute; left: 20px; top: 50%; transform: translateY(-50%); z-index: 10;">
               <i class="fas fa-chevron-left"></i>
             </button>
-            <div class="slide-dots">
+            <button class="slider-btn next-btn" style="position: absolute; right: 20px; top: 50%; transform: translateY(-50%); z-index: 10;">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+            <div class="slide-dots-container">
               ${fullDetails.travelPhotos.map((_, index) => `
                 <span class="dot ${index === 0 ? 'active' : ''}" data-index="${index}"></span>
               `).join('')}
             </div>
-            <button class="slider-btn next-btn">
-              <i class="fas fa-chevron-right"></i>
-            </button>
           </div>
         </div>
       </div>
@@ -337,8 +335,24 @@ function initDetailInteractions(profile) {
   }
   
   function updateNavButtons() {
-    if (modalPrevBtn) modalPrevBtn.style.display = currentPhotoIndex > 0 ? 'flex' : 'none';
-    if (modalNextBtn) modalNextBtn.style.display = currentPhotoIndex < photoUrls.length - 1 ? 'flex' : 'none';
+    if (modalPrevBtn) {
+      if (currentPhotoIndex > 0) {
+        modalPrevBtn.disabled = false;
+        modalPrevBtn.classList.remove('disabled');
+      } else {
+        modalPrevBtn.disabled = true;
+        modalPrevBtn.classList.add('disabled');
+      }
+    }
+    if (modalNextBtn) {
+      if (currentPhotoIndex < photoUrls.length - 1) {
+        modalNextBtn.disabled = false;
+        modalNextBtn.classList.remove('disabled');
+      } else {
+        modalNextBtn.disabled = true;
+        modalNextBtn.classList.add('disabled');
+      }
+    }
   }
   
   if (closeModalBtn) {
@@ -350,7 +364,7 @@ function initDetailInteractions(profile) {
   if (modalPrevBtn) {
     modalPrevBtn.addEventListener('click', function(e) {
       e.stopPropagation();
-      if (currentPhotoIndex > 0) {
+      if (!this.disabled && currentPhotoIndex > 0) {
         currentPhotoIndex--;
         modalImg.src = photoUrls[currentPhotoIndex];
         modalCaption.textContent = `照片 ${currentPhotoIndex + 1} / ${photoUrls.length}`;
@@ -362,7 +376,7 @@ function initDetailInteractions(profile) {
   if (modalNextBtn) {
     modalNextBtn.addEventListener('click', function(e) {
       e.stopPropagation();
-      if (currentPhotoIndex < photoUrls.length - 1) {
+      if (!this.disabled && currentPhotoIndex < photoUrls.length - 1) {
         currentPhotoIndex++;
         modalImg.src = photoUrls[currentPhotoIndex];
         modalCaption.textContent = `照片 ${currentPhotoIndex + 1} / ${photoUrls.length}`;

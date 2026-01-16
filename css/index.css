@@ -1,4 +1,4 @@
-/* 筛选条件样式 */
+/* ========== 筛选条件样式 ========== */
 .filters {
   background: linear-gradient(to bottom, #fff9fb, #fff5f8);
   padding: 30px;
@@ -6,6 +6,19 @@
   margin: 0 0 50px;
   border: 1px solid #ffe4ec;
   box-shadow: 0 8px 25px rgba(255, 105, 180, 0.08);
+}
+
+@media (max-width: 768px) {
+  .filters {
+    padding: 20px;
+    margin: 0 0 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .filters {
+    padding: 15px;
+  }
 }
 
 .filters h3 {
@@ -61,7 +74,7 @@
   margin-top: 25px;
 }
 
-/* 征婚信息列表样式 */
+/* ========== 声婚信息列表 ========== */
 .profiles-container {
   padding: 0 0 50px;
 }
@@ -110,7 +123,7 @@
   gap: 35px;
 }
 
-/* 征婚卡片样式 */
+/* ========== 声婚卡片样式 ========== */
 .profile-card {
   background-color: white;
   border-radius: 20px;
@@ -122,6 +135,19 @@
   flex-direction: column;
   height: 100%;
   position: relative;
+}
+
+@media (max-width: 768px) {
+  .profile-card {
+    border-radius: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .profile-card {
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(255, 105, 180, 0.08);
+  }
 }
 
 .profile-card:hover {
@@ -136,7 +162,19 @@
   position: relative;
 }
 
-/* 不同职业使用不同的头部颜色 */
+@media (max-width: 768px) {
+  .profile-header {
+    padding: 25px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .profile-header {
+    padding: 20px 15px;
+  }
+}
+
+/* ========== 不同职业下颈颜色 ========== */
 .tech-header {
   background: linear-gradient(to right, #ff9ebb, #ff85a2);
 }
@@ -225,6 +263,18 @@
   flex-grow: 1;
   display: flex;
   flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .profile-body {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .profile-body {
+    padding: 15px;
+  }
 }
 
 .profile-tags {
@@ -335,6 +385,15 @@
   box-shadow: 0 5px 15px rgba(255, 133, 162, 0.3);
 }
 
+@media (max-width: 480px) {
+  .btn-view {
+    padding: 12px 25px;
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
+  }
+}
+
 .btn-view:hover {
   transform: translateY(-3px);
   box-shadow: 0 8px 20px rgba(255, 133, 162, 0.4);
@@ -342,7 +401,7 @@
   color: white;
 }
 
-/* 分页样式 */
+/* ========== 分页样式 ========== */
 .pagination {
   display: flex;
   justify-content: center;
@@ -383,10 +442,9 @@
   padding: 0 5px;
 }
 
+/* ========== 响应式设计 ========== */
+/* ========== 响应式设计 ========== */
 @media (max-width: 768px) {
-  .profiles-grid {
-    grid-template-columns: 1fr;
-  }
   
   .filters {
     margin: 0 0 30px;

@@ -1,4 +1,4 @@
-/* 详情页容器 */
+/* ========== 基础容器样式 ========== */
 .profile-detail-container {
   padding: 20px 0;
 }
@@ -11,41 +11,24 @@
   margin: 0 auto;
 }
 
-/* 删除detail-card样式 */
-
-/* 详情页上半部分：关于我和期待的你并列 */
-.detail-top-row {
+/* ========== 详情页布局 ========== */
+.detail-top-row,
+.detail-bottom-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
   margin-bottom: 40px;
 }
 
-@media (max-width: 768px) {
-  .detail-top-row {
-    grid-template-columns: 1fr;
-  }
+.detail-bottom-row {
+  gap: 20px;
 }
 
-/* 详情页中间部分：我的网站项目单独一行 */
 .websites-section {
   margin-bottom: 40px;
 }
 
-/* 详情页下半部分：不介意的细节和希望避免并列 */
-.detail-bottom-row {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-}
-
-@media (max-width: 768px) {
-  .detail-bottom-row {
-    grid-template-columns: 1fr;
-  }
-}
-
-/* 详情页各部分通用样式 */
+/* ========== 详情页通用样式 ========== */
 .detail-section {
   background: white;
   border-radius: 20px;
@@ -89,7 +72,7 @@
   min-width: 20px;
 }
 
-/* 网站项目样式 */
+/* ========== 网站项目样式 ========== */
 .websites-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -134,7 +117,7 @@
   text-decoration: underline;
 }
 
-/* 幻灯片样式 - 不限制高度 */
+/* ========== 幻灯片样式 ========== */
 .photo-slider {
   margin: 20px 0 20px;
 }
@@ -146,6 +129,9 @@
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
   background: #f8f8f8;
   min-height: 580px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .slide {
@@ -177,16 +163,8 @@
   transform: scale(1.02);
 }
 
-.slider-controls {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 30px;
-  margin-top: 20px;
-}
-
 .slider-btn {
-  background: linear-gradient(to right, #ff9ebb, #ff85a2);
+  background: rgba(255, 133, 162, 0.7);
   border: none;
   color: white;
   width: 50px;
@@ -201,14 +179,29 @@
   box-shadow: 0 3px 10px rgba(255, 133, 162, 0.3);
 }
 
-.slider-btn:hover {
+.slider-btn:hover:not(:disabled):not(.disabled) {
   transform: translateY(-2px);
   box-shadow: 0 5px 15px rgba(255, 133, 162, 0.4);
 }
 
-.slide-dots {
+.slider-btn:disabled,
+.slider-btn.disabled {
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.4);
+  cursor: not-allowed;
+}
+
+.slide-dots-container {
   display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 10px;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  pointer-events: auto;
 }
 
 .dot {
@@ -229,7 +222,7 @@
   background-color: #ff9ebb;
 }
 
-/* 共同活动样式 */
+/* ========== 共同活动样式 ========== */
 .together-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -268,7 +261,7 @@
   line-height: 1.6;
 }
 
-/* 联系方式样式（放在最下面） */
+/* ========== 联系方式样式 ========== */
 .contact-section {
   background: linear-gradient(135deg, #ff9ebb 0%, #ff85a2 100%);
   color: white;
@@ -359,7 +352,7 @@
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 }
 
-/* 自定义弹窗样式 */
+/* ========== 自定义弹窗样式 ========== */
 .custom-modal {
   display: none;
   position: fixed;
@@ -438,6 +431,7 @@
   box-shadow: 0 8px 20px rgba(255, 133, 162, 0.4);
 }
 
+/* ========== 动画定义 ========== */
 @keyframes fadeIn {
   from { opacity: 0; }
   to { opacity: 1; }
@@ -454,7 +448,7 @@
   }
 }
 
-/* 模态框样式 - 支持多图导航 */
+/* ========== 图片放大模态框样式 ========== */
 .modal {
   display: none;
   position: fixed;
@@ -534,9 +528,22 @@
   backdrop-filter: blur(5px);
 }
 
-.modal-nav:hover {
+.modal-nav:hover:not(:disabled):not(.disabled) {
   background: rgba(255, 255, 255, 0.3);
   transform: scale(1.1);
+}
+
+.modal-nav:disabled,
+.modal-nav.disabled {
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.4);
+  cursor: not-allowed;
+}
+
+.modal-nav:disabled:hover,
+.modal-nav.disabled:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: none;
 }
 
 .modal-nav.prev {
@@ -547,7 +554,7 @@
   right: 20px;
 }
 
-/* 引用样式 */
+/* ========== 引用样式 ========== */
 .quote-text {
   font-style: italic;
   color: rgba(255, 255, 255, 0.9);
@@ -562,72 +569,283 @@
   line-height: 1.6;
 }
 
+/* ========== 响应式设计 ========== */
 @media (max-width: 768px) {
+  .detail-top-row,
+  .detail-bottom-row {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
   .detail-section {
     padding: 20px;
+    border-radius: 15px;
   }
-  
+
+  .section-title {
+    font-size: 1.3rem;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
   .websites-grid,
   .together-grid {
     grid-template-columns: 1fr;
+    gap: 20px;
   }
-  
+
   .contact-section {
     padding: 30px 20px;
+    margin: 20px 0;
   }
-  
-  .close-modal {
-    top: 20px;
-    right: 25px;
-    font-size: 35px;
-  }
-  
-  .modal-content {
-    max-width: 95%;
-    max-height: 60vh;
-  }
-  
-  .modal-navigation {
-    width: 95%;
-    gap: 10px;
-  }
-  
-  .modal-nav {
-    width: 40px;
-    height: 40px;
-    font-size: 1.2rem;
-  }
-  
-  .wechat-id {
-    flex-direction: column;
-    gap: 10px;
-  }
-  
-  .modal-content-box {
-    padding: 25px;
-    width: 85%;
-  }
-  
-  .modal-icon {
-    font-size: 3rem;
-  }
-  
-  .modal-title {
+
+  .contact-title {
     font-size: 1.5rem;
   }
-  
-  .wechat-id-modal {
-    font-size: 1.2rem;
-    padding: 15px;
+
+  .slider-container {
+    min-height: 350px;
   }
-  
+
   .slider-btn {
     width: 40px;
     height: 40px;
     font-size: 1rem;
   }
-  
+
   .slide-photo {
     max-height: 400px;
+  }
+
+  .slide-dots-container {
+    gap: 8px;
+    bottom: 10px;
+  }
+
+  .close-modal {
+    top: 20px;
+    right: 25px;
+    font-size: 35px;
+  }
+
+  .modal-content {
+    max-width: 95%;
+    max-height: 60vh;
+  }
+
+  .modal-navigation {
+    width: 95%;
+    gap: 10px;
+  }
+
+  .modal-nav {
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+  }
+
+  .modal-content-box {
+    padding: 25px;
+    width: 85%;
+  }
+
+  .modal-icon {
+    font-size: 3rem;
+  }
+
+  .modal-title {
+    font-size: 1.5rem;
+  }
+
+  .wechat-id {
+    flex-direction: column;
+    gap: 10px;
+    font-size: 1rem;
+  }
+
+  .wechat-id-modal {
+    font-size: 1.2rem;
+    padding: 15px;
+  }
+
+  .modal-close-btn {
+    padding: 12px 30px;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .detail-section {
+    padding: 15px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+  }
+
+  .section-title {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+  }
+
+  .detail-list li {
+    padding: 10px 0;
+    font-size: 0.9rem;
+  }
+
+  .detail-list li i {
+    font-size: 1rem;
+    margin-right: 10px;
+  }
+
+  .website-card,
+  .together-card {
+    padding: 20px 15px;
+    border-radius: 12px;
+  }
+
+  .website-card h4,
+  .together-card h4 {
+    font-size: 1.1rem;
+  }
+
+  .website-card p,
+  .together-card p,
+  .together-card i {
+    font-size: 0.9rem;
+  }
+
+  .website-link {
+    font-size: 0.85rem;
+  }
+
+  .contact-section {
+    padding: 20px 15px;
+    border-radius: 15px;
+  }
+
+  .contact-title {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+  }
+
+  .contact-content p {
+    font-size: 1rem;
+  }
+
+  .wechat-info {
+    padding: 15px;
+    margin: 20px 0;
+  }
+
+  .wechat-id {
+    font-size: 1rem;
+    gap: 8px;
+  }
+
+  .slider-container {
+    min-height: 280px;
+    border-radius: 10px;
+  }
+
+  .slider-btn {
+    width: 30px;
+    height: 30px;
+    font-size: 0.8rem;
+  }
+
+  .slide-photo {
+    max-height: 250px;
+  }
+
+  .slide-dots-container {
+    gap: 6px;
+    bottom: 8px;
+  }
+
+  .dot {
+    width: 8px;
+    height: 8px;
+  }
+
+  .modal {
+    padding: 10px;
+  }
+
+  .close-modal {
+    top: 15px;
+    right: 15px;
+    font-size: 30px;
+    width: 35px;
+    height: 35px;
+  }
+
+  .modal-content {
+    max-width: 100%;
+    max-height: 50vh;
+    border-radius: 8px;
+  }
+
+  .modal-caption {
+    font-size: 1rem;
+    margin-top: 15px;
+  }
+
+  .modal-nav {
+    width: 35px;
+    height: 35px;
+    font-size: 1rem;
+  }
+
+  .modal-content-box {
+    padding: 20px;
+    width: 90%;
+    border-radius: 12px;
+  }
+
+  .modal-icon {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+  }
+
+  .modal-title {
+    font-size: 1.3rem;
+    margin-bottom: 12px;
+  }
+
+  .modal-text {
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+
+  .wechat-id-modal {
+    font-size: 1rem;
+    padding: 12px;
+    margin: 15px 0;
+  }
+
+  .modal-close-btn {
+    padding: 11px 25px;
+    font-size: 0.95rem;
+    margin-top: 15px;
+  }
+
+  .page-header {
+    padding: 40px 15px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+  }
+
+  .tagline {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+
+  .description {
+    font-size: 0.95rem;
+  }
+
+  .quote-text {
+    font-size: 1rem;
+    padding: 15px;
+    margin-top: 15px;
   }
 }

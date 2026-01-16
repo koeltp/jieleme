@@ -1,4 +1,4 @@
-/* 重置和基础样式 */
+/* ========== 重置和基础样式 ========== */
 * {
   margin: 0;
   padding: 0;
@@ -14,7 +14,19 @@ body {
   min-height: 100vh;
 }
 
-/* 导航栏样式 - 全宽 */
+/* ========== 全局链接样式 ========== */
+a {
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: rgba(150, 42, 243, 0.8);
+  text-decoration: none;
+}
+
+/* ========== 导航栏样式 ========== */
 .main-nav {
   background: linear-gradient(135deg, #ff85a2 0%, #ff6b9d 100%);
   position: sticky;
@@ -32,6 +44,19 @@ body {
   align-items: center;
   padding: 0 20px;
   height: 70px;
+}
+
+@media (max-width: 768px) {
+  .nav-content {
+    padding: 0 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-content {
+    height: 60px;
+    padding: 0 10px;
+  }
 }
 
 .nav-logo {
@@ -96,11 +121,91 @@ body {
   cursor: pointer;
 }
 
+@media (max-width: 480px) {
+  .nav-mobile-toggle {
+    display: block;
+    font-size: 1.3rem;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background: linear-gradient(180deg, #ff85a2 0%, #ff6b9d 100%);
+    padding: 15px 0;
+    gap: 0;
+    height: auto;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .nav-link {
+    color: rgba(255, 255, 255, 0.95);
+    font-size: 1rem;
+    padding: 15px 20px;
+    height: auto;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    font-weight: 500;
+  }
+
+  .nav-link:hover {
+    background: rgba(255, 255, 255, 0.15);
+    color: white;
+  }
+
+  .nav-link.active {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    font-weight: 600;
+  }
+
+  .nav-link.active::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background-color: white;
+    border-radius: 0 2px 2px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+
+  .nav-mobile-toggle {
+    display: block;
+    font-size: 1.5rem;
+  }
+}
+
 /* 主要内容区 */
 .main-content {
   max-width: 1400px;
   margin: 0 auto;
   padding: 40px 20px;
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    padding: 30px 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-content {
+    padding: 20px 10px;
+  }
 }
 
 /* 页头样式 */
@@ -142,6 +247,19 @@ body {
   letter-spacing: 1px;
 }
 
+@media (max-width: 768px) {
+  .tagline {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .tagline {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+}
+
 .description {
   font-size: 1.3rem;
   margin: 0 auto;
@@ -150,7 +268,20 @@ body {
   font-weight: 300;
 }
 
-/* 按钮样式 */
+@media (max-width: 768px) {
+  .description {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .description {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+}
+
+/* ========== 按钮样式 ========== */
 .btn {
   padding: 12px 30px;
   border-radius: 50px;
@@ -160,6 +291,13 @@ body {
   transition: all 0.3s;
   font-size: 1rem;
   letter-spacing: 0.5px;
+}
+
+@media (max-width: 480px) {
+  .btn {
+    padding: 10px 20px;
+    font-size: 0.95rem;
+  }
 }
 
 .btn-primary {
@@ -184,7 +322,7 @@ body {
   transform: translateY(-2px);
 }
 
-/* 加载状态 */
+/* ========== 加载和空状态 ========== */
 .loading {
   text-align: center;
   padding: 100px 20px;
@@ -222,7 +360,7 @@ body {
   color: #ff6b9d;
 }
 
-/* 页脚样式 */
+/* ========== 页脚样式 ========== */
 footer {
   background: linear-gradient(135deg, #ff85a2 0%, #ff6b9d 100%);
   color: white;
@@ -338,7 +476,7 @@ footer::before {
   font-weight: 300;
 }
 
-/* 响应式设计 */
+/* ========== 响应式设计 ========== */
 @media (max-width: 768px) {
   .nav-links {
     display: none;
@@ -399,8 +537,7 @@ footer::before {
     height: 150px;
   }
 }
-/* 在common.css的footer部分添加以下样式 */
-/* 二维码容器样式 - 修改版 */
+/* ========== 二维码容器样式 ========== */
 .qr-container {
   display: flex;
   justify-content: center;
@@ -428,7 +565,7 @@ footer::before {
   font-weight: 300;
 }
 
-/* 站点运行时间样式 */
+/* ========== 站点运行时间样式 ========== */
 .site-runtime {
   margin: 10px 0;
   font-weight: 300;
@@ -464,40 +601,6 @@ footer::before {
 #seconds {
   color: #e74c3c;
 }
-
-
-/* 全局链接样式 */
-a {
-  color: white;
-  text-decoration: none;
-  transition: all 0.3s ease;
-}
-
-a:hover {
-  color: rgba(150, 42, 243, 0.8); /* 80%不透明度 */
-  text-decoration: none;
-}
-
-/* 导航链接特殊处理 */
-.nav-link:hover {
-  color: white;
-  text-decoration: none;
-  transform: translateY(-2px);
-}
-
-/* 按钮链接特殊处理 */
-.btn, .btn-primary, .btn-secondary, .btn-view, .btn-contact {
-  text-decoration: none !important;
-}
-
-.btn:hover, .btn-primary:hover, .btn-secondary:hover, .btn-view:hover, .btn-contact:hover {
-  text-decoration: none !important;
-}
-
-/* 页脚链接特殊处理 */
-.footer-link:hover {
-  color: white;
-  text-decoration: none;
 }
 
 /* 网站链接特殊处理 */
