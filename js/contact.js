@@ -26,7 +26,7 @@ function callPhone() {
 
 // 发送邮件
 function sendEmail() {
-  const email = 'zf@jieleme.top';
+  const email = 'zh@jieleme.top';
   const subject = '咨询-结了么平台';
   const body = '您好，我想咨询关于结了么平台的相关信息。';
   
