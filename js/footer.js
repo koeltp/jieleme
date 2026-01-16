@@ -47,6 +47,8 @@ document.addEventListener('DOMContentLoaded', function() {
           </div>
         </div>
       </footer>
+      <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+      <script>LA.init({id:"3OiKWKLXrirj8hAV",ck:"3OiKWKLXrirj8hAV",autoTrack:true,hashMode:true,screenRecord:true})</script>
     `;
     
     // 初始化站点运行时间
