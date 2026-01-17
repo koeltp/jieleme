@@ -75,10 +75,9 @@ function createDetailPage(profile) {
   
   // 合并关于我内容和标签
   const aboutMeWithTags = [
-    ...fullDetails.aboutMe,
-    ...(fullDetails.tags || []).map(tag => `标签: ${tag}`)
+    ...fullDetails.aboutMe
   ];
-  
+
   return `
     <header class="page-header" style="margin-bottom: 40px;">
       <div class="header-content">
@@ -96,6 +95,14 @@ function createDetailPage(profile) {
           <ul class="detail-list">
             ${aboutMeWithTags.map(item => `<li><i class="fas fa-check"></i> ${item}</li>`).join('')}
           </ul>
+          ${profile.tags && profile.tags.length > 0 ? `
+          <div class="tags-section">
+            <h4 class="tags-label"><i class="fas fa-tag"></i> 个人标签</h4>
+            <div class="tags-container">
+              ${profile.tags.map(tag => `<span class="tag ${tag.class}">${tag.text}</span>`).join('')}
+            </div>
+          </div>
+          ` : ''}
         </div>
 
         <div class="detail-section">
