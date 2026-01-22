@@ -10,20 +10,47 @@
     "occupationType": "tech",
     "headerClass": "tech-header",
     "tags": [
-      {"text": "全栈开发", "class": "tag-tech"},
-      {"text": "股票投资", "class": "tag-finance"},
-      {"text": "ISTJ型人格", "class": "tag-personality"},
-      {"text": "爬山/骑行", "class": "tag-hobby"}
+      {
+        "text": "全栈开发",
+        "class": "tag-tech"
+      },
+      {
+        "text": "股票投资",
+        "class": "tag-finance"
+      },
+      {
+        "text": "ISTJ型人格",
+        "class": "tag-personality"
+      },
+      {
+        "text": "爬山/骑行",
+        "class": "tag-hobby"
+      }
     ],
     "details": [
-      {"icon": "fas fa-briefcase", "text": "职业：职业程序员 + 股票投资者（理性分析型）"},
-      {"icon": "fas fa-heart", "text": "生活：不吸烟不喝酒，无不良嗜好"},
-      {"icon": "fas fa-hiking", "text": "爱好：周末爬山/骑行、羽毛球、研究美食"},
-      {"icon": "fas fa-home", "text": "财务：有车无房，无负债，有应急存款和养老规划"}
+      {
+        "icon": "fas fa-briefcase",
+        "text": "职业：职业程序员 + 股票投资者（理性分析型）"
+      },
+      {
+        "icon": "fas fa-heart",
+        "text": "生活：不吸烟不喝酒，无不良嗜好"
+      },
+      {
+        "icon": "fas fa-hiking",
+        "text": "爱好：周末爬山/骑行、羽毛球、研究美食"
+      },
+      {
+        "icon": "fas fa-home",
+        "text": "财务：有车无房，无负债，有应急存款和养老规划"
+      }
     ],
     "quote": "在代码世界创造价值，在K线图前寻找规律，不变的是对理性的坚持。人生就像编程和投资，需要逻辑、耐心和长期主义，而我希望与你一起编写未来的每一行代码，规划每一个投资决策。",
     "detailUrl": "detail.html?id=001",
-    "icons": ["fas fa-code", "fas fa-chart-line"],
+    "icons": [
+      "fas fa-code",
+      "fas fa-chart-line"
+    ],
     "fullDetails": {
       "tagline": "代码与K线，理性与远方",
       "aboutMe": [
@@ -55,24 +82,41 @@
       "websites": [
         {
           "name": "TP投资周报系统",
-          "description": "记录和分析我的投资决策，追踪市场动态",
+          "description": "分享本基金美股每周的交易、盈利和持仓等情况，让本基金投资人了解我的交易策略和收益情况。",
           "url": "https://tz.taipi.top"
         },
         {
+          "name": "FolloAI",
+          "description": "关注人工智能技术，分享最新研究成果, 关注最新的AI技术趋势和应用, 分享AI项目和案例, 与AI爱好者建立联系, 提供AI技术支持和咨询服务, 帮助企业实现AI转型和创新。",
+          "url": "https://www.followai.top"
+        },
+        {
           "name": "导航网站",
-          "description": "收集整理常用工具和资源，提高工作效率",
+          "description": "收集整理常用工具和资源，提高工作效率。",
           "url": "https://nav.taipi.top"
         },
         {
           "name": "在线工具箱",
-          "description": "各种实用小工具集合，解决日常开发和生活需求",
+          "description": "各种实用小工具集合，解决日常开发和生活需求。",
           "url": "https://tools.taipi.top"
         }
       ],
       "togetherActivities": [
-        {"icon": "fas fa-utensils", "title": "研究美食", "description": "周末研究菜谱，探索城市小众角落"},
-        {"icon": "fas fa-paw", "title": "养只宠物", "description": "养一只猫或狗，如果你喜欢"},
-        {"icon": "fas fa-book", "title": "共同学习", "description": "一起学习新技能，探索有趣的知识领域"}
+        {
+          "icon": "fas fa-utensils",
+          "title": "研究美食",
+          "description": "周末研究菜谱，探索城市小众角落"
+        },
+        {
+          "icon": "fas fa-paw",
+          "title": "养只宠物",
+          "description": "养一只猫或狗，如果你喜欢"
+        },
+        {
+          "icon": "fas fa-book",
+          "title": "共同学习",
+          "description": "一起学习新技能，探索有趣的知识领域"
+        }
       ],
       "contactInfo": {
         "wechat": "_171717_171717_",
@@ -80,9 +124,9 @@
         "phone": "136-0000-0000"
       },
       "travelPhotos": [
-        "images/travel1.jpg",
-        "images/travel2.jpg",
-        "images/travel3.jpg"
+        "images/001/travel1.jpg",
+        "images/001/travel2.jpg",
+        "images/001/travel3.jpg"
       ]
     }
   },
@@ -97,20 +141,47 @@
     "occupationType": "medical",
     "headerClass": "medical-header",
     "tags": [
-      {"text": "心脏内科", "class": "tag-medical"},
-      {"text": "古典音乐", "class": "tag-hobby"},
-      {"text": "INFJ型", "class": "tag-personality"},
-      {"text": "烹饪", "class": "tag-hobby"}
+      {
+        "text": "心脏内科",
+        "class": "tag-medical"
+      },
+      {
+        "text": "古典音乐",
+        "class": "tag-hobby"
+      },
+      {
+        "text": "INFJ型",
+        "class": "tag-personality"
+      },
+      {
+        "text": "烹饪",
+        "class": "tag-hobby"
+      }
     ],
     "details": [
-      {"icon": "fas fa-briefcase", "text": "职业：三甲医院心脏内科医生"},
-      {"icon": "fas fa-music", "text": "爱好：古典音乐、阅读医学文献、烹饪"},
-      {"icon": "fas fa-graduation-cap", "text": "教育：医学博士，曾在国外进修"},
-      {"icon": "fas fa-home", "text": "生活：工作繁忙但注重生活品质，喜欢安静的环境"}
+      {
+        "icon": "fas fa-briefcase",
+        "text": "职业：三甲医院心脏内科医生"
+      },
+      {
+        "icon": "fas fa-music",
+        "text": "爱好：古典音乐、阅读医学文献、烹饪"
+      },
+      {
+        "icon": "fas fa-graduation-cap",
+        "text": "教育：医学博士，曾在国外进修"
+      },
+      {
+        "icon": "fas fa-home",
+        "text": "生活：工作繁忙但注重生活品质，喜欢安静的环境"
+      }
     ],
     "quote": "医学是科学，也是艺术；生活是责任，也是享受。",
     "detailUrl": "detail.html?id=002",
-    "icons": ["fas fa-stethoscope", "fas fa-heartbeat"],
+    "icons": [
+      "fas fa-stethoscope",
+      "fas fa-heartbeat"
+    ],
     "fullDetails": {
       "tagline": "用专业守护健康，用真诚温暖人心",
       "aboutMe": [
@@ -140,9 +211,21 @@
         "不支持事业发展"
       ],
       "togetherActivities": [
-        {"icon": "fas fa-music", "title": "欣赏音乐", "description": "一起听古典音乐会或在家欣赏音乐"},
-        {"icon": "fas fa-utensils", "title": "烹饪美食", "description": "周末一起研究新菜谱，享受烹饪乐趣"},
-        {"icon": "fas fa-book", "title": "阅读学习", "description": "分享有趣的书籍和知识"}
+        {
+          "icon": "fas fa-music",
+          "title": "欣赏音乐",
+          "description": "一起听古典音乐会或在家欣赏音乐"
+        },
+        {
+          "icon": "fas fa-utensils",
+          "title": "烹饪美食",
+          "description": "周末一起研究新菜谱，享受烹饪乐趣"
+        },
+        {
+          "icon": "fas fa-book",
+          "title": "阅读学习",
+          "description": "分享有趣的书籍和知识"
+        }
       ],
       "contactInfo": {
         "wechat": "doctor_heart_002",
@@ -150,9 +233,9 @@
         "phone": "138-0000-0000"
       },
       "travelPhotos": [
-        "images/travel1.jpg",
-        "images/travel2.jpg",
-        "images/travel3.jpg"
+        "images/002/travel1.jpg",
+        "images/002/travel2.jpg",
+        "images/002/travel3.jpg"
       ]
     }
   },
@@ -167,20 +250,47 @@
     "occupationType": "creative",
     "headerClass": "creative-header",
     "tags": [
-      {"text": "建筑设计", "class": "tag-creative"},
-      {"text": "摄影", "class": "tag-hobby"},
-      {"text": "ENFP型", "class": "tag-personality"},
-      {"text": "旅行", "class": "tag-hobby"}
+      {
+        "text": "建筑设计",
+        "class": "tag-creative"
+      },
+      {
+        "text": "摄影",
+        "class": "tag-hobby"
+      },
+      {
+        "text": "ENFP型",
+        "class": "tag-personality"
+      },
+      {
+        "text": "旅行",
+        "class": "tag-hobby"
+      }
     ],
     "details": [
-      {"icon": "fas fa-briefcase", "text": "职业：知名建筑设计公司主创设计师"},
-      {"icon": "fas fa-camera", "text": "爱好：建筑摄影、城市探索、水彩画"},
-      {"icon": "fas fa-globe-asia", "text": "经历：游历过30多个国家，研究各地建筑风格"},
-      {"icon": "fas fa-home", "text": "生活：注重美学与功能的平衡，喜欢有设计感的空间"}
+      {
+        "icon": "fas fa-briefcase",
+        "text": "职业：知名建筑设计公司主创设计师"
+      },
+      {
+        "icon": "fas fa-camera",
+        "text": "爱好：建筑摄影、城市探索、水彩画"
+      },
+      {
+        "icon": "fas fa-globe-asia",
+        "text": "经历：游历过30多个国家，研究各地建筑风格"
+      },
+      {
+        "icon": "fas fa-home",
+        "text": "生活：注重美学与功能的平衡，喜欢有设计感的空间"
+      }
     ],
     "quote": "建筑是凝固的音乐，生活是流动的诗歌。",
     "detailUrl": "detail.html?id=003",
-    "icons": ["fas fa-drafting-compass", "fas fa-paint-brush"],
+    "icons": [
+      "fas fa-drafting-compass",
+      "fas fa-paint-brush"
+    ],
     "fullDetails": {
       "tagline": "用设计诠释生活，用艺术装点人生",
       "aboutMe": [
@@ -210,9 +320,21 @@
         "不愿意尝试新事物"
       ],
       "togetherActivities": [
-        {"icon": "fas fa-camera", "title": "摄影创作", "description": "一起探索城市，记录美好瞬间"},
-        {"icon": "fas fa-paint-brush", "title": "艺术创作", "description": "周末一起画画或做手工"},
-        {"icon": "fas fa-plane", "title": "旅行探索", "description": "规划旅行，探索不同的建筑和文化"}
+        {
+          "icon": "fas fa-camera",
+          "title": "摄影创作",
+          "description": "一起探索城市，记录美好瞬间"
+        },
+        {
+          "icon": "fas fa-paint-brush",
+          "title": "艺术创作",
+          "description": "周末一起画画或做手工"
+        },
+        {
+          "icon": "fas fa-plane",
+          "title": "旅行探索",
+          "description": "规划旅行，探索不同的建筑和文化"
+        }
       ],
       "contactInfo": {
         "wechat": "architect_003",
@@ -220,9 +342,5241 @@
         "phone": "139-0000-0000"
       },
       "travelPhotos": [
-        "images/travel1.jpg",
-        "images/travel2.jpg",
-        "images/travel3.jpg"
+        "images/003/travel1.jpg",
+        "images/003/travel2.jpg",
+        "images/003/travel3.jpg"
+      ]
+    }
+  },
+  {
+    "id": "010",
+    "name": "自然守护者",
+    "age": 29,
+    "gender": "female",
+    "occupation": "环境工程师",
+    "location": "杭州 · 西湖",
+    "city": "hangzhou",
+    "occupationType": "science",
+    "headerClass": "science-header",
+    "tags": [
+      {
+        "text": "环境工程",
+        "class": "tag-science"
+      },
+      {
+        "text": "植物学家",
+        "class": "tag-hobby"
+      },
+      {
+        "text": "ENFP型",
+        "class": "tag-personality"
+      },
+      {
+        "text": "徒步/露营",
+        "class": "tag-hobby"
+      }
+    ],
+    "details": [
+      {
+        "icon": "fas fa-briefcase",
+        "text": "职业：环境工程公司项目负责人"
+      },
+      {
+        "icon": "fas fa-leaf",
+        "text": "爱好：植物识别、生态摄影、周末徒步"
+      },
+      {
+        "icon": "fas fa-graduation-cap",
+        "text": "教育：环境科学硕士"
+      },
+      {
+        "icon": "fas fa-recycle",
+        "text": "理念：低碳生活倡导者，家庭垃圾分类专家"
+      }
+    ],
+    "quote": "地球是我们的家园，而我想找到一个能一起守护它的人。喜欢在自然中漫步，在实验室里探索，在生活中践行环保。希望未来的你，也热爱这片土地。",
+    "detailUrl": "detail.html?id=010",
+    "icons": [
+      "fas fa-leaf",
+      "fas fa-tree"
+    ],
+    "fullDetails": {
+      "tagline": "在实验室与自然之间，寻找平衡之美",
+      "aboutMe": [
+        "职业：环境工程公司项目负责人",
+        "教育：环境科学硕士，专注于水处理技术",
+        "爱好：植物识别、生态摄影、周末徒步露营",
+        "性格：ENFP型人格，乐观积极，善于沟通",
+        "生活：素食主义者，坚持零废弃生活方式"
+      ],
+      "expectations": [
+        "年龄27-35岁，有环保意识",
+        "尊重并支持我的环保理念",
+        "喜欢户外活动，不排斥偶尔的露营",
+        "对未来有规划，愿意一起建设绿色家庭",
+        "长期在杭州或周边发展"
+      ],
+      "notImportant": [
+        "工作需要偶尔出差调研",
+        "家里有很多植物和生态箱",
+        "周末常在户外度过",
+        "对环保材料有偏好"
+      ],
+      "avoid": [
+        "反对环保理念",
+        "浪费资源的生活方式",
+        "不喜欢户外和大自然",
+        "对未来没有规划"
+      ],
+      "togetherActivities": [
+        {
+          "icon": "fas fa-hiking",
+          "title": "户外探索",
+          "description": "周末一起爬山、徒步，探索自然美景"
+        },
+        {
+          "icon": "fas fa-seedling",
+          "title": "阳台种植",
+          "description": "一起打理阳台小花园，种植蔬菜和花卉"
+        },
+        {
+          "icon": "fas fa-camera",
+          "title": "生态摄影",
+          "description": "用镜头记录自然的美好瞬间"
+        }
+      ],
+      "contactInfo": {
+        "wechat": "nature_guardian_010",
+        "email": "nature010@example.com",
+        "phone": "137-1111-1111"
+      },
+      "travelPhotos": [
+        "images/010/travel1.jpg",
+        "images/010/travel2.jpg",
+        "images/010/travel3.jpg"
+      ]
+    }
+  },
+  {
+    "id": "011",
+    "name": "律政先锋",
+    "age": 34,
+    "gender": "male",
+    "occupation": "律师事务所合伙人",
+    "location": "北京 · 朝阳",
+    "city": "beijing",
+    "occupationType": "law",
+    "headerClass": "law-header",
+    "tags": [
+      {
+        "text": "公司法",
+        "class": "tag-law"
+      },
+      {
+        "text": "辩论",
+        "class": "tag-hobby"
+      },
+      {
+        "text": "ENTJ型",
+        "class": "tag-personality"
+      },
+      {
+        "text": "红酒鉴赏",
+        "class": "tag-hobby"
+      }
+    ],
+    "details": [
+      {
+        "icon": "fas fa-briefcase",
+        "text": "职业：律师事务所合伙人，专注公司法"
+      },
+      {
+        "icon": "fas fa-gavel",
+        "text": "特长：企业法律顾问，曾处理多起重大并购案"
+      },
+      {
+        "icon": "fas fa-wine-glass-alt",
+        "text": "爱好：红酒鉴赏、高尔夫、历史阅读"
+      },
+      {
+        "icon": "fas fa-home",
+        "text": "生活：注重生活品质，喜欢精致的日常"
+      }
+    ],
+    "quote": "法律是社会的基石，理性是判断的准绳。在法庭上据理力争，在生活中温柔待人。寻找一位能理解我工作性质，同时能共享生活美好的伴侣。",
+    "detailUrl": "detail.html?id=011",
+    "icons": [
+      "fas fa-balance-scale",
+      "fas fa-book"
+    ],
+    "fullDetails": {
+      "tagline": "理性与温度，法庭内外的平衡",
+      "aboutMe": [
+        "职业：律师事务所合伙人，专注公司法",
+        "教育：法学博士，拥有律师执业资格15年",
+        "爱好：红酒鉴赏、高尔夫、历史阅读、古典音乐",
+        "性格：ENTJ型人格，目标导向，善于领导",
+        "生活：注重工作与生活平衡，每周坚持健身"
+      ],
+      "expectations": [
+        "年龄28-38岁，情绪稳定，善于沟通",
+        "尊重法律职业的特性（有时需要加班）",
+        "有自己的事业或追求",
+        "注重生活品质和仪式感",
+        "长期在北京发展"
+      ],
+      "notImportant": [
+        "工作需要出席各种社交场合",
+        "书房里摆满了法律和历史书籍",
+        "对红酒有一定研究",
+        "周末喜欢安静阅读"
+      ],
+      "avoid": [
+        "情绪化严重",
+        "不尊重专业工作",
+        "只注重物质享受",
+        "缺乏独立思考能力"
+      ],
+      "togetherActivities": [
+        {
+          "icon": "fas fa-utensils",
+          "title": "美食探索",
+          "description": "探索城市里的精致餐厅和咖啡馆"
+        },
+        {
+          "icon": "fas fa-book",
+          "title": "共读时光",
+          "description": "一起阅读讨论感兴趣的书籍"
+        },
+        {
+          "icon": "fas fa-music",
+          "title": "音乐欣赏",
+          "description": "参加音乐会或在家欣赏古典音乐"
+        }
+      ],
+      "contactInfo": {
+        "wechat": "law_forward_011",
+        "email": "law011@example.com",
+        "phone": "138-1111-1111"
+      },
+      "travelPhotos": [
+        "images/011/travel1.jpg",
+        "images/011/travel2.jpg",
+        "images/011/travel3.jpg"
+      ]
+    }
+  },
+  {
+    "id": "012",
+    "name": "时光烘焙师",
+    "age": 30,
+    "gender": "female",
+    "occupation": "烘焙坊创始人",
+    "location": "成都 · 锦江",
+    "city": "chengdu",
+    "occupationType": "creative",
+    "headerClass": "creative-header",
+    "tags": [
+      {
+        "text": "烘焙",
+        "class": "tag-creative"
+      },
+      {
+        "text": "咖啡",
+        "class": "tag-hobby"
+      },
+      {
+        "text": "ISFP型",
+        "class": "tag-personality"
+      },
+      {
+        "text": "花艺",
+        "class": "tag-hobby"
+      }
+    ],
+    "details": [
+      {
+        "icon": "fas fa-briefcase",
+        "text": "职业：独立烘焙坊创始人兼主厨"
+      },
+      {
+        "icon": "fas fa-birthday-cake",
+        "text": "特长：法式甜点、欧式面包、创意烘焙"
+      },
+      {
+        "icon": "fas fa-coffee",
+        "text": "爱好：手冲咖啡、花艺、水彩画"
+      },
+      {
+        "icon": "fas fa-heart",
+        "text": "理念：用食物传递温暖，让生活充满甜香"
+      }
+    ],
+    "quote": "面粉、糖、黄油，加上时间和爱，就能创造幸福。我的双手能做出美味的甜点，也希望找到一个能一起品尝生活甘苦的人。在成都的慢生活里，期待与你相遇。",
+    "detailUrl": "detail.html?id=012",
+    "icons": [
+      "fas fa-birthday-cake",
+      "fas fa-coffee"
+    ],
+    "fullDetails": {
+      "tagline": "用温度烘焙，用爱生活",
+      "aboutMe": [
+        "职业：独立烘焙坊创始人兼主厨",
+        "经历：曾在法国学习烘焙，回国后创业",
+        "爱好：手冲咖啡、花艺、水彩画、电影欣赏",
+        "性格：ISFP型人格，安静内敛但内心丰富",
+        "生活：喜欢慢节奏，注重生活细节和仪式感"
+      ],
+      "expectations": [
+        "年龄28-38岁，性格温和",
+        "尊重创业者的忙碌与坚持",
+        "对美食有兴趣，不介意偶尔的厨房实验",
+        "懂得享受生活，不浮躁",
+        "长期在成都发展"
+      ],
+      "notImportant": [
+        "工作需要早起准备材料",
+        "家里常有烘焙工具和材料",
+        "对食物品质有较高要求",
+        "喜欢安静的居家时光"
+      ],
+      "avoid": [
+        "对甜食完全无感",
+        "缺乏生活情趣",
+        "过于追求快节奏",
+        "不尊重个人空间"
+      ],
+      "togetherActivities": [
+        {
+          "icon": "fas fa-utensils",
+          "title": "美食制作",
+          "description": "一起尝试新的食谱和烘焙创意"
+        },
+        {
+          "icon": "fas fa-film",
+          "title": "电影之夜",
+          "description": "周末一起看经典电影，搭配自制甜点"
+        },
+        {
+          "icon": "fas fa-paint-brush",
+          "title": "艺术创作",
+          "description": "一起画画或做手工艺品"
+        }
+      ],
+      "contactInfo": {
+        "wechat": "time_baker_012",
+        "email": "baker012@example.com",
+        "phone": "139-1111-1111"
+      },
+      "travelPhotos": [
+        "images/012/travel1.jpg",
+        "images/012/travel2.jpg",
+        "images/012/travel3.jpg"
+      ]
+    }
+  },
+  {
+    "id": "013",
+    "name": "星辰探索者",
+    "age": 31,
+    "gender": "male",
+    "occupation": "天文研究员",
+    "location": "南京 · 鼓楼",
+    "city": "nanjing",
+    "occupationType": "science",
+    "headerClass": "science-header",
+    "tags": [
+      {
+        "text": "天体物理",
+        "class": "tag-science"
+      },
+      {
+        "text": "摄影",
+        "class": "tag-hobby"
+      },
+      {
+        "text": "INTP型",
+        "class": "tag-personality"
+      },
+      {
+        "text": "观星",
+        "class": "tag-hobby"
+      }
+    ],
+    "details": [
+      {
+        "icon": "fas fa-briefcase",
+        "text": "职业：大学天文系研究员"
+      },
+      {
+        "icon": "fas fa-star",
+        "text": "研究方向：系外行星、星系演化"
+      },
+      {
+        "icon": "fas fa-camera",
+        "text": "爱好：天文摄影、科幻小说、徒步"
+      },
+      {
+        "icon": "fas fa-globe-asia",
+        "text": "经历：曾在多个天文台参与观测项目"
+      }
+    ],
+    "quote": "仰望星空时，会感到人类的渺小与伟大。我的工作是在浩瀚宇宙中寻找规律，而在生活中，我希望找到那个能一起分享这份敬畏与好奇的人。",
+    "detailUrl": "detail.html?id=013",
+    "icons": [
+      "fas fa-star",
+      "fas fa-satellite"
+    ],
+    "fullDetails": {
+      "tagline": "在星辰大海中，寻找人间的温暖",
+      "aboutMe": [
+        "职业：大学天文系研究员",
+        "教育：天体物理学博士",
+        "研究方向：系外行星、星系演化",
+        "爱好：天文摄影、科幻小说、徒步、下棋",
+        "性格：INTP型人格，理性思考者，好奇心强"
+      ],
+      "expectations": [
+        "年龄26-34岁，有独立思考能力",
+        "对科学保持开放态度",
+        "不介意我偶尔需要夜间观测",
+        "愿意一起探索未知",
+        "长期在南京或周边发展"
+      ],
+      "notImportant": [
+        "工作需要经常阅读英文文献",
+        "家里有望远镜和天文设备",
+        "喜欢安静思考的环境",
+        "偶尔会去偏远地区观测"
+      ],
+      "avoid": [
+        "迷信或伪科学支持者",
+        "对知识缺乏好奇心",
+        "无法忍受偶尔的不规律作息",
+        "过于追求物质生活"
+      ],
+      "togetherActivities": [
+        {
+          "icon": "fas fa-star",
+          "title": "观星之旅",
+          "description": "去郊外观测星空，认识星座和行星"
+        },
+        {
+          "icon": "fas fa-book",
+          "title": "科幻世界",
+          "description": "一起阅读科幻小说，讨论宇宙的奥秘"
+        },
+        {
+          "icon": "fas fa-hiking",
+          "title": "自然徒步",
+          "description": "在自然中徒步，享受宁静时光"
+        }
+      ],
+      "contactInfo": {
+        "wechat": "star_explorer_013",
+        "email": "star013@example.com",
+        "phone": "136-1111-1111"
+      },
+      "travelPhotos": [
+        "images/013/travel1.jpg",
+        "images/013/travel2.jpg",
+        "images/013/travel3.jpg"
+      ]
+    }
+  },
+  {
+    "id": "014",
+    "name": "舞台精灵",
+    "age": 28,
+    "gender": "female",
+    "occupation": "舞蹈演员/编导",
+    "location": "上海 · 静安",
+    "city": "shanghai",
+    "occupationType": "art",
+    "headerClass": "art-header",
+    "tags": [
+      {
+        "text": "现代舞",
+        "class": "tag-art"
+      },
+      {
+        "text": "编导",
+        "class": "tag-creative"
+      },
+      {
+        "text": "ESFP型",
+        "class": "tag-personality"
+      },
+      {
+        "text": "瑜伽",
+        "class": "tag-hobby"
+      }
+    ],
+    "details": [
+      {
+        "icon": "fas fa-briefcase",
+        "text": "职业：现代舞团首席演员兼编导"
+      },
+      {
+        "icon": "fas fa-music",
+        "text": "特长：现代舞、芭蕾、即兴创作"
+      },
+      {
+        "icon": "fas fa-heartbeat",
+        "text": "爱好：瑜伽、冥想、阅读哲学"
+      },
+      {
+        "icon": "fas fa-users",
+        "text": "教学：兼职舞蹈教师，热爱艺术教育"
+      }
+    ],
+    "quote": "身体是我的画笔，舞台是我的画布。用舞蹈表达情感，用行动诠释生活。希望找到一个能理解艺术语言，也能共享平凡日常的人。",
+    "detailUrl": "detail.html?id=014",
+    "icons": [
+      "fas fa-music",
+      "fas fa-user"
+    ],
+    "fullDetails": {
+      "tagline": "在舞蹈中寻找自由，在生活中创造美",
+      "aboutMe": [
+        "职业：现代舞团首席演员兼编导",
+        "教育：舞蹈学院硕士，曾在国外进修",
+        "特长：现代舞、芭蕾、即兴创作",
+        "爱好：瑜伽、冥想、阅读哲学、看展览",
+        "性格：ESFP型人格，热情开朗，表达力强"
+      ],
+      "expectations": [
+        "年龄27-35岁，开放包容",
+        "尊重艺术工作者的作息和追求",
+        "对艺术有一定欣赏能力",
+        "注重身心健康",
+        "长期在上海发展"
+      ],
+      "notImportant": [
+        "排练和演出时间不固定",
+        "对身体状态要求高",
+        "经常参加艺术活动",
+        "饮食健康，注重养生"
+      ],
+      "avoid": [
+        "认为艺术是“不务正业”",
+        "无法理解创造性工作",
+        "生活作息完全不规律",
+        "缺乏情感表达能力"
+      ],
+      "togetherActivities": [
+        {
+          "icon": "fas fa-film",
+          "title": "艺术观影",
+          "description": "一起看舞蹈演出、话剧和艺术电影"
+        },
+        {
+          "icon": "fas fa-utensils",
+          "title": "健康饮食",
+          "description": "研究制作营养均衡的健康餐"
+        },
+        {
+          "icon": "fas fa-spa",
+          "title": "身心放松",
+          "description": "一起练习瑜伽或冥想"
+        }
+      ],
+      "contactInfo": {
+        "wechat": "stage_spirit_014",
+        "email": "dance014@example.com",
+        "phone": "137-1111-1112"
+      },
+      "travelPhotos": [
+        "images/014/travel1.jpg",
+        "images/014/travel2.jpg",
+        "images/014/travel3.jpg"
+      ]
+    }
+  },
+  {
+    "id": "015",
+    "name": "教育筑梦师",
+    "age": 33,
+    "gender": "male",
+    "occupation": "高中校长/物理教师",
+    "location": "广州 · 天河",
+    "city": "guangzhou",
+    "occupationType": "education",
+    "headerClass": "education-header",
+    "tags": [
+      {
+        "text": "教育管理",
+        "class": "tag-education"
+      },
+      {
+        "text": "物理教学",
+        "class": "tag-science"
+      },
+      {
+        "text": "ENFJ型",
+        "class": "tag-personality"
+      },
+      {
+        "text": "书法",
+        "class": "tag-hobby"
+      }
+    ],
+    "details": [
+      {
+        "icon": "fas fa-briefcase",
+        "text": "职业：重点高中校长，兼任物理教师"
+      },
+      {
+        "icon": "fas fa-chalkboard-teacher",
+        "text": "教学：15年教学经验，专注创新教育"
+      },
+      {
+        "icon": "fas fa-book",
+        "text": "爱好：阅读教育理论、练习书法、茶道"
+      },
+      {
+        "icon": "fas fa-hands-helping",
+        "text": "理念：教育是点燃火焰，而不是灌满容器"
+      }
+    ],
+    "quote": "站在讲台十五年，看着学生成长是最幸福的事。教育是我的事业，也是我的热爱。希望找到一位理解教育价值，愿意一起经营温暖家庭的伴侣。",
+    "detailUrl": "detail.html?id=015",
+    "icons": [
+      "fas fa-graduation-cap",
+      "fas fa-chalkboard"
+    ],
+    "fullDetails": {
+      "tagline": "以教育为业，以家庭为根",
+      "aboutMe": [
+        "职业：重点高中校长，兼任物理教师",
+        "教育：教育学博士，物理专业背景",
+        "教学：15年教学经验，专注创新教育",
+        "爱好：阅读教育理论、练习书法、茶道、古典音乐",
+        "性格：ENFJ型人格，善于沟通，有同理心"
+      ],
+      "expectations": [
+        "年龄28-38岁，重视教育",
+        "理解教育工作者的责任与忙碌",
+        "有耐心，喜欢孩子（未来计划）",
+        "注重家庭文化建设",
+        "长期在广州发展"
+      ],
+      "notImportant": [
+        "工作需要经常与家长沟通",
+        "书房里满是教育类书籍",
+        "周末有时需要处理学校事务",
+        "对传统文化有特殊情感"
+      ],
+      "avoid": [
+        "不尊重教师职业",
+        "对教育漠不关心",
+        "不重视家庭氛围",
+        "过度追求物质"
+      ],
+      "togetherActivities": [
+        {
+          "icon": "fas fa-book",
+          "title": "共读时光",
+          "description": "一起阅读讨论书籍，分享见解"
+        },
+        {
+          "icon": "fas fa-paint-brush",
+          "title": "书法练习",
+          "description": "周末一起练习书法，静心养性"
+        },
+        {
+          "icon": "fas fa-utensils",
+          "title": "家庭烹饪",
+          "description": "研究健康食谱，享受烹饪乐趣"
+        }
+      ],
+      "contactInfo": {
+        "wechat": "edu_dreamer_015",
+        "email": "edu015@example.com",
+        "phone": "138-1111-1112"
+      },
+      "travelPhotos": [
+        "images/015/travel1.jpg",
+        "images/015/travel2.jpg",
+        "images/015/travel3.jpg"
+      ]
+    }
+  },
+  {
+    "id": "016",
+    "name": "金融航海家",
+    "age": 35,
+    "gender": "male",
+    "occupation": "对冲基金经理",
+    "location": "上海 · 陆家嘴",
+    "city": "shanghai",
+    "occupationType": "finance",
+    "headerClass": "finance-header",
+    "tags": [
+      {
+        "text": "对冲基金",
+        "class": "tag-finance"
+      },
+      {
+        "text": "帆船运动",
+        "class": "tag-hobby"
+      },
+      {
+        "text": "INTJ型",
+        "class": "tag-personality"
+      },
+      {
+        "text": "葡萄酒",
+        "class": "tag-hobby"
+      }
+    ],
+    "details": [
+      {
+        "icon": "fas fa-briefcase",
+        "text": "职业：对冲基金管理公司合伙人"
+      },
+      {
+        "icon": "fas fa-ship",
+        "text": "爱好：帆船、潜水、国际象棋"
+      },
+      {
+        "icon": "fas fa-graduation-cap",
+        "text": "教育：金融工程硕士，CFA持证人"
+      },
+      {
+        "icon": "fas fa-globe-asia",
+        "text": "经历：曾在纽约、伦敦、香港工作"
+      }
+    ],
+    "quote": "市场如海洋，时而平静时而汹涌。我善于在波动中寻找机会，也渴望在生活中找到那个能一起乘风破浪的伴侣。理性分析市场，感性体验生活。",
+    "detailUrl": "detail.html?id=016",
+    "icons": [
+      "fas fa-chart-line",
+      "fas fa-anchor"
+    ],
+    "fullDetails": {
+      "tagline": "在金融市场与大海之间，寻找自由与平衡",
+      "aboutMe": [
+        "职业：对冲基金管理公司合伙人",
+        "教育：金融工程硕士，CFA持证人",
+        "经历：曾在纽约、伦敦、香港工作，10年投资经验",
+        "爱好：帆船、潜水、国际象棋、葡萄酒品鉴",
+        "性格：INTJ型人格，战略思考者，独立自主"
+      ],
+      "expectations": [
+        "年龄28-38岁，情绪稳定",
+        "理解金融工作的压力和节奏",
+        "有自己的事业或兴趣爱好",
+        "愿意尝试新鲜事物和冒险",
+        "长期在上海或周边发展"
+      ],
+      "notImportant": [
+        "需要经常关注全球市场动态",
+        "每年有1-2次帆船旅行",
+        "书房里有很多金融和历史书籍",
+        "对葡萄酒有一定研究"
+      ],
+      "avoid": [
+        "情绪波动极大",
+        "对投资完全不了解也不愿了解",
+        "无法忍受偶尔的出差",
+        "生活过于保守不愿尝试"
+      ],
+      "togetherActivities": [
+        {
+          "icon": "fas fa-ship",
+          "title": "帆船体验",
+          "description": "一起学习帆船，体验航海乐趣"
+        },
+        {
+          "icon": "fas fa-chess",
+          "title": "棋类对弈",
+          "description": "周末下国际象棋或围棋"
+        },
+        {
+          "icon": "fas fa-utensils",
+          "title": "美食探索",
+          "description": "探索城市里的精致餐厅和酒庄"
+        }
+      ],
+      "contactInfo": {
+        "wechat": "finance_sailor_016",
+        "email": "finance016@example.com",
+        "phone": "137-1111-1113"
+      },
+      "travelPhotos": [
+        "images/016/travel1.jpg",
+        "images/016/travel2.jpg",
+        "images/016/travel3.jpg"
+      ]
+    }
+  },
+  {
+    "id": "017",
+    "name": "心灵园丁",
+    "age": 31,
+    "gender": "female",
+    "occupation": "心理咨询师",
+    "location": "杭州 · 西湖",
+    "city": "hangzhou",
+    "occupationType": "medical",
+    "headerClass": "medical-header",
+    "tags": [
+      {
+        "text": "心理咨询",
+        "class": "tag-medical"
+      },
+      {
+        "text": "正念冥想",
+        "class": "tag-hobby"
+      },
+      {
+        "text": "INFJ型",
+        "class": "tag-personality"
+      },
+      {
+        "text": "园艺",
+        "class": "tag-hobby"
+      }
+    ],
+    "details": [
+      {
+        "icon": "fas fa-briefcase",
+        "text": "职业：独立心理咨询工作室创始人"
+      },
+      {
+        "icon": "fas fa-seedling",
+        "text": "爱好：园艺、写作、茶道"
+      },
+      {
+        "icon": "fas fa-brain",
+        "text": "专长：认知行为疗法、正念减压"
+      },
+      {
+        "icon": "fas fa-book",
+        "text": "出版：著有《都市心灵养护指南》"
+      }
+    ],
+    "quote": "每个人的内心都有一座花园，需要细心照料。我帮助他人培育内心的花朵，也希望找到一个能一起经营生活花园的人。在快节奏的时代，慢下来，感受生活。",
+    "detailUrl": "detail.html?id=017",
+    "icons": [
+      "fas fa-heart",
+      "fas fa-leaf"
+    ],
+    "fullDetails": {
+      "tagline": "倾听内心，培育美好",
+      "aboutMe": [
+        "职业：独立心理咨询工作室创始人",
+        "教育：心理学硕士，国家二级心理咨询师",
+        "专长：认知行为疗法、正念减压、情绪管理",
+        "爱好：园艺、写作、茶道、古典音乐",
+        "性格：INFJ型人格，共情能力强，善于倾听"
+      ],
+      "expectations": [
+        "年龄29-38岁，情绪成熟",
+        "重视心理健康，愿意自我成长",
+        "懂得尊重边界和个人空间",
+        "喜欢安静有品质的生活",
+        "长期在杭州发展"
+      ],
+      "notImportant": [
+        "工作需要保持情绪稳定和保密",
+        "家里有绿植和小花园",
+        "经常阅读心理学和哲学书籍",
+        "喜欢安静的家庭环境"
+      ],
+      "avoid": [
+        "拒绝心理咨询或认为不需要",
+        "情绪管理能力差",
+        "过度依赖他人",
+        "生活过于浮躁"
+      ],
+      "togetherActivities": [
+        {
+          "icon": "fas fa-seedling",
+          "title": "园艺时光",
+          "description": "一起打理花园，种植花草"
+        },
+        {
+          "icon": "fas fa-book",
+          "title": "共读写作",
+          "description": "一起阅读好书，分享感悟"
+        },
+        {
+          "icon": "fas fa-spa",
+          "title": "正念练习",
+          "description": "一起练习正念冥想，减压放松"
+        }
+      ],
+      "contactInfo": {
+        "wechat": "mind_gardener_017",
+        "email": "psychology017@example.com",
+        "phone": "138-1111-1113"
+      },
+      "travelPhotos": [
+        "images/017/travel1.jpg",
+        "images/017/travel2.jpg",
+        "images/017/travel3.jpg"
+      ]
+    }
+  },
+  {
+    "id": "018",
+    "name": "游戏造梦师",
+    "age": 29,
+    "gender": "male",
+    "occupation": "游戏策划总监",
+    "location": "深圳 · 南山",
+    "city": "shenzhen",
+    "occupationType": "tech",
+    "headerClass": "tech-header",
+    "tags": [
+      {
+        "text": "游戏设计",
+        "class": "tag-tech"
+      },
+      {
+        "text": "剧本创作",
+        "class": "tag-creative"
+      },
+      {
+        "text": "ENFP型",
+        "class": "tag-personality"
+      },
+      {
+        "text": "桌游",
+        "class": "tag-hobby"
+      }
+    ],
+    "details": [
+      {
+        "icon": "fas fa-briefcase",
+        "text": "职业：游戏公司策划总监"
+      },
+      {
+        "icon": "fas fa-gamepad",
+        "text": "作品：参与制作多款热门游戏"
+      },
+      {
+        "icon": "fas fa-book",
+        "text": "爱好：桌游设计、小说创作、电影分析"
+      },
+      {
+        "icon": "fas fa-users",
+        "text": "社交：定期组织桌游聚会"
+      }
+    ],
+    "quote": "游戏是第九艺术，是现实之外的另一个世界。我创造虚拟的故事和角色，也珍惜现实中的真诚与温暖。希望找到一个能一起玩游戏，也能一起面对现实的伙伴。",
+    "detailUrl": "detail.html?id=018",
+    "icons": [
+      "fas fa-gamepad",
+      "fas fa-pen-nib"
+    ],
+    "fullDetails": {
+      "tagline": "在虚拟与现实之间，创造快乐与连接",
+      "aboutMe": [
+        "职业：游戏公司策划总监",
+        "教育：计算机与设计双学位",
+        "作品：参与制作多款热门游戏，擅长叙事设计",
+        "爱好：桌游设计、小说创作、电影分析、烹饪",
+        "性格：ENFP型人格，创意丰富，社交能力强"
+      ],
+      "expectations": [
+        "年龄25-32岁，开放包容",
+        "对游戏不排斥（不一定要精通）",
+        "有自己的创造力和幽默感",
+        "愿意尝试新鲜事物",
+        "长期在深圳发展"
+      ],
+      "notImportant": [
+        "工作需要经常头脑风暴",
+        "家里有很多游戏和桌游",
+        "偶尔会熬夜赶项目",
+        "喜欢组织朋友聚会"
+      ],
+      "avoid": [
+        "认为游戏是“浪费时间”",
+        "缺乏想象力和幽默感",
+        "不喜欢社交活动",
+        "生活过于严肃刻板"
+      ],
+      "togetherActivities": [
+        {
+          "icon": "fas fa-gamepad",
+          "title": "游戏时光",
+          "description": "一起玩有趣的游戏，分享快乐"
+        },
+        {
+          "icon": "fas fa-users",
+          "title": "社交聚会",
+          "description": "组织或参加朋友聚会，玩桌游"
+        },
+        {
+          "icon": "fas fa-film",
+          "title": "电影之夜",
+          "description": "一起看电影，分析剧情和角色"
+        }
+      ],
+      "contactInfo": {
+        "wechat": "game_dreamer_018",
+        "email": "gamedesign018@example.com",
+        "phone": "139-1111-1113"
+      },
+      "travelPhotos": [
+        "images/018/travel1.jpg",
+        "images/018/travel2.jpg",
+        "images/018/travel3.jpg"
+      ]
+    }
+  },
+  {
+    "id": "019",
+    "name": "结构诗人",
+    "age": 37,
+    "gender": "male",
+    "occupation": "桥梁工程师",
+    "location": "重庆 · 渝中",
+    "city": "chongqing",
+    "occupationType": "engineering",
+    "headerClass": "engineering-header",
+    "tags": [
+      {
+        "text": "桥梁工程",
+        "class": "tag-engineering"
+      },
+      {
+        "text": "摄影",
+        "class": "tag-hobby"
+      },
+      {
+        "text": "ISTP型",
+        "class": "tag-personality"
+      },
+      {
+        "text": "登山",
+        "class": "tag-hobby"
+      }
+    ],
+    "details": [
+      {
+        "icon": "fas fa-briefcase",
+        "text": "职业：大型工程设计院高级工程师"
+      },
+      {
+        "icon": "fas fa-bridge",
+        "text": "专长：大跨度桥梁设计与施工管理"
+      },
+      {
+        "icon": "fas fa-camera",
+        "text": "爱好：建筑摄影、登山、模型制作"
+      },
+      {
+        "icon": "fas fa-award",
+        "text": "成就：参与多个国家级重点工程"
+      }
+    ],
+    "quote": "桥梁连接两岸，也连接人心。我设计的结构需要承受风雨和时间，而我期待的感情也需要坚实和持久。理性计算每一处应力，感性体验每一段旅程。",
+    "detailUrl": "detail.html?id=019",
+    "icons": [
+      "fas fa-bridge",
+      "fas fa-ruler-combined"
+    ],
+    "fullDetails": {
+      "tagline": "用工程连接世界，用情感温暖生活",
+      "aboutMe": [
+        "职业：大型工程设计院高级工程师",
+        "教育：土木工程博士，桥梁工程方向",
+        "专长：大跨度桥梁设计与施工管理",
+        "爱好：建筑摄影、登山、模型制作、古典音乐",
+        "性格：ISTP型人格，动手能力强，务实冷静"
+      ],
+      "expectations": [
+        "年龄30-40岁，稳重踏实",
+        "理解工程工作的严谨和责任感",
+        "愿意支持我的事业追求",
+        "喜欢旅行和探索",
+        "长期在重庆或周边发展"
+      ],
+      "notImportant": [
+        "工作需要经常去工地视察",
+        "书房里有各种桥梁模型",
+        "对建筑结构有特殊情感",
+        "喜欢研究机械和工具"
+      ],
+      "avoid": [
+        "无法忍受偶尔的出差",
+        "对工程技术完全无兴趣",
+        "生活过于浮夸不实际",
+        "缺乏责任感"
+      ],
+      "togetherActivities": [
+        {
+          "icon": "fas fa-hiking",
+          "title": "登山望远",
+          "description": "一起爬山，欣赏自然和建筑之美"
+        },
+        {
+          "icon": "fas fa-camera",
+          "title": "摄影创作",
+          "description": "拍摄建筑和风景，记录美好"
+        },
+        {
+          "icon": "fas fa-tools",
+          "title": "手工制作",
+          "description": "一起做模型或DIY项目"
+        }
+      ],
+      "contactInfo": {
+        "wechat": "bridge_poet_019",
+        "email": "engineering019@example.com",
+        "phone": "136-1111-1113"
+      },
+      "travelPhotos": [
+        "images/019/travel1.jpg",
+        "images/019/travel2.jpg",
+        "images/019/travel3.jpg"
+      ]
+    }
+  },
+  {
+    "id": "020",
+    "name": "生命守护者",
+    "age": 33,
+    "gender": "female",
+    "occupation": "兽医",
+    "location": "成都 · 武侯",
+    "city": "chengdu",
+    "occupationType": "medical",
+    "headerClass": "medical-header",
+    "tags": [
+      {
+        "text": "动物医学",
+        "class": "tag-medical"
+      },
+      {
+        "text": "动物救助",
+        "class": "tag-hobby"
+      },
+      {
+        "text": "ISFJ型",
+        "class": "tag-personality"
+      },
+      {
+        "text": "烘焙",
+        "class": "tag-hobby"
+      }
+    ],
+    "details": [
+      {
+        "icon": "fas fa-briefcase",
+        "text": "职业：动物医院主治医师"
+      },
+      {
+        "icon": "fas fa-paw",
+        "text": "专长：小动物内科、外科手术"
+      },
+      {
+        "icon": "fas fa-heart",
+        "text": "公益：定期参与流浪动物救助"
+      },
+      {
+        "icon": "fas fa-home",
+        "text": "家庭：养了两只猫一只狗"
+      }
+    ],
+    "quote": "动物不会说话，但它们的眼睛会表达。我守护这些无声的生命，也渴望找到一个能理解这份温柔与坚持的人。生活不需要华丽，只需要真诚和温暖。",
+    "detailUrl": "detail.html?id=020",
+    "icons": [
+      "fas fa-paw",
+      "fas fa-heartbeat"
+    ],
+    "fullDetails": {
+      "tagline": "用专业守护生命，用爱心温暖世界",
+      "aboutMe": [
+        "职业：动物医院主治医师",
+        "教育：兽医学硕士，从业10年",
+        "专长：小动物内科、外科手术、老年动物照护",
+        "爱好：烘焙、园艺、阅读、动物救助",
+        "性格：ISFJ型人格，细心体贴，有责任感"
+      ],
+      "expectations": [
+        "年龄30-40岁，有爱心",
+        "喜欢动物或至少不排斥",
+        "支持我的救助工作",
+        "性格温和，有耐心",
+        "长期在成都发展"
+      ],
+      "notImportant": [
+        "工作需要随时应对急诊",
+        "家里有宠物（未来可能更多）",
+        "经常参与公益活动",
+        "喜欢安静的家庭生活"
+      ],
+      "avoid": [
+        "讨厌或害怕动物",
+        "无法理解救助工作",
+        "缺乏耐心和同理心",
+        "生活过于喧嚣浮躁"
+      ],
+      "togetherActivities": [
+        {
+          "icon": "fas fa-paw",
+          "title": "宠物时光",
+          "description": "一起照顾宠物，享受它们带来的快乐"
+        },
+        {
+          "icon": "fas fa-utensils",
+          "title": "烘焙实验",
+          "description": "尝试新的烘焙食谱，制作美味点心"
+        },
+        {
+          "icon": "fas fa-hands-helping",
+          "title": "公益活动",
+          "description": "一起参与动物救助或其他公益活动"
+        }
+      ],
+      "contactInfo": {
+        "wechat": "life_guardian_020",
+        "email": "vet020@example.com",
+        "phone": "137-1111-1114"
+      },
+      "travelPhotos": [
+        "images/020/travel1.jpg",
+        "images/020/travel2.jpg",
+        "images/020/travel3.jpg"
+      ]
+    }
+  },
+  {
+    "id": "021",
+    "name": "文字织梦者",
+    "age": 34,
+    "gender": "female",
+    "occupation": "作家/编剧",
+    "location": "北京 · 东城",
+    "city": "beijing",
+    "occupationType": "creative",
+    "headerClass": "creative-header",
+    "tags": [
+      {
+        "text": "文学创作",
+        "class": "tag-creative"
+      },
+      {
+        "text": "剧本写作",
+        "class": "tag-creative"
+      },
+      {
+        "text": "INFP型",
+        "class": "tag-personality"
+      },
+      {
+        "text": "茶道",
+        "class": "tag-hobby"
+      }
+    ],
+    "details": [
+      {
+        "icon": "fas fa-briefcase",
+        "text": "职业：自由作家、影视剧编剧"
+      },
+      {
+        "icon": "fas fa-pen-nib",
+        "text": "作品：出版三部小说，参与多部影视剧"
+      },
+      {
+        "icon": "fas fa-book",
+        "text": "爱好：阅读、茶道、书法、旅行"
+      },
+      {
+        "icon": "fas fa-coffee",
+        "text": "生活：喜欢在咖啡馆写作，观察人间百态"
+      }
+    ],
+    "quote": "文字是我的翅膀，带我飞向想象的天空。我创造故事中的人物和世界，也珍惜现实中的真实与温暖。希望找到一个能理解创作孤独，也能共享生活美好的灵魂伴侣。",
+    "detailUrl": "detail.html?id=021",
+    "icons": [
+      "fas fa-pen-fancy",
+      "fas fa-book-open"
+    ],
+    "fullDetails": {
+      "tagline": "在文字与现实之间，编织生活的诗意",
+      "aboutMe": [
+        "职业：自由作家、影视剧编剧",
+        "教育：中文系硕士，文学创作方向",
+        "作品：出版三部小说，参与多部影视剧编剧",
+        "爱好：阅读、茶道、书法、旅行、电影",
+        "性格：INFP型人格，敏感细腻，富有想象力"
+      ],
+      "expectations": [
+        "年龄30-42岁，有文学素养",
+        "理解创作工作的特性和孤独",
+        "有自己的精神世界和追求",
+        "懂得欣赏生活中的美",
+        "长期在北京发展"
+      ],
+      "notImportant": [
+        "工作时间不固定，有时需要闭关写作",
+        "书房里摆满了书籍和手稿",
+        "喜欢安静独处的时光",
+        "对艺术和美学有独特见解"
+      ],
+      "avoid": [
+        "认为写作是”不务正业“",
+        "缺乏精神交流",
+        "生活过于功利现实",
+        "不尊重个人创作空间"
+      ],
+      "togetherActivities": [
+        {
+          "icon": "fas fa-book",
+          "title": "共读时光",
+          "description": "一起阅读讨论好书，分享感悟"
+        },
+        {
+          "icon": "fas fa-utensils",
+          "title": "茶香书韵",
+          "description": "品茶聊天，享受宁静午后"
+        },
+        {
+          "icon": "fas fa-film",
+          "title": "艺术观影",
+          "description": "一起看文艺电影，讨论剧情和人物"
+        }
+      ],
+      "contactInfo": {
+        "wechat": "word_weaver_021",
+        "email": "writer021@example.com",
+        "phone": "138-1111-1114"
+      },
+      "travelPhotos": [
+        "images/021/travel1.jpg",
+        "images/021/travel2.jpg",
+        "images/021/travel3.jpg"
+      ]
+    }
+  },
+  {
+    "id": "022",
+    "name": "AI拓荒者",
+    "age": 30,
+    "gender": "male",
+    "occupation": "AI算法工程师",
+    "location": "深圳 · 前海",
+    "city": "shenzhen",
+    "occupationType": "tech",
+    "headerClass": "tech-header",
+    "tags": [
+      {
+        "text": "人工智能",
+        "class": "tag-tech"
+      },
+      {
+        "text": "机器学习",
+        "class": "tag-tech"
+      },
+      {
+        "text": "INTJ型",
+        "class": "tag-personality"
+      },
+      {
+        "text": "电子音乐",
+        "class": "tag-hobby"
+      }
+    ],
+    "details": [
+      {
+        "icon": "fas fa-briefcase",
+        "text": "职业：AI科技公司算法团队负责人"
+      },
+      {
+        "icon": "fas fa-robot",
+        "text": "方向：自然语言处理、计算机视觉"
+      },
+      {
+        "icon": "fas fa-music",
+        "text": "爱好：电子音乐制作、科幻电影、围棋"
+      },
+      {
+        "icon": "fas fa-graduation-cap",
+        "text": "教育：计算机博士，发表多篇顶会论文"
+      }
+    ],
+    "quote": "代码是冰冷的逻辑，但AI可以拥有温度。我探索机器智能的边界，也珍惜人类情感的深度。希望找到一个能理解技术热情，也能共享生活诗意的伴侣。",
+    "detailUrl": "detail.html?id=022",
+    "icons": [
+      "fas fa-brain",
+      "fas fa-code"
+    ],
+    "fullDetails": {
+      "tagline": "在0与1的世界里，寻找人性的温度",
+      "aboutMe": [
+        "职业：AI科技公司算法团队负责人",
+        "教育：计算机博士，专攻机器学习",
+        "方向：自然语言处理、计算机视觉、强化学习",
+        "爱好：电子音乐制作、科幻电影、围棋、哲学阅读",
+        "性格：INTJ型人格，理性思考者，追求完美"
+      ],
+      "expectations": [
+        "年龄26-34岁，有独立思考能力",
+        "对新技术保持开放态度",
+        "尊重我的专业追求",
+        "愿意一起探索未知领域",
+        "长期在深圳发展"
+      ],
+      "notImportant": [
+        "工作需要大量阅读论文和实验",
+        "家里有高性能计算机设备",
+        "喜欢讨论技术和哲学问题",
+        "作息有时不规律（赶项目时）"
+      ],
+      "avoid": [
+        "对AI有非理性恐惧",
+        "拒绝接受新事物",
+        "缺乏好奇心",
+        "过度追求物质享受"
+      ],
+      "togetherActivities": [
+        {
+          "icon": "fas fa-film",
+          "title": "科幻之夜",
+          "description": "一起看科幻电影，讨论未来科技"
+        },
+        {
+          "icon": "fas fa-music",
+          "title": "音乐创作",
+          "description": "尝试电子音乐制作或一起欣赏音乐"
+        },
+        {
+          "icon": "fas fa-chess-board",
+          "title": "棋类对弈",
+          "description": "下围棋或国际象棋，锻炼思维"
+        }
+      ],
+      "contactInfo": {
+        "wechat": "ai_pioneer_022",
+        "email": "ai022@example.com",
+        "phone": "137-1111-1115"
+      },
+      "travelPhotos": [
+        "images/022/travel1.jpg",
+        "images/022/travel2.jpg",
+        "images/022/travel3.jpg"
+      ]
+    }
+  },
+  {
+    "id": "023",
+    "name": "草本疗愈师",
+    "age": 32,
+    "gender": "female",
+    "occupation": "中医师",
+    "location": "成都 · 青羊",
+    "city": "chengdu",
+    "occupationType": "medical",
+    "headerClass": "medical-header",
+    "tags": [
+      {
+        "text": "中医",
+        "class": "tag-medical"
+      },
+      {
+        "text": "草药学",
+        "class": "tag-science"
+      },
+      {
+        "text": "ISFJ型",
+        "class": "tag-personality"
+      },
+      {
+        "text": "书法",
+        "class": "tag-hobby"
+      }
+    ],
+    "details": [
+      {
+        "icon": "fas fa-briefcase",
+        "text": "职业：中医诊所主治医师"
+      },
+      {
+        "icon": "fas fa-leaf",
+        "text": "专长：针灸、草药调理、妇科调理"
+      },
+      {
+        "icon": "fas fa-book",
+        "text": "传承：中医世家，祖父辈均为中医"
+      },
+      {
+        "icon": "fas fa-spa",
+        "text": "理念：治未病，重养生，身心平衡"
+      }
+    ],
+    "quote": "草木有情，医者有心。我传承千年的中医智慧，用自然的方式调理身心。希望找到一个相信传统智慧，也愿意一起实践健康生活的伴侣。",
+    "detailUrl": "detail.html?id=023",
+    "icons": [
+      "fas fa-leaf",
+      "fas fa-hand-holding-heart"
+    ],
+    "fullDetails": {
+      "tagline": "用古老智慧，守护现代健康",
+      "aboutMe": [
+        "职业：中医诊所主治医师",
+        "教育：中医药大学博士，师从名医",
+        "专长：针灸、草药调理、妇科调理、养生指导",
+        "爱好：书法、茶道、古琴、园艺",
+        "性格：ISFJ型人格，温和耐心，细致入微"
+      ],
+      "expectations": [
+        "年龄30-40岁，重视健康",
+        "尊重中医理念和传统文化",
+        "愿意尝试健康的生活方式",
+        "性格温和，有耐心",
+        "长期在成都发展"
+      ],
+      "notImportant": [
+        "工作需要研读古籍和草药",
+        "家里有中药柜和文房四宝",
+        "注重节气养生和饮食调理",
+        "喜欢安静雅致的生活环境"
+      ],
+      "avoid": [
+        "完全否定中医价值",
+        "生活习惯极其不健康",
+        "缺乏耐心和细致",
+        "生活过于浮躁喧嚣"
+      ],
+      "togetherActivities": [
+        {
+          "icon": "fas fa-utensils",
+          "title": "药膳烹饪",
+          "description": "一起研究制作养生药膳"
+        },
+        {
+          "icon": "fas fa-paint-brush",
+          "title": "书法练习",
+          "description": "周末一起练习书法，静心养性"
+        },
+        {
+          "icon": "fas fa-hiking",
+          "title": "自然漫步",
+          "description": "去公园或郊外散步，接触自然"
+        }
+      ],
+      "contactInfo": {
+        "wechat": "herbal_healer_023",
+        "email": "tcm023@example.com",
+        "phone": "138-1111-1115"
+      },
+      "travelPhotos": [
+        "images/023/travel1.jpg",
+        "images/023/travel2.jpg",
+        "images/023/travel3.jpg"
+      ]
+    }
+  },
+  {
+    "id": "024",
+    "name": "光影诗人",
+    "age": 33,
+    "gender": "male",
+    "occupation": "商业摄影师",
+    "location": "上海 · 徐汇",
+    "city": "shanghai",
+    "occupationType": "creative",
+    "headerClass": "creative-header",
+    "tags": [
+      {
+        "text": "摄影",
+        "class": "tag-creative"
+      },
+      {
+        "text": "视觉艺术",
+        "class": "tag-art"
+      },
+      {
+        "text": "INFP型",
+        "class": "tag-personality"
+      },
+      {
+        "text": "咖啡",
+        "class": "tag-hobby"
+      }
+    ],
+    "details": [
+      {
+        "icon": "fas fa-briefcase",
+        "text": "职业：独立商业摄影师工作室创始人"
+      },
+      {
+        "icon": "fas fa-camera",
+        "text": "领域：人像摄影、品牌视觉、艺术摄影"
+      },
+      {
+        "icon": "fas fa-coffee",
+        "text": "爱好：手冲咖啡、电影、旅行写作"
+      },
+      {
+        "icon": "fas fa-award",
+        "text": "成就：多次获得国际摄影奖项"
+      }
+    ],
+    "quote": "镜头是我的眼睛，捕捉世间美好与真实。我记录别人的故事，也书写自己的人生。希望找到一个能成为我镜头下最美风景，也能一起看遍世界的人。",
+    "detailUrl": "detail.html?id=024",
+    "icons": [
+      "fas fa-camera-retro",
+      "fas fa-eye"
+    ],
+    "fullDetails": {
+      "tagline": "用镜头写诗，用光影抒情",
+      "aboutMe": [
+        "职业：独立商业摄影师工作室创始人",
+        "教育：美术学院摄影专业毕业",
+        "领域：人像摄影、品牌视觉、艺术摄影、纪实摄影",
+        "爱好：手冲咖啡、电影、旅行写作、爵士乐",
+        "性格：INFP型人格，敏感细腻，富有艺术感"
+      ],
+      "expectations": [
+        "年龄28-38岁，有审美眼光",
+        "理解创意工作者的思维和作息",
+        "愿意成为我的模特（偶尔）",
+        "喜欢旅行和探索",
+        "长期在上海发展"
+      ],
+      "notImportant": [
+        "工作时间不固定，有时需要外拍",
+        "家里有摄影器材和暗房",
+        "经常逛画廊和艺术展",
+        "对咖啡品质有要求"
+      ],
+      "avoid": [
+        "对艺术毫无兴趣",
+        "无法接受不规律的工作时间",
+        "过度追求稳定和常规",
+        "缺乏生活情趣"
+      ],
+      "togetherActivities": [
+        {
+          "icon": "fas fa-camera",
+          "title": "摄影创作",
+          "description": "一起外出拍照，记录生活美景"
+        },
+        {
+          "icon": "fas fa-mug-hot",
+          "title": "咖啡时光",
+          "description": "探索城市咖啡馆，品尝不同咖啡"
+        },
+        {
+          "icon": "fas fa-film",
+          "title": "电影赏析",
+          "description": "一起看艺术电影，讨论镜头语言"
+        }
+      ],
+      "contactInfo": {
+        "wechat": "light_poet_024",
+        "email": "photographer024@example.com",
+        "phone": "139-1111-1115"
+      },
+      "travelPhotos": [
+        "images/024/travel1.jpg",
+        "images/024/travel2.jpg",
+        "images/024/travel3.jpg"
+      ]
+    }
+  },
+  {
+    "id": "025",
+    "name": "创业追梦人",
+    "age": 35,
+    "gender": "female",
+    "occupation": "科技创业者",
+    "location": "杭州 · 滨江",
+    "city": "hangzhou",
+    "occupationType": "business",
+    "headerClass": "business-header",
+    "tags": [
+      {
+        "text": "创业",
+        "class": "tag-business"
+      },
+      {
+        "text": "SaaS",
+        "class": "tag-tech"
+      },
+      {
+        "text": "ENTJ型",
+        "class": "tag-personality"
+      },
+      {
+        "text": "攀岩",
+        "class": "tag-hobby"
+      }
+    ],
+    "details": [
+      {
+        "icon": "fas fa-briefcase",
+        "text": "职业：SaaS科技公司联合创始人兼CEO"
+      },
+      {
+        "icon": "fas fa-rocket",
+        "text": "领域：企业服务软件，已完成B轮融资"
+      },
+      {
+        "icon": "fas fa-mountain",
+        "text": "爱好：攀岩、徒步、阅读商业传记"
+      },
+      {
+        "icon": "fas fa-users",
+        "text": "团队：管理50+人团队，崇尚扁平化管理"
+      }
+    ],
+    "quote": "创业如登山，需要毅力、策略和勇气。我带领团队攀登商业高峰，也渴望在生活中找到一个能并肩作战、共享风景的伴侣。既要仰望星空，也要脚踏实地。",
+    "detailUrl": "detail.html?id=025",
+    "icons": [
+      "fas fa-chart-line",
+      "fas fa-flag-checkered"
+    ],
+    "fullDetails": {
+      "tagline": "在创业路上，寻找生活的平衡",
+      "aboutMe": [
+        "职业：SaaS科技公司联合创始人兼CEO",
+        "教育：MBA，计算机与商业双背景",
+        "领域：企业服务软件，已完成B轮融资",
+        "爱好：攀岩、徒步、阅读商业传记、葡萄酒",
+        "性格：ENTJ型人格，目标导向，领导力强"
+      ],
+      "expectations": [
+        "年龄30-42岁，独立自信",
+        "理解创业者的忙碌和压力",
+        "有自己的事业或追求",
+        "愿意支持彼此的事业发展",
+        "长期在杭州或周边发展"
+      ],
+      "notImportant": [
+        "工作需要经常出差和应酬",
+        "家里有很多商业和管理书籍",
+        "周末有时需要处理工作",
+        "喜欢挑战和冒险"
+      ],
+      "avoid": [
+        "无法接受工作优先的情况",
+        "缺乏事业心和上进心",
+        "过度依赖他人",
+        "生活过于安逸不愿改变"
+      ],
+      "togetherActivities": [
+        {
+          "icon": "fas fa-hiking",
+          "title": "户外挑战",
+          "description": "一起攀岩或徒步，锻炼意志"
+        },
+        {
+          "icon": "fas fa-book",
+          "title": "商业共读",
+          "description": "阅读讨论商业书籍，交流见解"
+        },
+        {
+          "icon": "fas fa-utensils",
+          "title": "美食减压",
+          "description": "尝试高端餐厅，享受美食放松"
+        }
+      ],
+      "contactInfo": {
+        "wechat": "startup_dreamer_025",
+        "email": "startup025@example.com",
+        "phone": "136-1111-1115"
+      },
+      "travelPhotos": [
+        "images/025/travel1.jpg",
+        "images/025/travel2.jpg",
+        "images/025/travel3.jpg"
+      ]
+    }
+  },
+  {
+    "id": "026",
+    "name": "语言桥梁",
+    "age": 31,
+    "gender": "female",
+    "occupation": "同声传译",
+    "location": "北京 · 朝阳",
+    "city": "beijing",
+    "occupationType": "language",
+    "headerClass": "language-header",
+    "tags": [
+      {
+        "text": "同声传译",
+        "class": "tag-language"
+      },
+      {
+        "text": "多语言",
+        "class": "tag-language"
+      },
+      {
+        "text": "ESTJ型",
+        "class": "tag-personality"
+      },
+      {
+        "text": "戏剧",
+        "class": "tag-hobby"
+      }
+    ],
+    "details": [
+      {
+        "icon": "fas fa-briefcase",
+        "text": "职业：自由职业同声传译"
+      },
+      {
+        "icon": "fas fa-language",
+        "text": "语言：中英法西四语，专攻科技和金融领域"
+      },
+      {
+        "icon": "fas fa-theater-masks",
+        "text": "爱好：戏剧表演、文学翻译、旅行"
+      },
+      {
+        "icon": "fas fa-globe-asia",
+        "text": "经历：曾在联合国、达沃斯等场合担任译员"
+      }
+    ],
+    "quote": "语言是桥梁，连接不同文化和思想。我在国际会议中传递信息，也在生活中寻找心灵的共鸣。希望找到一个能跨越语言障碍，直达彼此内心的人。",
+    "detailUrl": "detail.html?id=026",
+    "icons": [
+      "fas fa-comments",
+      "fas fa-globe"
+    ],
+    "fullDetails": {
+      "tagline": "在语言的世界里，搭建理解的桥梁",
+      "aboutMe": [
+        "职业：自由职业同声传译",
+        "教育：外语院校高翻硕士",
+        "语言：中英法西四语，专攻科技和金融领域",
+        "爱好：戏剧表演、文学翻译、旅行、品酒",
+        "性格：ESTJ型人格，条理清晰，执行力强"
+      ],
+      "expectations": [
+        "年龄30-40岁，善于沟通",
+        "尊重语言工作的专业性和压力",
+        "有国际视野或跨文化经历",
+        "性格开朗，适应性强",
+        "长期在北京发展"
+      ],
+      "notImportant": [
+        "工作需要经常出差和准备",
+        "家里有很多外文书籍和资料",
+        "经常观看国际新闻和纪录片",
+        "对语言和文化有浓厚兴趣"
+      ],
+      "avoid": [
+        "沟通能力差",
+        "缺乏国际视野",
+        "无法接受频繁出差",
+        "对学习新事物没兴趣"
+      ],
+      "togetherActivities": [
+        {
+          "icon": "fas fa-theater-masks",
+          "title": "戏剧欣赏",
+          "description": "一起看话剧或参与戏剧活动"
+        },
+        {
+          "icon": "fas fa-book",
+          "title": "文学共读",
+          "description": "阅读不同语言的文学作品"
+        },
+        {
+          "icon": "fas fa-utensils",
+          "title": "国际美食",
+          "description": "尝试各国料理，体验不同文化"
+        }
+      ],
+      "contactInfo": {
+        "wechat": "language_bridge_026",
+        "email": "interpreter026@example.com",
+        "phone": "137-1111-1116"
+      },
+      "travelPhotos": [
+        "images/026/travel1.jpg",
+        "images/026/travel2.jpg",
+        "images/026/travel3.jpg"
+      ]
+    }
+  },
+  {
+    "id": "027",
+    "name": "花园造梦者",
+    "age": 29,
+    "gender": "male",
+    "occupation": "景观设计师",
+    "location": "苏州 · 工业园区",
+    "city": "suzhou",
+    "occupationType": "creative",
+    "headerClass": "creative-header",
+    "tags": [
+      {
+        "text": "景观设计",
+        "class": "tag-creative"
+      },
+      {
+        "text": "园艺",
+        "class": "tag-hobby"
+      },
+      {
+        "text": "ISFP型",
+        "class": "tag-personality"
+      },
+      {
+        "text": "水彩画",
+        "class": "tag-hobby"
+      }
+    ],
+    "details": [
+      {
+        "icon": "fas fa-briefcase",
+        "text": "职业：景观设计事务所设计总监"
+      },
+      {
+        "icon": "fas fa-tree",
+        "text": "专长：庭院设计、公共空间、生态景观"
+      },
+      {
+        "icon": "fas fa-paint-brush",
+        "text": "爱好：水彩画、盆景、古典音乐"
+      },
+      {
+        "icon": "fas fa-seedling",
+        "text": "理念：让设计融入自然，让人与自然和谐"
+      }
+    ],
+    "quote": "每一片叶子都有故事，每一朵花都有语言。我设计人与自然对话的空间，也渴望找到一个能一起聆听自然、创造美好的伴侣。生活如花园，需要用心经营。",
+    "detailUrl": "detail.html?id=027",
+    "icons": [
+      "fas fa-tree",
+      "fas fa-paint-brush"
+    ],
+    "fullDetails": {
+      "tagline": "用设计连接人与自然",
+      "aboutMe": [
+        "职业：景观设计事务所设计总监",
+        "教育：风景园林硕士，多次获得设计奖项",
+        "专长：庭院设计、公共空间、生态景观、城市更新",
+        "爱好：水彩画、盆景、古典音乐、茶道",
+        "性格：ISFP型人格，安静内敛，审美敏锐"
+      ],
+      "expectations": [
+        "年龄26-35岁，热爱自然",
+        "理解创意工作的特性",
+        "愿意亲近自然和户外活动",
+        "有生活情趣和审美眼光",
+        "长期在苏州或周边发展"
+      ],
+      "notImportant": [
+        "工作需要经常实地考察",
+        "家里有很多植物和设计草图",
+        "喜欢安静的艺术创作时间",
+        "对材料和技术有研究兴趣"
+      ],
+      "avoid": [
+        "讨厌户外和自然",
+        "缺乏审美和想象力",
+        "生活过于功利现实",
+        "不尊重个人创作空间"
+      ],
+      "togetherActivities": [
+        {
+          "icon": "fas fa-paint-brush",
+          "title": "艺术创作",
+          "description": "一起画画或做手工，表达创意"
+        },
+        {
+          "icon": "fas fa-hiking",
+          "title": "自然探索",
+          "description": "去公园、植物园或郊外写生"
+        },
+        {
+          "icon": "fas fa-utensils",
+          "title": "家庭园艺",
+          "description": "一起打理阳台或庭院花园"
+        }
+      ],
+      "contactInfo": {
+        "wechat": "garden_dreamer_027",
+        "email": "landscape027@example.com",
+        "phone": "138-1111-1116"
+      },
+      "travelPhotos": [
+        "images/027/travel1.jpg",
+        "images/027/travel2.jpg",
+        "images/027/travel3.jpg"
+      ]
+    }
+  },
+  {
+    "id": "028",
+    "name": "数据解密者",
+    "age": 32,
+    "gender": "male",
+    "occupation": "数据科学家",
+    "location": "杭州 · 余杭",
+    "city": "hangzhou",
+    "occupationType": "tech",
+    "headerClass": "tech-header",
+    "tags": [
+      {
+        "text": "数据分析",
+        "class": "tag-tech"
+      },
+      {
+        "text": "机器学习",
+        "class": "tag-tech"
+      },
+      {
+        "text": "INTP型",
+        "class": "tag-personality"
+      },
+      {
+        "text": "马拉松",
+        "class": "tag-hobby"
+      }
+    ],
+    "details": [
+      {
+        "icon": "fas fa-briefcase",
+        "text": "职业：互联网公司数据科学部门负责人"
+      },
+      {
+        "icon": "fas fa-chart-bar",
+        "text": "方向：用户行为分析、预测模型构建"
+      },
+      {
+        "icon": "fas fa-running",
+        "text": "爱好：马拉松、登山、阅读科普书籍"
+      },
+      {
+        "icon": "fas fa-graduation-cap",
+        "text": "教育：统计学博士，曾在硅谷工作"
+      }
+    ],
+    "quote": "数据是新时代的石油，而我是提炼它的人。我从海量数据中寻找规律和洞见，也在生活中寻找真诚与共鸣。理性分析数据，感性体验人生。",
+    "detailUrl": "detail.html?id=028",
+    "icons": [
+      "fas fa-database",
+      "fas fa-chart-line"
+    ],
+    "fullDetails": {
+      "tagline": "在数据与人性之间，寻找平衡点",
+      "aboutMe": [
+        "职业：互联网公司数据科学部门负责人",
+        "教育：统计学博士，曾在硅谷工作3年",
+        "方向：用户行为分析、预测模型构建、A/B测试",
+        "爱好：马拉松、登山、阅读科普书籍、下棋",
+        "性格：INTP型人格，逻辑严谨，好奇心强"
+      ],
+      "expectations": [
+        "年龄28-36岁，理性思考者",
+        "对数据和技术有一定理解",
+        "尊重我的专业追求",
+        "有健康的生活习惯",
+        "长期在杭州发展"
+      ],
+      "notImportant": [
+        "工作需要大量数据分析和建模",
+        "家里有很多统计和编程书籍",
+        "坚持每周跑步训练",
+        "喜欢讨论科学和哲学问题"
+      ],
+      "avoid": [
+        "完全不懂数据且不愿了解",
+        "生活极不规律",
+        "缺乏好奇心和求知欲",
+        "过度情绪化"
+      ],
+      "togetherActivities": [
+        {
+          "icon": "fas fa-running",
+          "title": "运动锻炼",
+          "description": "一起跑步或登山，保持健康"
+        },
+        {
+          "icon": "fas fa-book",
+          "title": "科学共读",
+          "description": "阅读科普书籍，讨论有趣发现"
+        },
+        {
+          "icon": "fas fa-chess",
+          "title": "棋类对弈",
+          "description": "下棋锻炼思维，享受竞技乐趣"
+        }
+      ],
+      "contactInfo": {
+        "wechat": "data_decoder_028",
+        "email": "datascience028@example.com",
+        "phone": "137-1111-1117"
+      },
+      "travelPhotos": [
+        "images/028/travel1.jpg",
+        "images/028/travel2.jpg",
+        "images/028/travel3.jpg"
+      ]
+    }
+  },
+  {
+    "id": "029",
+    "name": "时光守护者",
+    "age": 34,
+    "gender": "female",
+    "occupation": "博物馆策展人",
+    "location": "西安 · 碑林",
+    "city": "xian",
+    "occupationType": "art",
+    "headerClass": "art-header",
+    "tags": [
+      {
+        "text": "文物策展",
+        "class": "tag-art"
+      },
+      {
+        "text": "考古学",
+        "class": "tag-science"
+      },
+      {
+        "text": "INFJ型",
+        "class": "tag-personality"
+      },
+      {
+        "text": "书法",
+        "class": "tag-hobby"
+      }
+    ],
+    "details": [
+      {
+        "icon": "fas fa-briefcase",
+        "text": "职业：省级博物馆策展部主任"
+      },
+      {
+        "icon": "fas fa-history",
+        "text": "专长：古代文物研究、展览策划"
+      },
+      {
+        "icon": "fas fa-paint-brush",
+        "text": "爱好：书法、国画、古典文献阅读"
+      },
+      {
+        "icon": "fas fa-book",
+        "text": "出版：发表多篇考古学论文"
+      }
+    ],
+    "quote": "文物是时间的信使，承载着过去的智慧。我守护这些历史的碎片，也珍惜当下的每一刻。希望找到一个能一起品味历史，也能创造未来的人。",
+    "detailUrl": "detail.html?id=029",
+    "icons": [
+      "fas fa-landmark",
+      "fas fa-scroll"
+    ],
+    "fullDetails": {
+      "tagline": "在过去与现在之间，搭建理解的桥梁",
+      "aboutMe": [
+        "职业：省级博物馆策展部主任",
+        "教育：考古学博士，专攻汉唐文物",
+        "专长：古代文物研究、展览策划、文物保护",
+        "爱好：书法、国画、古典文献阅读、茶道",
+        "性格：INFJ型人格，沉静内敛，有深度思考"
+      ],
+      "expectations": [
+        "年龄30-42岁，有文化素养",
+        "尊重传统文化和历史",
+        "愿意陪我逛博物馆和历史遗迹",
+        "性格温和，有耐心",
+        "长期在西安发展"
+      ],
+      "notImportant": [
+        "工作需要大量文献研究和田野调查",
+        "家里有很多历史和艺术书籍",
+        "喜欢安静的研究和创作时间",
+        "对文物和艺术有特殊情感"
+      ],
+      "avoid": [
+        "对历史和文化毫无兴趣",
+        "认为博物馆工作“无聊”",
+        "生活过于浮躁喧嚣",
+        "缺乏深度思考"
+      ],
+      "togetherActivities": [
+        {
+          "icon": "fas fa-landmark",
+          "title": "博物馆之旅",
+          "description": "一起逛博物馆，分享文物知识"
+        },
+        {
+          "icon": "fas fa-paint-brush",
+          "title": "艺术创作",
+          "description": "练习书法或国画，静心养性"
+        },
+        {
+          "icon": "fas fa-book",
+          "title": "古籍共读",
+          "description": "阅读古典文献，讨论历史智慧"
+        }
+      ],
+      "contactInfo": {
+        "wechat": "time_guardian_029",
+        "email": "curator029@example.com",
+        "phone": "138-1111-1117"
+      },
+      "travelPhotos": [
+        "images/029/travel1.jpg",
+        "images/029/travel2.jpg",
+        "images/029/travel3.jpg"
+      ]
+    }
+  },
+  {
+    "id": "030",
+    "name": "云端漫步者",
+    "age": 36,
+    "gender": "male",
+    "occupation": "民航飞行员",
+    "location": "北京 · 顺义",
+    "city": "beijing",
+    "occupationType": "aviation",
+    "headerClass": "aviation-header",
+    "tags": [
+      {
+        "text": "飞行",
+        "class": "tag-aviation"
+      },
+      {
+        "text": "机械",
+        "class": "tag-engineering"
+      },
+      {
+        "text": "ISTJ型",
+        "class": "tag-personality"
+      },
+      {
+        "text": "健身",
+        "class": "tag-hobby"
+      }
+    ],
+    "details": [
+      {
+        "icon": "fas fa-briefcase",
+        "text": "职业：航空公司机长"
+      },
+      {
+        "icon": "fas fa-plane",
+        "text": "飞行：12年飞行经验，执飞国际航线"
+      },
+      {
+        "icon": "fas fa-dumbbell",
+        "text": "爱好：健身、飞行模拟、摄影"
+      },
+      {
+        "icon": "fas fa-globe-asia",
+        "text": "经历：飞过全球50多个国家"
+      }
+    ],
+    "quote": "天空是我的办公室，云朵是我的同事。我驾驶钢铁巨鸟翱翔天际，也渴望在地面找到安稳的港湾。飞行需要严谨和专注，生活需要平衡和温暖。",
+    "detailUrl": "detail.html?id=030",
+    "icons": [
+      "fas fa-plane",
+      "fas fa-globe"
+    ],
+    "fullDetails": {
+      "tagline": "在云端与地面之间，寻找家的方向",
+      "aboutMe": [
+        "职业：航空公司机长",
+        "教育：航空学院毕业，持续进修",
+        "飞行：12年飞行经验，执飞国际航线",
+        "爱好：健身、飞行模拟、摄影、烹饪",
+        "性格：ISTJ型人格，严谨负责，注重细节"
+      ],
+      "expectations": [
+        "年龄30-40岁，情绪稳定",
+        "理解飞行工作的特殊性和时差",
+        "能够独立处理家庭事务（我不在家时）",
+        "重视健康和生活品质",
+        "长期在北京发展"
+      ],
+      "notImportant": [
+        "工作需要频繁出差和倒时差",
+        "家里有飞行模拟设备",
+        "坚持严格的体检和训练",
+        "对航空和机械有兴趣"
+      ],
+      "avoid": [
+        "无法接受经常不在家",
+        "情绪波动极大",
+        "不重视健康生活",
+        "过度依赖他人"
+      ],
+      "togetherActivities": [
+        {
+          "icon": "fas fa-utensils",
+          "title": "美食探索",
+          "description": "尝试各国料理，分享旅行见闻"
+        },
+        {
+          "icon": "fas fa-dumbbell",
+          "title": "健身锻炼",
+          "description": "一起健身，保持健康体魄"
+        },
+        {
+          "icon": "fas fa-camera",
+          "title": "摄影创作",
+          "description": "拍摄风景和日常生活"
+        }
+      ],
+      "contactInfo": {
+        "wechat": "cloud_walker_030",
+        "email": "pilot030@example.com",
+        "phone": "139-1111-1117"
+      },
+      "travelPhotos": [
+        "images/030/travel1.jpg",
+        "images/030/travel2.jpg",
+        "images/030/travel3.jpg"
+      ]
+    }
+  },
+  {
+    "id": "031",
+    "name": "旋律建筑师",
+    "age": 31,
+    "gender": "female",
+    "occupation": "音乐制作人",
+    "location": "上海 · 长宁",
+    "city": "shanghai",
+    "occupationType": "creative",
+    "headerClass": "creative-header",
+    "tags": [
+      {
+        "text": "音乐制作",
+        "class": "tag-creative"
+      },
+      {
+        "text": "作曲",
+        "class": "tag-art"
+      },
+      {
+        "text": "ENFP型",
+        "class": "tag-personality"
+      },
+      {
+        "text": "旅行",
+        "class": "tag-hobby"
+      }
+    ],
+    "details": [
+      {
+        "icon": "fas fa-briefcase",
+        "text": "职业：独立音乐制作人、作曲家"
+      },
+      {
+        "icon": "fas fa-music",
+        "text": "领域：影视配乐、广告音乐、独立音乐"
+      },
+      {
+        "icon": "fas fa-plane",
+        "text": "爱好：旅行采风、现场音乐、文学"
+      },
+      {
+        "icon": "fas fa-award",
+        "text": "成就：作品多次获得音乐奖项"
+      }
+    ],
+    "quote": "音符是我的砖瓦，旋律是我的建筑。我创造声音的世界，也渴望在生活中找到和谐的共鸣。希望找到一个能听懂我音乐语言，也能共享生活节奏的人。",
+    "detailUrl": "detail.html?id=031",
+    "icons": [
+      "fas fa-headphones",
+      "fas fa-sliders-h"
+    ],
+    "fullDetails": {
+      "tagline": "用声音构建世界，用情感连接人心",
+      "aboutMe": [
+        "职业：独立音乐制作人、作曲家",
+        "教育：音乐学院作曲专业硕士",
+        "领域：影视配乐、广告音乐、独立音乐创作",
+        "爱好：旅行采风、现场音乐、文学、咖啡",
+        "性格：ENFP型人格，富有创意，情感丰富"
+      ],
+      "expectations": [
+        "年龄28-38岁，有艺术感知力",
+        "理解创作工作的灵感和孤独",
+        "对音乐有基本欣赏能力",
+        "愿意尝试新鲜体验",
+        "长期在上海发展"
+      ],
+      "notImportant": [
+        "工作时间不固定，灵感来了可能熬夜",
+        "家里有音乐制作设备和乐器",
+        "经常参加音乐演出和活动",
+        "对声音品质敏感"
+      ],
+      "avoid": [
+        "对音乐完全无感",
+        "无法理解创意工作",
+        "生活过于刻板规律",
+        "缺乏情感表达能力"
+      ],
+      "togetherActivities": [
+        {
+          "icon": "fas fa-music",
+          "title": "音乐体验",
+          "description": "一起听音乐，分享喜欢的作品"
+        },
+        {
+          "icon": "fas fa-plane",
+          "title": "旅行采风",
+          "description": "去不同地方旅行，收集创作灵感"
+        },
+        {
+          "icon": "fas fa-book",
+          "title": "文学共读",
+          "description": "阅读文学作品，讨论情感和主题"
+        }
+      ],
+      "contactInfo": {
+        "wechat": "melody_architect_031",
+        "email": "musicproducer031@example.com",
+        "phone": "136-1111-1117"
+      },
+      "travelPhotos": [
+        "images/031/travel1.jpg",
+        "images/031/travel2.jpg",
+        "images/031/travel3.jpg"
+      ]
+    }
+  },
+  {
+    "id": "032",
+    "name": "人间温暖",
+    "age": 33,
+    "gender": "female",
+    "occupation": "社会工作者",
+    "location": "成都 · 成华",
+    "city": "chengdu",
+    "occupationType": "social",
+    "headerClass": "social-header",
+    "tags": [
+      {
+        "text": "社会工作",
+        "class": "tag-social"
+      },
+      {
+        "text": "心理咨询",
+        "class": "tag-medical"
+      },
+      {
+        "text": "ENFJ型",
+        "class": "tag-personality"
+      },
+      {
+        "text": "烹饪",
+        "class": "tag-hobby"
+      }
+    ],
+    "details": [
+      {
+        "icon": "fas fa-briefcase",
+        "text": "职业：社工机构项目主管"
+      },
+      {
+        "icon": "fas fa-hands-helping",
+        "text": "领域：社区发展、弱势群体支持"
+      },
+      {
+        "icon": "fas fa-utensils",
+        "text": "爱好：烹饪、园艺、阅读社会学"
+      },
+      {
+        "icon": "fas fa-heart",
+        "text": "理念：用专业传递温暖，用行动改变社会"
+      }
+    ],
+    "quote": "社会需要温度，人心需要连接。我帮助他人找到生活的希望，也渴望找到那个能一起创造温暖家庭的伴侣。平凡中见真情，简单中显深度。",
+    "detailUrl": "detail.html?id=032",
+    "icons": [
+      "fas fa-hands-helping",
+      "fas fa-heart"
+    ],
+    "fullDetails": {
+      "tagline": "用专业传递温暖，用爱连接彼此",
+      "aboutMe": [
+        "职业：社工机构项目主管",
+        "教育：社会工作硕士，心理咨询师资格",
+        "领域：社区发展、弱势群体支持、心理健康",
+        "爱好：烹饪、园艺、阅读社会学、看电影",
+        "性格：ENFJ型人格，善于沟通，有同理心"
+      ],
+      "expectations": [
+        "年龄30-40岁，有社会责任感",
+        "尊重社会工作价值",
+        "性格温和，有爱心",
+        "愿意参与公益活动",
+        "长期在成都发展"
+      ],
+      "notImportant": [
+        "工作需要经常走访社区和家庭",
+        "家里有很多社会学和心理学书籍",
+        "注重生活细节和家庭氛围",
+        "喜欢简单的家庭生活"
+      ],
+      "avoid": [
+        "对社会问题漠不关心",
+        "缺乏同理心和爱心",
+        "生活过于功利现实",
+        "不尊重助人工作"
+      ],
+      "togetherActivities": [
+        {
+          "icon": "fas fa-utensils",
+          "title": "家庭烹饪",
+          "description": "一起做饭，研究健康美味的食谱"
+        },
+        {
+          "icon": "fas fa-seedling",
+          "title": "园艺时光",
+          "description": "打理阳台花园，种植蔬菜花卉"
+        },
+        {
+          "icon": "fas fa-hands-helping",
+          "title": "公益参与",
+          "description": "一起参与社区或公益活动"
+        }
+      ],
+      "contactInfo": {
+        "wechat": "human_warmth_032",
+        "email": "socialworker032@example.com",
+        "phone": "137-1111-1118"
+      },
+      "travelPhotos": [
+        "images/032/travel1.jpg",
+        "images/032/travel2.jpg",
+        "images/032/travel3.jpg"
+      ]
+    }
+  },
+  {
+    "id": "033",
+    "name": "极限挑战者",
+    "age": 29,
+    "gender": "male",
+    "occupation": "职业运动员（游泳）",
+    "location": "广州 · 天河",
+    "city": "guangzhou",
+    "occupationType": "sports",
+    "headerClass": "sports-header",
+    "tags": [
+      {
+        "text": "游泳",
+        "class": "tag-sports"
+      },
+      {
+        "text": "体能训练",
+        "class": "tag-sports"
+      },
+      {
+        "text": "ESTP型",
+        "class": "tag-personality"
+      },
+      {
+        "text": "烹饪",
+        "class": "tag-hobby"
+      }
+    ],
+    "details": [
+      {
+        "icon": "fas fa-briefcase",
+        "text": "职业：省游泳队队员兼教练"
+      },
+      {
+        "icon": "fas fa-swimmer",
+        "text": "专长：自由泳、混合泳，曾获全国冠军"
+      },
+      {
+        "icon": "fas fa-utensils",
+        "text": "爱好：烹饪、阅读体育传记、旅行"
+      },
+      {
+        "icon": "fas fa-heartbeat",
+        "text": "生活：严格饮食和训练计划，注重恢复"
+      }
+    ],
+    "quote": "水中是我的世界，挑战是我的动力。我在泳池中突破极限，也在生活中寻找平衡。运动教会我坚持和专注，而我希望与你一起创造充满活力的生活。",
+    "detailUrl": "detail.html?id=033",
+    "icons": [
+      "fas fa-swimmer",
+      "fas fa-trophy"
+    ],
+    "fullDetails": {
+      "tagline": "在运动与生活之间，追求卓越与平衡",
+      "aboutMe": [
+        "职业：省游泳队队员兼教练",
+        "经历：专业游泳15年，曾获全国冠军",
+        "专长：自由泳、混合泳，现转型教练工作",
+        "爱好：烹饪、阅读体育传记、旅行、电影",
+        "性格：ESTP型人格，行动力强，适应力强"
+      ],
+      "expectations": [
+        "年龄26-34岁，热爱生活",
+        "理解运动员的作息和饮食要求",
+        "支持我的体育事业",
+        "有健康的生活习惯",
+        "长期在广州发展"
+      ],
+      "notImportant": [
+        "需要坚持严格的训练计划",
+        "饮食有特殊要求（高蛋白、低脂）",
+        "经常参加比赛和训练营",
+        "注重身体恢复和健康管理"
+      ],
+      "avoid": [
+        "无法接受严格的作息和饮食",
+        "讨厌运动或体育活动",
+        "生活极其不规律",
+        "不重视健康"
+      ],
+      "togetherActivities": [
+        {
+          "icon": "fas fa-swimmer",
+          "title": "水上运动",
+          "description": "一起游泳或尝试其他水上活动"
+        },
+        {
+          "icon": "fas fa-utensils",
+          "title": "健康烹饪",
+          "description": "研究制作营养均衡的运动餐"
+        },
+        {
+          "icon": "fas fa-hiking",
+          "title": "户外活动",
+          "description": "一起徒步或进行其他户外运动"
+        }
+      ],
+      "contactInfo": {
+        "wechat": "extreme_challenger_033",
+        "email": "athlete033@example.com",
+        "phone": "138-1111-1118"
+      },
+      "travelPhotos": [
+        "images/033/travel1.jpg",
+        "images/033/travel2.jpg",
+        "images/033/travel3.jpg"
+      ]
+    }
+  },
+  {
+    "id": "034",
+    "name": "城市梦想家",
+    "age": 38,
+    "gender": "male",
+    "occupation": "城市规划师",
+    "location": "重庆 · 渝中",
+    "city": "chongqing",
+    "occupationType": "engineering",
+    "headerClass": "engineering-header",
+    "tags": [
+      {
+        "text": "城市规划",
+        "class": "tag-engineering"
+      },
+      {
+        "text": "公共空间",
+        "class": "tag-science"
+      },
+      {
+        "text": "ENTJ型",
+        "class": "tag-personality"
+      },
+      {
+        "text": "摄影",
+        "class": "tag-hobby"
+      }
+    ],
+    "details": [
+      {
+        "icon": "fas fa-briefcase",
+        "text": "职业：城市规划设计研究院首席规划师"
+      },
+      {
+        "icon": "fas fa-city",
+        "text": "方向：城市更新、 TOD（公共交通导向型开发）"
+      },
+      {
+        "icon": "fas fa-camera",
+        "text": "爱好：城市摄影、登山、模型制作"
+      },
+      {
+        "icon": "fas fa-award",
+        "text": "成就：主导多个国家级新区规划"
+      }
+    ],
+    "quote": "城市是流动的乐章，规划是让它和谐的曲谱。我描绘千万人生活的蓝图，也构思自己小家的温暖。希望找到一位能和我一起，在宏大与细微之间发现生活之美的人。",
+    "detailUrl": "detail.html?id=034",
+    "icons": [
+      "fas fa-drafting-compass",
+      "fas fa-street-view"
+    ],
+    "fullDetails": {
+      "tagline": "为城市设计未来，为生活规划幸福",
+      "aboutMe": [
+        "职业：城市规划设计研究院首席规划师",
+        "教育：城市规划博士，注册城市规划师",
+        "方向：城市更新、 TOD开发、韧性城市",
+        "爱好：城市摄影、登山、模型制作、阅读建筑史",
+        "性格：ENTJ型人格，视野宏观，执行力强"
+      ],
+      "expectations": [
+        "年龄30-42岁，有独立思考能力",
+        "理解并尊重规划工作的社会价值",
+        "喜欢城市探索和文化活动",
+        "对未来家庭生活有共同憧憬",
+        "长期在重庆或川渝地区发展"
+      ],
+      "notImportant": [
+        "工作需要大量实地调研和出差",
+        "书房里满是城市地图和模型",
+        "对街道尺度和空间品质敏感",
+        "周末喜欢带着相机扫街"
+      ],
+      "avoid": [
+        "对城市发展漠不关心",
+        "无法接受阶段性工作忙碌",
+        "生活情趣单一",
+        "缺乏长期规划意识"
+      ],
+      "togetherActivities": [
+        {
+          "icon": "fas fa-hiking",
+          "title": "城市徒步",
+          "description": "用脚步丈量城市，发现街巷故事"
+        },
+        {
+          "icon": "fas fa-camera",
+          "title": "摄影创作",
+          "description": "拍摄城市建筑与市井生活"
+        },
+        {
+          "icon": "fas fa-film",
+          "title": "纪录片之夜",
+          "description": "一起观看城市、建筑类纪录片"
+        }
+      ],
+      "contactInfo": {
+        "wechat": "city_dreamer_034",
+        "email": "planner034@example.com",
+        "phone": "137-1111-1119"
+      },
+      "travelPhotos": [
+        "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?ixlib=rb-4.0.3&auto=format&fit=crop&w-800&q=80",
+        "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      ]
+    }
+  },
+  {
+    "id": "035",
+    "name": "茶香墨韵",
+    "age": 30,
+    "gender": "female",
+    "occupation": "茶艺师/茶文化讲师",
+    "location": "杭州 · 西湖",
+    "city": "hangzhou",
+    "occupationType": "culture",
+    "headerClass": "culture-header",
+    "tags": [
+      {
+        "text": "茶艺",
+        "class": "tag-culture"
+      },
+      {
+        "text": "传统文化",
+        "class": "tag-culture"
+      },
+      {
+        "text": "ISFJ型",
+        "class": "tag-personality"
+      },
+      {
+        "text": "古琴",
+        "class": "tag-hobby"
+      }
+    ],
+    "details": [
+      {
+        "icon": "fas fa-briefcase",
+        "text": "职业：独立茶室主人、茶文化机构特聘讲师"
+      },
+      {
+        "icon": "fas fa-leaf",
+        "text": "专长：宋代点茶、明清泡法、茶叶审评"
+      },
+      {
+        "icon": "fas fa-music",
+        "text": "爱好：古琴、书法、香道、徒步"
+      },
+      {
+        "icon": "fas fa-book",
+        "text": "理念：一期一会，在茶中安顿身心"
+      }
+    ],
+    "quote": "水为茶之母，器为茶之父。我在一壶一盏间与古人对话，也在一朝一夕里体味生活真意。希望找到一位能静心品茶，也能畅聊人生的知己。",
+    "detailUrl": "detail.html?id=035",
+    "icons": [
+      "fas fa-mug-hot",
+      "fas fa-paint-brush"
+    ],
+    "fullDetails": {
+      "tagline": "以茶修身，以文化人",
+      "aboutMe": [
+        "职业：独立茶室主人、茶文化机构特聘讲师",
+        "教育：茶学专业背景，师从非遗传承人",
+        "专长：宋代点茶、明清泡法、茶叶审评、茶席设计",
+        "爱好：古琴、书法、香道、徒步、阅读古典文学",
+        "性格：ISFJ型人格，沉静细腻，注重传统与礼节"
+      ],
+      "expectations": [
+        "年龄28-38岁，性情温和",
+        "对传统文化有敬意和兴趣",
+        "能享受安静时光，不浮躁",
+        "注重生活品质和精神世界",
+        "长期在杭州发展"
+      ],
+      "notImportant": [
+        "工作需要研习古籍和茶山探访",
+        "生活节奏较慢，注重仪式感",
+        "对器物和空间美学有要求",
+        "饮食清淡，少烟酒"
+      ],
+      "avoid": [
+        "认为传统是“过时”",
+        "无法静坐半小时",
+        "生活方式极度西化且排斥中式",
+        "只重物质享受"
+      ],
+      "togetherActivities": [
+        {
+          "icon": "fas fa-mug-hot",
+          "title": "茶事时光",
+          "description": "一起品茶、读诗，享受宁静午后"
+        },
+        {
+          "icon": "fas fa-hiking",
+          "title": "山野寻茶",
+          "description": "春季一起去茶山徒步，体验采茶制茶"
+        },
+        {
+          "icon": "fas fa-book",
+          "title": "古籍共读",
+          "description": "阅读《茶经》等经典，交流心得"
+        }
+      ],
+      "contactInfo": {
+        "wechat": "tea_art_035",
+        "email": "tea-master035@example.com",
+        "phone": "138-1111-1119"
+      },
+      "travelPhotos": [
+        "https://www.ehangzhou.gov.cn/2025-03/14/images/西湖春景1.jpg",
+        "https://2.cnsphoto.com/newDetail/single/13463080?pictureId=42298190",
+        "https://images.unsplash.com/photo-1534088568595-a066f410bcda?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      ]
+    }
+  },
+  {
+    "id": "036",
+    "name": "深海向导",
+    "age": 32,
+    "gender": "male",
+    "occupation": "PADI潜水教练",
+    "location": "三亚 · 海棠湾",
+    "city": "sanya",
+    "occupationType": "sports",
+    "headerClass": "sports-header",
+    "tags": [
+      {
+        "text": "潜水教练",
+        "class": "tag-sports"
+      },
+      {
+        "text": "海洋保护",
+        "class": "tag-science"
+      },
+      {
+        "text": "ISTP型",
+        "class": "tag-personality"
+      },
+      {
+        "text": "冲浪",
+        "class": "tag-hobby"
+      }
+    ],
+    "details": [
+      {
+        "icon": "fas fa-briefcase",
+        "text": "职业：潜水中心负责人、PADI课程总监"
+      },
+      {
+        "icon": "fas fa-water",
+        "text": "专长：技术潜水、水下摄影、珊瑚礁普查"
+      },
+      {
+        "icon": "fas fa-fish",
+        "text": "爱好：自由潜水、冲浪、海洋生物观察"
+      },
+      {
+        "icon": "fas fa-heart",
+        "text": "公益：定期组织海洋垃圾清理活动"
+      }
+    ],
+    "quote": "陆地是故乡，海洋是梦想。我带领人们探索蔚蓝秘境，也守护着这片脆弱的水下王国。寻找一位不怕晒黑、热爱自然，愿意和我一起保护这片蓝的伙伴。",
+    "detailUrl": "detail.html?id=036",
+    "icons": [
+      "fas fa-anchor",
+      "fas fa-camera"
+    ],
+    "fullDetails": {
+      "tagline": "潜入深蓝，回归简单",
+      "aboutMe": [
+        "职业：潜水中心负责人、PADI课程总监",
+        "资质：PADI课程总监，技术潜水员，急救教练",
+        "专长：技术潜水、水下摄影、珊瑚礁普查、沉船探索",
+        "爱好：自由潜水、冲浪、海洋生物观察、烹饪海鲜",
+        "性格：ISTP型人格，动手能力强，务实，热爱自由"
+      ],
+      "expectations": [
+        "年龄26-36岁，身体健康",
+        "不畏惧大海，愿意学习潜水（我可以教）",
+        "支持海洋保护理念",
+        "生活态度积极，喜欢户外",
+        "长期在海南或可接受旅居生活"
+      ],
+      "notImportant": [
+        "工作受季节和天气影响",
+        "皮肤是健康的小麦色",
+        "家里有很多潜水装备和海洋标本",
+        "饮食以海鲜和健康餐为主"
+      ],
+      "avoid": [
+        "极度恐水或对海洋有偏见",
+        "无法接受我长时间在水下",
+        "生活过度精致，不愿接触自然",
+        "对环境保护漠不关心"
+      ],
+      "togetherActivities": [
+        {
+          "icon": "fas fa-water",
+          "title": "海洋探索",
+          "description": "一起浮潜或潜水，认识神奇的海洋生物"
+        },
+        {
+          "icon": "fas fa-sun",
+          "title": "沙滩时光",
+          "description": "在沙滩散步、看日落、烧烤"
+        },
+        {
+          "icon": "fas fa-hands-helping",
+          "title": "环保行动",
+          "description": "一起参与海滩清理或珊瑚种植活动"
+        }
+      ],
+      "contactInfo": {
+        "wechat": "deep_sea_guide_036",
+        "email": "diver036@example.com",
+        "phone": "139-1111-1119"
+      },
+      "travelPhotos": [
+        "https://images.unsplash.com/photo-1437622368342-7a3d73a34c8f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1506929562872-bb421503ef21?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      ]
+    }
+  },
+  {
+    "id": "037",
+    "name": "历史寻踪者",
+    "age": 40,
+    "gender": "male",
+    "occupation": "大学历史系教授",
+    "location": "南京 · 鼓楼",
+    "city": "nanjing",
+    "occupationType": "education",
+    "headerClass": "education-header",
+    "tags": [
+      {
+        "text": "中国古代史",
+        "class": "tag-education"
+      },
+      {
+        "text": "考古",
+        "class": "tag-science"
+      },
+      {
+        "text": "INTP型",
+        "class": "tag-personality"
+      },
+      {
+        "text": "书法",
+        "class": "tag-hobby"
+      }
+    ],
+    "details": [
+      {
+        "icon": "fas fa-briefcase",
+        "text": "职业：大学历史系教授、博士生导师"
+      },
+      {
+        "icon": "fas fa-scroll",
+        "text": "研究方向：魏晋南北朝史、出土文献"
+      },
+      {
+        "icon": "fas fa-landmark",
+        "text": "爱好：访古、碑拓、围棋、古典音乐"
+      },
+      {
+        "icon": "fas fa-book",
+        "text": "生活：书房即乐园，与古籍为伴"
+      }
+    ],
+    "quote": "历史不是故纸堆，而是理解当下的钥匙。我在故纸堆中寻找真相，在古迹前感受时光。希望找到一位能理解这份“痴”，也能共享平凡烟火气的伴侣。",
+    "detailUrl": "detail.html?id=037",
+    "icons": [
+      "fas fa-monument",
+      "fas fa-feather-alt"
+    ],
+    "fullDetails": {
+      "tagline": "在故纸堆中求真，在现实生活中求善",
+      "aboutMe": [
+        "职业：大学历史系教授、博士生导师",
+        "教育：历史学博士，研究方向为魏晋南北朝史",
+        "学术：出版多部专著，主持国家社科基金项目",
+        "爱好：访古、碑拓、围棋、古典音乐、品茶",
+        "性格：INTP型人格，理性思辨，享受独处也渴望深度交流"
+      ],
+      "expectations": [
+        "年龄32-45岁，有良好的文化素养",
+        "尊重学术工作，能理解研究的孤独与乐趣",
+        "对历史或文化有一定兴趣，但不强求精通",
+        "性格沉静，能享受安静的共处时光",
+        "长期在南京发展"
+      ],
+      "notImportant": [
+        "需要大量时间阅读、写作和田野调查",
+        "书房堆满书籍和资料，略显凌乱",
+        "假期经常用于学术考察而非休闲旅游",
+        "聊天时偶尔会“掉书袋”"
+      ],
+      "avoid": [
+        "认为历史“无用”",
+        "无法忍受家中大量藏书",
+        "追求极度热闹和喧哗的生活",
+        "缺乏独立思考能力"
+      ],
+      "togetherActivities": [
+        {
+          "icon": "fas fa-landmark",
+          "title": "访古之旅",
+          "description": "一起去博物馆、古迹或古镇游览"
+        },
+        {
+          "icon": "fas fa-book",
+          "title": "书房共读",
+          "description": "各自阅读喜欢的书，偶尔交流心得"
+        },
+        {
+          "icon": "fas fa-chess-board",
+          "title": "棋枰对弈",
+          "description": "下围棋，锻炼思维，享受静谧"
+        }
+      ],
+      "contactInfo": {
+        "wechat": "history_seeker_037",
+        "email": "professor037@example.com",
+        "phone": "136-1111-1119"
+      },
+      "travelPhotos": [
+        "https://images.unsplash.com/photo-1548013146-72479768bada?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1528164344705-47542687000d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      ]
+    }
+  },
+  {
+    "id": "038",
+    "name": "产品炼金术士",
+    "age": 33,
+    "gender": "female",
+    "occupation": "互联网产品总监",
+    "location": "北京 · 海淀",
+    "city": "beijing",
+    "occupationType": "tech",
+    "headerClass": "tech-header",
+    "tags": [
+      {
+        "text": "产品经理",
+        "class": "tag-tech"
+      },
+      {
+        "text": "用户研究",
+        "class": "tag-tech"
+      },
+      {
+        "text": "ENFJ型",
+        "class": "tag-personality"
+      },
+      {
+        "text": "话剧",
+        "class": "tag-hobby"
+      }
+    ],
+    "details": [
+      {
+        "icon": "fas fa-briefcase",
+        "text": "职业：头部互联网公司产品业务负责人"
+      },
+      {
+        "icon": "fas fa-users",
+        "text": "方向：社交产品、用户体验设计"
+      },
+      {
+        "icon": "fas fa-theater-masks",
+        "text": "爱好：看话剧、写作、心理学、旅行"
+      },
+      {
+        "icon": "fas fa-lightbulb",
+        "text": "理念：好产品是技术与人文的完美结合"
+      }
+    ],
+    "quote": "产品是同理心的结晶。我研究千万用户的喜怒哀乐，打磨他们需要的功能。在生活中，我渴望一位能彼此深度理解、共同成长的伴侣，一起设计我们的人生产品。",
+    "detailUrl": "detail.html?id=038",
+    "icons": [
+      "fas fa-mobile-alt",
+      "fas fa-chart-line"
+    ],
+    "fullDetails": {
+      "tagline": "洞察人性，创造价值",
+      "aboutMe": [
+        "职业：头部互联网公司产品业务负责人",
+        "教育：计算机与心理学双学位，MBA",
+        "方向：社交产品、用户体验设计、增长策略",
+        "爱好：看话剧、写作、心理学、旅行、美食探店",
+        "性格：ENFJ型人格，善于沟通和共情，追求成长"
+      ],
+      "expectations": [
+        "年龄30-42岁，善于沟通和反思",
+        "理解互联网行业的高压与快节奏",
+        "有自己的专业领域或热爱的事物",
+        "重视精神交流和情感质量",
+        "长期在北京发展"
+      ],
+      "notImportant": [
+        "工作会经常开会、评审和跨部门沟通",
+        "手机里装满了各种App进行研究",
+        "喜欢讨论社会现象和人的行为",
+        "周末需要时间充电和独处"
+      ],
+      "avoid": [
+        "沟通方式简单粗暴",
+        "拒绝学习和自我更新",
+        "生活和工作完全没有边界",
+        "对世界缺乏好奇心"
+      ],
+      "togetherActivities": [
+        {
+          "icon": "fas fa-theater-masks",
+          "title": "艺术之夜",
+          "description": "一起看话剧、展览或独立电影"
+        },
+        {
+          "icon": "fas fa-utensils",
+          "title": "味觉探索",
+          "description": "探索城市中有特色的餐厅或咖啡馆"
+        },
+        {
+          "icon": "fas fa-book",
+          "title": "深度对话",
+          "description": "就某个话题进行长时间的深入交流"
+        }
+      ],
+      "contactInfo": {
+        "wechat": "product_alchemist_038",
+        "email": "pm038@example.com",
+        "phone": "137-1111-1120"
+      },
+      "travelPhotos": [
+        "https://images.unsplash.com/photo-1512486130939-2c4f79935e4f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1497366754035-f200968a6e72?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      ]
+    }
+  },
+  {
+    "id": "039",
+    "name": "色彩诗人",
+    "age": 29,
+    "gender": "female",
+    "occupation": "自由插画师",
+    "location": "大理 · 古城",
+    "city": "dali",
+    "occupationType": "art",
+    "headerClass": "art-header",
+    "tags": [
+      {
+        "text": "插画",
+        "class": "tag-art"
+      },
+      {
+        "text": "绘本创作",
+        "class": "tag-creative"
+      },
+      {
+        "text": "INFP型",
+        "class": "tag-personality"
+      },
+      {
+        "text": "植物",
+        "class": "tag-hobby"
+      }
+    ],
+    "details": [
+      {
+        "icon": "fas fa-briefcase",
+        "text": "职业：自由插画师，与多家出版社、品牌合作"
+      },
+      {
+        "icon": "fas fa-palette",
+        "text": "风格：水彩、版画风格，主题多为自然与童话"
+      },
+      {
+        "icon": "fas fa-seedling",
+        "text": "爱好：养多肉植物、徒步、收集老旧物件"
+      },
+      {
+        "icon": "fas fa-home",
+        "text": "生活：在大理租了个带院子的小房子工作室"
+      }
+    ],
+    "quote": "画笔是我的魔法杖，颜料是通往另一个世界的门。我创造温暖治愈的图画，也经营着自己简单丰盛的小日子。希望遇见一个能守护我的童话世界，也能踏实过日子的人。",
+    "detailUrl": "detail.html?id=039",
+    "icons": [
+      "fas fa-paint-brush",
+      "fas fa-feather"
+    ],
+    "fullDetails": {
+      "tagline": "用画笔诉说温柔，在生活中栽种诗意",
+      "aboutMe": [
+        "职业：自由插画师，与多家出版社、品牌合作",
+        "教育：美术学院毕业，但认为生活是最好的老师",
+        "风格：水彩、版画风格，主题多为自然、童话与梦境",
+        "爱好：养多肉植物、徒步、收集老旧物件、做手工",
+        "性格：INFP型人格，内心世界丰富，敏感而真诚"
+      ],
+      "expectations": [
+        "年龄27-37岁，内心柔软善良",
+        "尊重自由职业的不规律和创作需要",
+        "喜欢自然，能接受慢节奏的生活",
+        "对物质要求不高，更重精神契合",
+        "可接受在大理或相似节奏的城市生活"
+      ],
+      "notImportant": [
+        "收入不稳定，但有持续的出版合作",
+        "家里像个小型植物园和杂货铺",
+        "创作时可能会与世隔绝几天",
+        "社交圈子小，朋友不多但都很交心"
+      ],
+      "avoid": [
+        "认为画画是“不务正业”",
+        "追求快节奏和高压力的都市生活",
+        "缺乏想象力和童趣",
+        "过度现实和功利"
+      ],
+      "togetherActivities": [
+        {
+          "icon": "fas fa-paint-brush",
+          "title": "艺术共创",
+          "description": "一起画画、做手工，玩各种创作"
+        },
+        {
+          "icon": "fas fa-hiking",
+          "title": "苍山漫步",
+          "description": "去苍山洱海边散步、写生、发呆"
+        },
+        {
+          "icon": "fas fa-utensils",
+          "title": "厨房实验",
+          "description": "用本地食材尝试制作创意料理"
+        }
+      ],
+      "contactInfo": {
+        "wechat": "color_poet_039",
+        "email": "illustrator039@example.com",
+        "phone": "138-1111-1120"
+      },
+      "travelPhotos": [
+        "https://images.unsplash.com/photo-1528164344705-47542687000d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1534088568595-a066f410bcda?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      ]
+    }
+  },
+  {
+    "id": "040",
+    "name": "网络守护者",
+    "age": 34,
+    "gender": "male",
+    "occupation": "网络安全专家",
+    "location": "杭州 · 滨江",
+    "city": "hangzhou",
+    "occupationType": "tech",
+    "headerClass": "tech-header",
+    "tags": [
+      {
+        "text": "网络安全",
+        "class": "tag-tech"
+      },
+      {
+        "text": "攻防演练",
+        "class": "tag-tech"
+      },
+      {
+        "text": "INTJ型",
+        "class": "tag-personality"
+      },
+      {
+        "text": "乐高",
+        "class": "tag-hobby"
+      }
+    ],
+    "details": [
+      {
+        "icon": "fas fa-briefcase",
+        "text": "职业：互联网公司安全部门负责人"
+      },
+      {
+        "icon": "fas fa-shield-alt",
+        "text": "专长：渗透测试、安全架构、应急响应"
+      },
+      {
+        "icon": "fas fa-cube",
+        "text": "爱好：拼乐高（科技系列）、看科幻电影、骑行"
+      },
+      {
+        "icon": "fas fa-user-secret",
+        "text": "生活：注重隐私保护，生活作息规律"
+      }
+    ],
+    "quote": "我在虚拟世界构筑防线，在现实生活渴望简单的连接。代码的逻辑严谨，但人与人的相处需要更多温度和信任。寻找一位能让我放下戒备，安心做自己的伴侣。",
+    "detailUrl": "detail.html?id=040",
+    "icons": [
+      "fas fa-shield-alt",
+      "fas fa-network-wired"
+    ],
+    "fullDetails": {
+      "tagline": "于数字迷雾中守护，在真实世界里生活",
+      "aboutMe": [
+        "职业：互联网公司安全部门负责人",
+        "教育：计算机科学硕士，持有多个安全认证",
+        "专长：渗透测试、安全架构、应急响应",
+        "爱好：拼乐高（科技系列）、看科幻电影、城市骑行、阅读侦探小说",
+        "性格：INTJ型人格，思维缜密，习惯性风险评估，但对信任的人非常坦诚"
+      ],
+      "expectations": [
+        "年龄28-38岁，情绪稳定，善于沟通",
+        "理解我工作需要的高度专注和偶尔的应急加班",
+        "有自己的生活空间和兴趣爱好",
+        "真诚，不复杂，相处起来舒服",
+        "长期在杭州发展"
+      ],
+      "notImportant": [
+        "家里有一个柜子专门展示拼好的乐高",
+        "对电子设备和网络使用习惯比较在意",
+        "偶尔会参加网络安全竞赛当裁判",
+        "喜欢逻辑清晰、有秩序的相处模式"
+      ],
+      "avoid": [
+        "对个人隐私毫无概念且不愿学习",
+        "情绪波动大，习惯冷暴力",
+        "沉溺于短视频缺乏深度交流",
+        "对未来没有任何规划"
+      ],
+      "togetherActivities": [
+        {
+          "icon": "fas fa-film",
+          "title": "科幻影迷",
+          "description": "一起刷科幻电影或剧集，讨论里面的设定"
+        },
+        {
+          "icon": "fas fa-bicycle",
+          "title": "城市骑行",
+          "description": "周末沿着江边或西湖周边骑行"
+        },
+        {
+          "icon": "fas fa-puzzle-piece",
+          "title": "共同创作",
+          "description": "一起挑战大型乐高套装，合作完成"
+        }
+      ],
+      "contactInfo": {
+        "wechat": "cyber_guardian_040",
+        "email": "security040@example.com",
+        "phone": "137-1111-1121"
+      },
+      "travelPhotos": [
+        "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1589256469067-ea99122bbdc4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      ]
+    }
+  },
+  {
+    "id": "041",
+    "name": "营养生活家",
+    "age": 31,
+    "gender": "female",
+    "occupation": "临床营养师",
+    "location": "广州 · 天河",
+    "city": "guangzhou",
+    "occupationType": "medical",
+    "headerClass": "medical-header",
+    "tags": [
+      {
+        "text": "临床营养",
+        "class": "tag-medical"
+      },
+      {
+        "text": "健康管理",
+        "class": "tag-medical"
+      },
+      {
+        "text": "ESFJ型",
+        "class": "tag-personality"
+      },
+      {
+        "text": "普拉提",
+        "class": "tag-hobby"
+      }
+    ],
+    "details": [
+      {
+        "icon": "fas fa-briefcase",
+        "text": "职业：三甲医院临床营养科营养师"
+      },
+      {
+        "icon": "fas fa-apple-alt",
+        "text": "专长：慢病营养支持、体重管理、孕期营养"
+      },
+      {
+        "icon": "fas fa-heartbeat",
+        "text": "爱好：普拉提、研究健康食谱、逛菜市场"
+      },
+      {
+        "icon": "fas fa-utensils",
+        "text": "生活：信奉“食物是最好的药物”，但不刻板"
+      }
+    ],
+    "quote": "我相信健康的身体是美好生活的基石。我能为患者制定科学的膳食方案，也希望能为我们的家注入健康和温暖的滋味。爱是分享，从分享一顿用心烹饪的营养餐开始。",
+    "detailUrl": "detail.html?id=041",
+    "icons": [
+      "fas fa-apple-alt",
+      "fas fa-heartbeat"
+    ],
+    "fullDetails": {
+      "tagline": "用专业守护健康，用美食滋养生活",
+      "aboutMe": [
+        "职业：三甲医院临床营养科营养师",
+        "教育：营养与食品卫生学硕士",
+        "专长：慢病营养支持、体重管理、孕期营养",
+        "爱好：普拉提、研究健康食谱、逛菜市场、看美食纪录片",
+        "性格：ESFJ型人格，乐于照顾他人，注重实际和和谐"
+      ],
+      "expectations": [
+        "年龄30-40岁，认同健康的生活方式",
+        "不排斥我研究“养生”食谱，愿意一起尝试",
+        "性格开朗，有家庭观念",
+        "对未来有规划，重视生活质量",
+        "长期在广州发展"
+      ],
+      "notImportant": [
+        "我的冰箱总是分门别类，食材丰富",
+        "周末喜欢去本地的农贸市场采购新鲜食材",
+        "会关注食品配料表，但并非强迫症",
+        "生活规律，坚持运动"
+      ],
+      "avoid": [
+        "饮食习惯极不健康且拒绝改变（如天天重油外卖）",
+        "认为我的专业是“小题大做”",
+        "对家庭生活毫无兴趣",
+        "缺乏共情能力"
+      ],
+      "togetherActivities": [
+        {
+          "icon": "fas fa-utensils",
+          "title": "厨房实验",
+          "description": "一起研发既美味又健康的家常菜"
+        },
+        {
+          "icon": "fas fa-shopping-cart",
+          "title": "市场寻鲜",
+          "description": "周末一起去逛菜市场，感受烟火气"
+        },
+        {
+          "icon": "fas fa-spa",
+          "title": "身心锻炼",
+          "description": "一起练习普拉提或瑜伽，放松身心"
+        }
+      ],
+      "contactInfo": {
+        "wechat": "nutrition_life_041",
+        "email": "nutrition041@example.com",
+        "phone": "138-1111-1121"
+      },
+      "travelPhotos": [
+        "https://images.unsplash.com/photo-1490818387583-1baba5e638af?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1540420828642-fca2c5c18abb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      ]
+    }
+  },
+  {
+    "id": "042",
+    "name": "在路上",
+    "age": 36,
+    "gender": "male",
+    "occupation": "旅行作家/摄影师",
+    "location": "成都 · 武侯",
+    "city": "chengdu",
+    "occupationType": "creative",
+    "headerClass": "creative-header",
+    "tags": [
+      {
+        "text": "旅行写作",
+        "class": "tag-creative"
+      },
+      {
+        "text": "纪实摄影",
+        "class": "tag-creative"
+      },
+      {
+        "text": "ENFP型",
+        "class": "tag-personality"
+      },
+      {
+        "text": "咖啡",
+        "class": "tag-hobby"
+      }
+    ],
+    "details": [
+      {
+        "icon": "fas fa-briefcase",
+        "text": "职业：自由职业，为杂志和旅行平台供稿"
+      },
+      {
+        "icon": "fas fa-plane",
+        "text": "足迹：深度游历过国内所有省份及30多个国家"
+      },
+      {
+        "icon": "fas fa-pen-nib",
+        "text": "爱好：收集各地明信片和邮票、手冲咖啡"
+      },
+      {
+        "icon": "fas fa-home",
+        "text": "生活：以成都为基地，每年有几个月在外旅行"
+      }
+    ],
+    "quote": "世界是一本书，不旅行的人只读了其中一页。我书写和拍摄远方的故事，也渴望一个能让我安心归来的港湾。希望你是那位既愿意听我讲述旅途奇遇，也乐意与我分享柴米油盐的读者。",
+    "detailUrl": "detail.html?id=042",
+    "icons": [
+      "fas fa-plane-departure",
+      "fas fa-camera-retro"
+    ],
+    "fullDetails": {
+      "tagline": "用脚步丈量世界，用文字定格时光",
+      "aboutMe": [
+        "职业：自由旅行作家、摄影师",
+        "经历：前媒体人，辞职后开始全职旅行创作",
+        "输出：为《国家地理》、《孤独星球》等媒体供稿，出版过两本旅行随笔",
+        "爱好：收集各地明信片和邮票、手冲咖啡、看老电影、逛独立书店",
+        "性格：ENFP型人格，热情好奇，适应力强，需要独处创作的时间"
+      ],
+      "expectations": [
+        "年龄30-40岁，心胸开阔，对世界有好奇心",
+        "能接受我阶段性的外出旅行（并非长期异地）",
+        "有独立精神，不黏人",
+        "喜欢阅读或艺术，能有精神层面的交流",
+        "base在成都，或愿意未来在此定居"
+      ],
+      "notImportant": [
+        "收入不稳定但足以支撑生活和旅行",
+        "家里有一面墙贴满了世界地图和旅行照片",
+        "行李箱总是处于半打包状态",
+        "聊天时故事和见闻比较多"
+      ],
+      "avoid": [
+        "认为旅行是“浪费钱”",
+        "需要时刻紧密联系的陪伴",
+        "对探索外部世界毫无兴趣",
+        "生活方式极其保守固化"
+      ],
+      "togetherActivities": [
+        {
+          "icon": "fas fa-map-marked-alt",
+          "title": "旅行规划",
+          "description": "一起研究目的地，规划下一次短途或长途旅行"
+        },
+        {
+          "icon": "fas fa-book-open",
+          "title": "阅读分享",
+          "description": "分享彼此读到的有趣书籍或文章"
+        },
+        {
+          "icon": "fas fa-mug-hot",
+          "title": "咖啡时光",
+          "description": "在成都的街头巷尾，探索好喝的独立咖啡馆"
+        }
+      ],
+      "contactInfo": {
+        "wechat": "on_the_road_042",
+        "email": "travelwriter042@example.com",
+        "phone": "139-1111-1121"
+      },
+      "travelPhotos": [
+        "https://images.unsplash.com/photo-1506929562872-bb421503ef21?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      ]
+    }
+  },
+  {
+    "id": "043",
+    "name": "精密之手",
+    "age": 35,
+    "gender": "male",
+    "occupation": "高级机械工程师",
+    "location": "沈阳 · 铁西",
+    "city": "shenyang",
+    "occupationType": "engineering",
+    "headerClass": "engineering-header",
+    "tags": [
+      {
+        "text": "非标自动化",
+        "class": "tag-engineering"
+      },
+      {
+        "text": "机械设计",
+        "class": "tag-engineering"
+      },
+      {
+        "text": "ISTJ型",
+        "class": "tag-personality"
+      },
+      {
+        "text": "模型涂装",
+        "class": "tag-hobby"
+      }
+    ],
+    "details": [
+      {
+        "icon": "fas fa-briefcase",
+        "text": "职业：重型装备制造企业研发部主管"
+      },
+      {
+        "icon": "fas fa-cogs",
+        "text": "专长：非标自动化设备设计、有限元分析"
+      },
+      {
+        "icon": "fas fa-paint-brush",
+        "text": "爱好：军事模型制作与涂装、钓鱼、看历史纪录片"
+      },
+      {
+        "icon": "fas fa-home",
+        "text": "生活：性格沉稳，动手能力强，喜欢研究工具"
+      }
+    ],
+    "quote": "图纸上的每一条线，车间的每一个零件，都需要绝对的精确。我对工作如此，对生活亦追求踏实和可靠。希望能遇到一位同样重视承诺、愿意一起经营稳定家庭的女士。",
+    "detailUrl": "detail.html?id=043",
+    "icons": [
+      "fas fa-tools",
+      "fas fa-ruler-combined"
+    ],
+    "fullDetails": {
+      "tagline": "用图纸构筑工业脊梁，以匠心守护家庭温暖",
+      "aboutMe": [
+        "职业：重型装备制造企业研发部主管",
+        "教育：机械工程硕士，高级工程师职称",
+        "专长：非标自动化设备设计、有限元分析、振动控制",
+        "爱好：军事模型制作与涂装、钓鱼、看历史纪录片、DIY家居维修",
+        "性格：ISTJ型人格，责任感强，务实低调，略显慢热但很可靠"
+      ],
+      "expectations": [
+        "年龄30-38岁，情绪稳定，善良顾家",
+        "理解制造业工程师的工作节奏（项目期会忙）",
+        "对物质要求适中，更看重人的品质和家庭的稳定",
+        "愿意在东北生活或对沈阳不排斥",
+        "对未来有共同的规划和执行力"
+      ],
+      "notImportant": [
+        "书房里有个工作台，摆满了模型和工具",
+        "衣柜里工装和休闲服居多，少有正装",
+        "喜欢研究各种工具和小家电的原理",
+        "周末喜欢去湖边钓鱼，享受安静"
+      ],
+      "avoid": [
+        "虚荣心强，过度追求奢侈品和攀比",
+        "无法接受我有时需要下车间跟项目",
+        "沟通习惯冷暴力或极度情绪化",
+        "对家庭和未来毫无责任心"
+      ],
+      "togetherActivities": [
+        {
+          "icon": "fas fa-fish",
+          "title": "湖畔垂钓",
+          "description": "周末一起去郊区钓鱼，享受宁静的户外时光"
+        },
+        {
+          "icon": "fas fa-tv",
+          "title": "纪录片之夜",
+          "description": "一起看工程奇迹或历史类的纪录片"
+        },
+        {
+          "icon": "fas fa-hammer",
+          "title": "家居改造",
+          "description": "一起动手，完成一些家里的DIY小改造项目"
+        }
+      ],
+      "contactInfo": {
+        "wechat": "precision_hand_043",
+        "email": "engineer043@example.com",
+        "phone": "136-1111-1121"
+      },
+      "travelPhotos": [
+        "https://images.unsplash.com/photo-1501854140801-50d01698950b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1518837695005-2083093ee35b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1589256469067-ea99122bbdc4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      ]
+    }
+  },
+  {
+    "id": "044",
+    "name": "布料诗人",
+    "age": 32,
+    "gender": "female",
+    "occupation": "独立服装设计师",
+    "location": "上海 · 长宁",
+    "city": "shanghai",
+    "occupationType": "creative",
+    "headerClass": "creative-header",
+    "tags": [
+      {
+        "text": "服装设计",
+        "class": "tag-creative"
+      },
+      {
+        "text": "可持续时尚",
+        "class": "tag-creative"
+      },
+      {
+        "text": "INFP型",
+        "class": "tag-personality"
+      },
+      {
+        "text": "Vintage",
+        "class": "tag-hobby"
+      }
+    ],
+    "details": [
+      {
+        "icon": "fas fa-briefcase",
+        "text": "职业：个人工作室主理人，有小众买手店合作"
+      },
+      {
+        "icon": "fas fa-tshirt",
+        "text": "风格：简约、注重面料和剪裁，常使用环保材料"
+      },
+      {
+        "icon": "fas fa-history",
+        "text": "爱好：逛古董市场淘Vintage衣物、看艺术展、插花"
+      },
+      {
+        "icon": "fas fa-heart",
+        "text": "理念：设计是为了更好地表达自我和舒适生活"
+      }
+    ],
+    "quote": "布料有它的语言，剪裁是它的韵律。我设计能陪伴人很久的衣服，也期待一份能经得起时间沉淀的感情。比起喧嚣，我更爱工作室里布料摩擦的沙沙声，和有人等我回家的灯光。",
+    "detailUrl": "detail.html?id=044",
+    "icons": [
+      "fas fa-cut",
+      "fas fa-leaf"
+    ],
+    "fullDetails": {
+      "tagline": "为身体设计衣服，为心灵寻找归宿",
+      "aboutMe": [
+        "职业：独立服装设计师，个人工作室主理人",
+        "教育：服装设计专业，曾在伦敦进修",
+        "风格：简约、注重面料和剪裁，探索可持续时尚",
+        "爱好：逛古董市场淘Vintage衣物、看艺术展、插花、电影马拉松",
+        "性格：INFP型人格，审美独特，内心世界丰富，需要大量独处创作时间"
+      ],
+      "expectations": [
+        "年龄30-42岁，尊重且欣赏创意工作",
+        "有自己的审美和品味，不随波逐流",
+        "能理解我创作期的“闭关”状态",
+        "注重精神交流，能聊艺术、文学和哲学",
+        "长期在上海发展"
+      ],
+      "notImportant": [
+        "工作室和家有时会“不分彼此”，略显凌乱",
+        "穿衣风格以黑白灰和大地色系为主",
+        "对布料材质和工艺有近乎偏执的讲究",
+        "社交圈小而精，不喜欢无效社交"
+      ],
+      "avoid": [
+        "认为设计是“裁缝”，不理解其价值",
+        "喜欢快消品和过度追逐潮流",
+        "无法给予彼此独立的空间",
+        "生活完全缺乏美感和仪式感"
+      ],
+      "togetherActivities": [
+        {
+          "icon": "fas fa-binoculars",
+          "title": "灵感搜集",
+          "description": "一起逛美术馆、博物馆或老建筑区"
+        },
+        {
+          "icon": "fas fa-store",
+          "title": "市场寻宝",
+          "description": "去布料市场或古董市集淘选有趣的材料和物件"
+        },
+        {
+          "icon": "fas fa-film",
+          "title": "观影会",
+          "description": "在家里看一部画面精美的经典老电影"
+        }
+      ],
+      "contactInfo": {
+        "wechat": "fabric_poet_044",
+        "email": "designer044@example.com",
+        "phone": "137-1111-1122"
+      },
+      "travelPhotos": [
+        "https://images.unsplash.com/photo-1445205170230-053b83016050?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      ]
+    }
+  },
+  {
+    "id": "045",
+    "name": "大地之子",
+    "age": 37,
+    "gender": "male",
+    "occupation": "生态农场主",
+    "location": "昆明 · 近郊",
+    "city": "kunming",
+    "occupationType": "agriculture",
+    "headerClass": "agriculture-header",
+    "tags": [
+      {
+        "text": "有机农业",
+        "class": "tag-agriculture"
+      },
+      {
+        "text": "朴门永续",
+        "class": "tag-agriculture"
+      },
+      {
+        "text": "ISFP型",
+        "class": "tag-personality"
+      },
+      {
+        "text": "木工",
+        "class": "tag-hobby"
+      }
+    ],
+    "details": [
+      {
+        "icon": "fas fa-briefcase",
+        "text": "职业：经营一个30亩的有机生态农场"
+      },
+      {
+        "icon": "fas fa-tractor",
+        "text": "产品：季节性蔬菜、散养鸡鸭、手工农产品"
+      },
+      {
+        "icon": "fas fa-hammer",
+        "text": "爱好：木工（为自己做家具）、登山、观鸟"
+      },
+      {
+        "icon": "fas fa-seedling",
+        "text": "理念：遵循自然规律，与土地和谐共处"
+      }
+    ],
+    "quote": "我从大都市的格子间逃回土地，找到了真正的踏实。双手沾满泥土，心里却无比清澈。希望找到一位不嫌弃田园清苦，能一起看种子发芽、等果子成熟，享受简单丰盛生活的伴侣。",
+    "detailUrl": "detail.html?id=045",
+    "icons": [
+      "fas fa-seedling",
+      "fas fa-sun"
+    ],
+    "fullDetails": {
+      "tagline": "回归土地，重建与自然的连接",
+      "aboutMe": [
+        "职业：经营一个30亩的有机生态农场",
+        "经历：前互联网从业者，六年前转型务农",
+        "产品：季节性蔬菜、散养鸡鸭、手工果酱、发酵食品",
+        "爱好：木工（为自己做家具）、登山、观鸟、阅读农耕哲学",
+        "性格：ISFP型人格，务实，热爱自然和手工，话不多但真诚"
+      ],
+      "expectations": [
+        "年龄30-40岁，内心向往自然与宁静",
+        "不排斥体力劳动，愿意体验田园生活",
+        "对食品安全和健康生活方式有要求",
+        "性格踏实，不浮躁，能享受慢节奏",
+        "base在昆明或愿意在云南生活"
+      ],
+      "notImportant": [
+        "收入受季节和天气影响，但自给自足略有盈余",
+        "皮肤晒得比较黑，双手有老茧",
+        "住在农场自建的房子里，生活设施简单但齐全",
+        "社交简单，朋友多是农友和邻居"
+      ],
+      "avoid": [
+        "极度依赖城市便利和夜生活",
+        "认为务农是“没出息”的工作",
+        "洁癖严重，无法接受泥土和昆虫",
+        "追求奢侈品牌和虚荣消费"
+      ],
+      "togetherActivities": [
+        {
+          "icon": "fas fa-utensils",
+          "title": "从农场到餐桌",
+          "description": "一起采摘当季蔬菜，烹饪一顿原汁原味的晚餐"
+        },
+        {
+          "icon": "fas fa-hiking",
+          "title": "山野漫步",
+          "description": "在农场周边的山林里徒步，识别植物和鸟类"
+        },
+        {
+          "icon": "fas fa-tools",
+          "title": "手工创作",
+          "description": "一起做个木工小物件，或者学习制作陶器"
+        }
+      ],
+      "contactInfo": {
+        "wechat": "son_of_earth_045",
+        "email": "farmer045@example.com",
+        "phone": "138-1111-1122"
+      },
+      "travelPhotos": [
+        "https://images.unsplash.com/photo-1500382017468-9049fed747ef?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1501854140801-50d01698950b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1589256469067-ea99122bbdc4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      ]
+    }
+  },
+  {
+    "id": "046",
+    "name": "资本交响师",
+    "age": 38,
+    "gender": "male",
+    "occupation": "投资银行董事总经理",
+    "location": "香港 · 中环",
+    "city": "hongkong",
+    "occupationType": "finance",
+    "headerClass": "finance-header",
+    "tags": [
+      {
+        "text": "并购融资",
+        "class": "tag-finance"
+      },
+      {
+        "text": "国际象棋",
+        "class": "tag-hobby"
+      },
+      {
+        "text": "ENTJ型",
+        "class": "tag-personality"
+      },
+      {
+        "text": "雪茄鉴赏",
+        "class": "tag-hobby"
+      }
+    ],
+    "details": [
+      {
+        "icon": "fas fa-briefcase",
+        "text": "职业：国际投行大中华区董事总经理"
+      },
+      {
+        "icon": "fas fa-handshake",
+        "text": "专长：跨境并购、企业IPO、战略融资"
+      },
+      {
+        "icon": "fas fa-chess-king",
+        "text": "爱好：国际象棋、古典乐、高尔夫"
+      },
+      {
+        "icon": "fas fa-globe-asia",
+        "text": "经历：常穿梭于北京、上海、纽约、伦敦"
+      }
+    ],
+    "quote": "在资本的棋盘上运筹帷幄，在生活的乐章中寻找和声。我擅长为企业规划宏图，也期待为两人世界谱写温暖的旋律。理性是职业素养，感性是生活本色。",
+    "detailUrl": "detail.html?id=046",
+    "icons": [
+      "fas fa-chart-line",
+      "fas fa-handshake"
+    ],
+    "fullDetails": {
+      "tagline": "于资本洪流中洞察先机，在平凡烟火里安放真心",
+      "aboutMe": [
+        "职业：国际投行大中华区董事总经理",
+        "教育：常春藤商学院MBA，CFA持证人",
+        "专长：跨境并购、企业IPO、战略融资",
+        "爱好：国际象棋、古典乐、高尔夫、阅读历史与传记",
+        "性格：ENTJ型人格，战略视野广阔，决策果断，欣赏势均力敌的伴侣"
+      ],
+      "expectations": [
+        "年龄30-40岁，独立自信，有国际视野",
+        "理解并尊重金融行业的高压与频繁差旅",
+        "有自己的事业或专注的领域，精神世界丰富",
+        "注重生活品质与精神交流",
+        "base在香港或一线城市，可接受频繁往来"
+      ],
+      "notImportant": [
+        "工作需要随时响应全球市场，作息有时不规律",
+        "对金融、经济话题有天然的兴趣",
+        "享受偶尔的高尔夫球局或雪茄时光作为放松",
+        "衣柜里西装占比高，但私下偏爱舒适休闲"
+      ],
+      "avoid": [
+        "对事业毫无追求或完全依赖他人",
+        "无法接受高频出差和不定时的工作沟通",
+        "消费观虚荣且无限度",
+        "缺乏基本的国际礼仪和社交常识"
+      ],
+      "togetherActivities": [
+        {
+          "icon": "fas fa-music",
+          "title": "音乐之夜",
+          "description": "一起聆听交响乐或室内乐现场"
+        },
+        {
+          "icon": "fas fa-utensils",
+          "title": "味觉探索",
+          "description": "探访隐藏在城市中的精致餐厅或私房菜"
+        },
+        {
+          "icon": "fas fa-book",
+          "title": "深度对话",
+          "description": "就历史、商业或社会议题进行深入探讨"
+        }
+      ],
+      "contactInfo": {
+        "wechat": "capital_conductor_046",
+        "email": "banking046@example.com",
+        "phone": "137-1111-1123"
+      },
+      "travelPhotos": [
+        "https://images.unsplash.com/photo-1537724326059-2ea20251b9c8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      ]
+    }
+  },
+  {
+    "id": "047",
+    "name": "时空对话者",
+    "age": 35,
+    "gender": "female",
+    "occupation": "考古研究所研究员",
+    "location": "郑州 · 中原",
+    "city": "zhengzhou",
+    "occupationType": "science",
+    "headerClass": "science-header",
+    "tags": [
+      {
+        "text": "田野考古",
+        "class": "tag-science"
+      },
+      {
+        "text": "古文字",
+        "class": "tag-science"
+      },
+      {
+        "text": "INFJ型",
+        "class": "tag-personality"
+      },
+      {
+        "text": "书法",
+        "class": "tag-hobby"
+      }
+    ],
+    "details": [
+      {
+        "icon": "fas fa-briefcase",
+        "text": "职业：省考古研究院副研究员，项目领队"
+      },
+      {
+        "icon": "fas fa-history",
+        "text": "方向：夏商周考古、出土文献释读"
+      },
+      {
+        "icon": "fas fa-feather-alt",
+        "text": "爱好：书法（小篆）、古琴、茶艺"
+      },
+      {
+        "icon": "fas fa-landmark",
+        "text": "生活：沉静于往昔，亦珍视当下烟火"
+      }
+    ],
+    "quote": "我的手能拂去千年尘土，让器物重现光芒；我的心渴望一份同样经得起时间打磨的感情。与古人神交需要耐得住寂寞，而与今人相守，需要的是共鸣与温暖。",
+    "detailUrl": "detail.html?id=047",
+    "icons": [
+      "fas fa-shovel",
+      "fas fa-scroll"
+    ],
+    "fullDetails": {
+      "tagline": "向下挖掘历史深度，向上构筑生活温度",
+      "aboutMe": [
+        "职业：省考古研究院副研究员，项目领队",
+        "教育：考古学博士，主攻夏商周时期",
+        "方向：田野考古、出土文献释读、文物保护",
+        "爱好：书法（小篆）、古琴、茶艺、徒步",
+        "性格：INFJ型人格，沉静内敛，富有同理心，喜爱深度思考"
+      ],
+      "expectations": [
+        "年龄32-42岁，性情温和，有耐心",
+        "尊重我的专业，对历史文化有一定兴趣或敬畏",
+        "能享受安静的共处时光，不浮躁",
+        "支持我偶尔长时间的野外考古工作",
+        "长期在河南或周边发展"
+      ],
+      "notImportant": [
+        "每年有数月时间在考古工地上，风吹日晒",
+        "书房像个小型资料库，堆满书籍和拓片",
+        "对古代艺术品和传统手工艺有特殊情感",
+        "生活节奏慢，喜欢有仪式感的小事"
+      ],
+      "avoid": [
+        "认为考古是“挖坟掘墓”，缺乏基本尊重",
+        "需要伴侣时刻提供高情绪价值或频繁社交",
+        "生活完全现代化，排斥一切传统元素",
+        "缺乏对知识的敬畏和好奇心"
+      ],
+      "togetherActivities": [
+        {
+          "icon": "fas fa-landmark",
+          "title": "博物馆之旅",
+          "description": "一起去博物馆，我可以为你做专属讲解"
+        },
+        {
+          "icon": "fas fa-paint-brush",
+          "title": "笔墨时光",
+          "description": "周末一起练习书法，感受笔墨之趣"
+        },
+        {
+          "icon": "fas fa-hiking",
+          "title": "古迹寻访",
+          "description": "探访周边的古迹或历史文化街区"
+        }
+      ],
+      "contactInfo": {
+        "wechat": "time_dialogue_047",
+        "email": "archaeology047@example.com",
+        "phone": "138-1111-1123"
+      },
+      "travelPhotos": [
+        "https://images.unsplash.com/photo-1548013146-72479768bada?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1527161153332-99adcc6f2966?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1534068731685-77946f5e6e6f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      ]
+    }
+  },
+  {
+    "id": "048",
+    "name": "质量守门员",
+    "age": 30,
+    "gender": "male",
+    "occupation": "软件测试专家",
+    "location": "武汉 · 光谷",
+    "city": "wuhan",
+    "occupationType": "tech",
+    "headerClass": "tech-header",
+    "tags": [
+      {
+        "text": "自动化测试",
+        "class": "tag-tech"
+      },
+      {
+        "text": "围棋",
+        "class": "tag-hobby"
+      },
+      {
+        "text": "ISTJ型",
+        "class": "tag-personality"
+      },
+      {
+        "text": "模型制作",
+        "class": "tag-hobby"
+      }
+    ],
+    "details": [
+      {
+        "icon": "fas fa-briefcase",
+        "text": "职业：互联网大厂测试开发工程师"
+      },
+      {
+        "icon": "fas fa-bug",
+        "text": "专长：自动化测试框架搭建、性能测试"
+      },
+      {
+        "icon": "fas fa-chess-board",
+        "text": "爱好：围棋、拼装复杂模型、看悬疑剧"
+      },
+      {
+        "icon": "fas fa-check-double",
+        "text": "理念：我的工作是让产品更好，让用户更安心"
+      }
+    ],
+    "quote": "我善于在完美的表象下发现潜在的缺陷，这份细致和耐心同样适用于经营感情。不追求波澜壮阔，但求稳定可靠，像一段经过充分测试的优质代码，运行平稳，少有Bug。",
+    "detailUrl": "detail.html?id=048",
+    "icons": [
+      "fas fa-vial",
+      "fas fa-search"
+    ],
+    "fullDetails": {
+      "tagline": "在虚拟世界追求零缺陷，在现实生活构建高可靠",
+      "aboutMe": [
+        "职业：互联网大厂测试开发工程师",
+        "教育：计算机本科，ISTQB认证测试工程师",
+        "专长：自动化测试框架搭建、性能测试、安全测试",
+        "爱好：围棋、拼装复杂模型（机甲/建筑）、看悬疑剧、研究数码产品",
+        "性格：ISTJ型人格，极度负责，注重细节和规则，略显慢热但踏实可靠"
+      ],
+      "expectations": [
+        "年龄26-34岁，情绪稳定，沟通顺畅",
+        "理解互联网行业的节奏，能接受我项目上线前的忙碌",
+        "生活有基本条理，不混乱",
+        "对未来有务实的规划和执行力",
+        "长期在武汉发展"
+      ],
+      "notImportant": [
+        "对电子产品的选购和使用有较多研究",
+        "家里有一个展示模型的玻璃柜",
+        "喜欢有计划、有预期的生活，讨厌突然袭击",
+        "聊天时可能会有点“直男思维”，但愿意学习"
+      ],
+      "avoid": [
+        "做事毫无计划，生活一团混乱",
+        "沟通习惯冷暴力或极度情绪化",
+        "认为测试工作“技术含量低”",
+        "对未来没有任何想法和规划"
+      ],
+      "togetherActivities": [
+        {
+          "icon": "fas fa-chess-board",
+          "title": "棋局对弈",
+          "description": "一起下围棋或其它棋类，锻炼思维"
+        },
+        {
+          "icon": "fas fa-puzzle-piece",
+          "title": "模型时光",
+          "description": "合作完成一个复杂的拼装模型"
+        },
+        {
+          "icon": "fas fa-film",
+          "title": "追剧分析",
+          "description": "一起看悬疑剧，比赛谁先猜到真相"
+        }
+      ],
+      "contactInfo": {
+        "wechat": "quality_gatekeeper_048",
+        "email": "qa048@example.com",
+        "phone": "139-1111-1123"
+      },
+      "travelPhotos": [
+        "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1589256469067-ea99122bbdc4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      ]
+    }
+  },
+  {
+    "id": "049",
+    "name": "童心绘梦师",
+    "age": 28,
+    "gender": "female",
+    "occupation": "儿童绘本作者/插画师",
+    "location": "厦门 · 思明",
+    "city": "xiamen",
+    "occupationType": "creative",
+    "headerClass": "creative-header",
+    "tags": [
+      {
+        "text": "绘本创作",
+        "class": "tag-creative"
+      },
+      {
+        "text": "水彩",
+        "class": "tag-art"
+      },
+      {
+        "text": "ENFP型",
+        "class": "tag-personality"
+      },
+      {
+        "text": "撸猫",
+        "class": "tag-hobby"
+      }
+    ],
+    "details": [
+      {
+        "icon": "fas fa-briefcase",
+        "text": "职业：自由职业，已出版多部畅销绘本"
+      },
+      {
+        "icon": "fas fa-paint-brush",
+        "text": "风格：温暖治愈，色彩明亮，充满奇思妙想"
+      },
+      {
+        "icon": "fas fa-cat",
+        "text": "爱好：养猫（两只）、逛公园、收集玩具"
+      },
+      {
+        "icon": "fas fa-heart",
+        "text": "理念：为孩子们造梦，也守护自己内心的童话"
+      }
+    ],
+    "quote": "我的画笔下有会说话的星星和怕黑的小怪物。我相信成年人也需要童话，来对抗世界的复杂。希望找到一位内心保有纯真角落，能看懂我画里故事，也能和我一起经营简单快乐生活的大朋友。",
+    "detailUrl": "detail.html?id=049",
+    "icons": [
+      "fas fa-book-open",
+      "fas fa-palette"
+    ],
+    "fullDetails": {
+      "tagline": "为世界画上温柔颜色，为生活注入童话糖分",
+      "aboutMe": [
+        "职业：自由儿童绘本作者/插画师",
+        "教育: 美术学院绘本创作专业",
+        "作品: 出版多部畅销绘本，作品被翻译成数种语言",
+        "爱好: 养猫、逛公园和植物园、收集古董玩具和可爱文具、看动画电影",
+        "性格: ENFP型人格，活泼开朗，想象力天马行空，充满热情，有点小迷糊"
+      ],
+      "expectations": [
+        "年龄27-35岁，性格开朗，有幽默感",
+        "尊重自由职业，欣赏创意工作",
+        "喜欢小动物（至少不讨厌我的猫）",
+        "内心柔软，能感知生活中的小美好",
+        "base在厦门或喜欢海滨城市生活"
+      ],
+      "notImportant": [
+        "收入有波动但稳定增长，工作室和家融为一体",
+        "生活空间有点乱，但乱中有序（自认为）",
+        "对卡通形象和可爱事物毫无抵抗力",
+        "作息不太规律，灵感来了会熬夜画稿"
+      ],
+      "avoid": [
+        "认为画儿童画“幼稚”、“没前途”",
+        "生活极其严肃刻板，毫无情趣",
+        "讨厌动物或对毛发过敏",
+        "过于现实功利，无法进行幻想对话"
+      ],
+      "togetherActivities": [
+        {
+          "icon": "fas fa-paint-brush",
+          "title": "即兴涂鸦",
+          "description": "随便找本子一起乱画，或者玩你画我猜"
+        },
+        {
+          "icon": "fas fa-paw",
+          "title": "喵星人时间",
+          "description": "一起给猫梳毛、拍照，或者去猫咖"
+        },
+        {
+          "icon": "fas fa-film",
+          "title": "动画之夜",
+          "description": "看宫崎骏或皮克斯的动画电影，分享感动"
+        }
+      ],
+      "contactInfo": {
+        "wechat": "childlike_dreamer_049",
+        "email": "illustrator049@example.com",
+        "phone": "136-1111-1123"
+      },
+      "travelPhotos": [
+        "https://images.unsplash.com/photo-1518837695005-2083093ee35b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      ]
+    }
+  },
+  {
+    "id": "050",
+    "name": "组织催化剂",
+    "age": 36,
+    "gender": "female",
+    "occupation": "集团人力资源总监",
+    "location": "北京 · 国贸",
+    "city": "beijing",
+    "occupationType": "business",
+    "headerClass": "business-header",
+    "tags": [
+      {
+        "text": "组织发展",
+        "class": "tag-business"
+      },
+      {
+        "text": "人才战略",
+        "class": "tag-business"
+      },
+      {
+        "text": "ENFJ型",
+        "class": "tag-personality"
+      },
+      {
+        "text": "瑜伽",
+        "class": "tag-hobby"
+      }
+    ],
+    "details": [
+      {
+        "icon": "fas fa-briefcase",
+        "text": "职业：跨国集团中国区人力资源总监"
+      },
+      {
+        "icon": "fas fa-users",
+        "text": "专长：企业文化建设、高管招募、人才发展体系"
+      },
+      {
+        "icon": "fas fa-spa",
+        "text": "爱好：阿斯汤加瑜伽、心理学、戏剧工作坊"
+      },
+      {
+        "icon": "fas fa-comments",
+        "text": "生活：善于倾听与沟通，追求工作与生活的动态平衡"
+      }
+    ],
+    "quote": "我帮助成千上万的人找到职业坐标，也帮助组织激发潜能。而我个人生活的“组织发展”，是找到一位价值观同频、能彼此激发成长潜能的合伙人。我们互为对方的“最佳雇主”与“最佳雇员”。",
+    "detailUrl": "detail.html?id=050",
+    "icons": [
+      "fas fa-user-tie",
+      "fas fa-brain"
+    ],
+    "fullDetails": {
+      "tagline": "洞察人性，赋能组织，经营幸福",
+      "aboutMe": [
+        "职业：跨国集团中国区人力资源总监",
+        "教育: 人力资源管理硕士，心理咨询师背景",
+        "专长: 组织发展、企业文化、人才战略、领导力培养",
+        "爱好: 阿斯汤加瑜伽、阅读心理学和社会学书籍、参与即兴戏剧",
+        "性格: ENFJ型人格，富有同理心和领导力，善于激励他人，追求和谐与成长"
+      ],
+      "expectations": [
+        "年龄34-45岁，成熟稳重，情绪智商高",
+        "有自己的事业深度和人生见解",
+        "重视沟通，愿意共同经营情感账户",
+        "支持彼此的职业发展和个人成长",
+        "长期在北京发展"
+      ],
+      "notImportant": [
+        "工作需要大量与人打交道，社交能量消耗大，回家需要安静",
+        "对人的行为动机有职业性的观察和分析习惯",
+        "坚持规律的瑜伽练习来保持身心平衡",
+        "喜欢组织朋友间有深度的小型聚会"
+      ],
+      "avoid": [
+        "沟通方式简单粗暴，拒绝深度交流",
+        "大男子主义或认为家庭角色固化",
+        "对个人成长毫无兴趣，安于现状",
+        "无法理解和支持我的事业追求"
+      ],
+      "togetherActivities": [
+        {
+          "icon": "fas fa-spa",
+          "title": "身心练习",
+          "description": "一起去上瑜伽课，或者在家一起冥想、拉伸"
+        },
+        {
+          "icon": "fas fa-book",
+          "title": "思想碰撞",
+          "description": "分享读到的好书或观点，进行深度讨论"
+        },
+        {
+          "icon": "fas fa-utensils",
+          "title": "家宴时光",
+          "description": "邀请三五好友到家中小聚，亲自下厨或一起准备"
+        }
+      ],
+      "contactInfo": {
+        "wechat": "org_catalyst_050",
+        "email": "hrdirector050@example.com",
+        "phone": "137-1111-1124"
+      },
+      "travelPhotos": [
+        "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      ]
+    }
+  },
+  {
+    "id": "051",
+    "name": "自然引路人",
+    "age": 33,
+    "gender": "male",
+    "occupation": "生态旅游向导/自然教育讲师",
+    "location": "昆明 · 盘龙",
+    "city": "kunming",
+    "occupationType": "outdoor",
+    "headerClass": "outdoor-header",
+    "tags": [
+      {
+        "text": "生态导览",
+        "class": "tag-outdoor"
+      },
+      {
+        "text": "鸟类观察",
+        "class": "tag-science"
+      },
+      {
+        "text": "ISFP型",
+        "class": "tag-personality"
+      },
+      {
+        "text": "徒步",
+        "class": "tag-hobby"
+      }
+    ],
+    "details": [
+      {
+        "icon": "fas fa-briefcase",
+        "text": "职业：自由职业，与保护区、学校合作开展自然教育"
+      },
+      {
+        "icon": "fas fa-binoculars",
+        "text": "专长：西南地区鸟类与植物识别、野外生存技能"
+      },
+      {
+        "icon": "fas fa-hiking",
+        "text": "爱好：长途徒步、户外摄影、手工制作户外用具"
+      },
+      {
+        "icon": "fas fa-leaf",
+        "text": "理念：带领人们走进自然，是为了让自然走进人心"
+      }
+    ],
+    "quote": "我不是在荒野，就是在去荒野的路上。大山和森林是我的办公室，鸟鸣和溪流是我的背景音乐。寻找一位不惧怕山路崎岖、愿意和我一起倾听自然密语，并分享营地篝火的旅伴。",
+    "detailUrl": "detail.html?id=051",
+    "icons": [
+      "fas fa-tree",
+      "fas fa-map-signs"
+    ],
+    "fullDetails": {
+      "tagline": "连接城市与荒野，传递敬畏与热爱",
+      "aboutMe": [
+        "职业：生态旅游向导、自然教育讲师",
+        "背景：生态学专业，拥有野外急救、登山向导等资质",
+        "专长：西南地区鸟类与植物识别、生态摄影、野外课程设计",
+        "爱好：长途徒步、户外摄影、手工制作户外用具（如羽毛笔、木勺）、阅读探险文学",
+        "性格：ISFP型人格，安静务实，动手能力强，热爱自由，在自然中最自在"
+      ],
+      "expectations": [
+        "年龄28-38岁，身体健康，热爱或愿意接触大自然",
+        "不娇气，能接受基本的野外条件和户外活动",
+        "对环境保护有基本认同",
+        "性格独立，能享受安静，也能分享快乐",
+        "base在云南或接受旅居生活"
+      ],
+      "notImportant": [
+        "收入随季节和项目浮动，但足够支撑喜欢的生活",
+        "皮肤黝黑，装备专业但穿着朴素",
+        "大部分时间都在户外，可能信号不好",
+        "社交简单，朋友多是户外圈和自然保护领域的"
+      ],
+      "avoid": [
+        "极度依赖城市便利，排斥一切户外活动",
+        "有洁癖，无法接受住帐篷或身上沾土",
+        "认为我的工作是“不务正业地玩”",
+        "需要时刻保持联系和密集的言语交流"
+      ],
+      "togetherActivities": [
+        {
+          "icon": "fas fa-hiking",
+          "title": "轻量徒步",
+          "description": "带你走我私藏的秘密小路，认识沿途的花草鸟兽"
+        },
+        {
+          "icon": "fas fa-campground",
+          "title": "星空露营",
+          "description": "在安全的营地搭帐篷，看星星，聊聊天"
+        },
+        {
+          "icon": "fas fa-camera",
+          "title": "自然摄影",
+          "description": "教你用手机或相机捕捉自然微观世界的美"
+        }
+      ],
+      "contactInfo": {
+        "wechat": "nature_guide_051",
+        "email": "ecotour051@example.com",
+        "phone": "138-1111-1124"
+      },
+      "travelPhotos": [
+        "https://images.unsplash.com/photo-1501555088652-021faa106b9b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1534088568595-a066f410bcda?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      ]
+    }
+  },
+  {
+    "id": "052",
+    "name": "金融棋手",
+    "age": 39,
+    "gender": "male",
+    "occupation": "私募股权基金合伙人",
+    "location": "上海 · 浦东",
+    "city": "shanghai",
+    "occupationType": "finance",
+    "headerClass": "finance-header",
+    "tags": [
+      {
+        "text": "私募投资",
+        "class": "tag-finance"
+      },
+      {
+        "text": "战略围棋",
+        "class": "tag-hobby"
+      },
+      {
+        "text": "INTJ型",
+        "class": "tag-personality"
+      },
+      {
+        "text": "古典音乐",
+        "class": "tag-hobby"
+      }
+    ],
+    "details": [
+      {
+        "icon": "fas fa-briefcase",
+        "text": "职业：专注科技领域的PE基金创始合伙人"
+      },
+      {
+        "icon": "fas fa-chess",
+        "text": "理念：投资如对弈，需长远布局与精准落子"
+      },
+      {
+        "icon": "fas fa-music",
+        "text": "爱好：围棋（业余5段）、古典音乐鉴赏、阅读"
+      },
+      {
+        "icon": "fas fa-chart-network",
+        "text": "生活：理性决策者，但坚信生活需要感性的滋养"
+      }
+    ],
+    "quote": "在资本的棋盘上，我寻找价值洼地，进行长远布局。在人生的对局中，我寻找一位能与我并肩而坐，既欣赏中盘的激烈搏杀，也懂得收官阶段细腻美好的灵魂伴侣。",
+    "detailUrl": "detail.html?id=052",
+    "icons": [
+      "fas fa-chess-board",
+      "fas fa-search-dollar"
+    ],
+    "fullDetails": {
+      "tagline": "弈资本，品人生",
+      "aboutMe": [
+        "职业：专注科技领域的私募股权基金创始合伙人",
+        "教育: 顶级商学院MBA，理工科与金融复合背景",
+        "经历: 拥有从投行到投资的完整履历，成功主导多个明星项目退出",
+        "爱好: 围棋（业余5段）、古典音乐（偏爱巴赫与勃拉姆斯）、深度阅读（历史、哲学、科幻）",
+        "性格: INTJ型人格，深度思考者，追求系统性完美，对亲密的人会流露罕见的温和与幽默"
+      ],
+      "expectations": [
+        "年龄32-42岁，聪慧，有独立思考能力",
+        "理解并尊重投资工作的压力与周期性忙碌",
+        "有自己专注的领域或深刻的精神世界",
+        "情绪稳定，善于进行深度、理性的交流",
+        "长期在上海或主要一线城市发展"
+      ],
+      "notImportant": [
+        "工作需要高度集中和大量研究，私人时间宝贵",
+        "对商业趋势和科技创新有持续的敏感度",
+        "在音乐厅或书房能获得最深的放松",
+        "生活品质要求高，但厌恶无意义的炫耀"
+      ],
+      "avoid": [
+        "思维肤浅，仅对物质和消费感兴趣",
+        "需要持续高强度的情绪安抚和陪伴",
+        "无法理解长期主义价值观",
+        "在关系和生活中缺乏边界感"
+      ],
+      "togetherActivities": [
+        {
+          "icon": "fas fa-chess-board",
+          "title": "棋逢对手",
+          "description": "手谈一局，在黑白世界中切磋思维"
+        },
+        {
+          "icon": "fas fa-music",
+          "title": "音乐共鸣",
+          "description": "一起听一场高质量的音乐会，或在家分享私藏唱片"
+        },
+        {
+          "icon": "fas fa-book",
+          "title": "思想漫步",
+          "description": "分享最近读到的震撼观点，进行一场精神漫游"
+        }
+      ],
+      "contactInfo": {
+        "wechat": "finance_player_052",
+        "email": "pepartner052@example.com",
+        "phone": "137-1111-1125"
+      },
+      "travelPhotos": [
+        "https://images.unsplash.com/photo-1542744095-fcf48d80b0fd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      ]
+    }
+  },
+  {
+    "id": "053",
+    "name": "未来考古学家",
+    "age": 31,
+    "gender": "female",
+    "occupation": "科技史研究者/科幻作家",
+    "location": "南京 · 仙林",
+    "city": "nanjing",
+    "occupationType": "creative",
+    "headerClass": "creative-header",
+    "tags": [
+      {
+        "text": "科技史",
+        "class": "tag-science"
+      },
+      {
+        "text": "科幻创作",
+        "class": "tag-creative"
+      },
+      {
+        "text": "INTP型",
+        "class": "tag-personality"
+      },
+      {
+        "text": "观星",
+        "class": "tag-hobby"
+      }
+    ],
+    "details": [
+      {
+        "icon": "fas fa-briefcase",
+        "text": "职业：大学科技史研究所助理研究员，兼职写作"
+      },
+      {
+        "icon": "fas fa-robot",
+        "text": "方向：人工智能伦理史、技术与社会变迁"
+      },
+      {
+        "icon": "fas fa-star",
+        "text": "爱好：天文观测、逛科技馆、玩解谜游戏"
+      },
+      {
+        "icon": "fas fa-book",
+        "text": "创作：出版科幻短篇集，探讨技术与人性的未来"
+      }
+    ],
+    "quote": "我研究过去的技术如何塑造了我们，也书写未来技术可能带来的惊奇与困惑。在时间的纵轴上穿梭，让我既敬畏历史的重量，又对未来的无限可能保持孩童般的好奇。希望你是那个能和我一起好奇的人。",
+    "detailUrl": "detail.html?id=053",
+    "icons": [
+      "fas fa-pastafarianism",
+      "fas fa-feather-alt"
+    ],
+    "fullDetails": {
+      "tagline": "回望技术来路，想象人类前程",
+      "aboutMe": [
+        "职业：大学科技史研究所助理研究员，兼职科幻作家",
+        "教育: 科学史博士，研究方向为20世纪信息技术史",
+        "创作: 出版科幻短篇小说集《递归的边界》，作品见于《科幻世界》等",
+        "爱好: 天文观测、逛各类博物馆和科技馆、玩解谜桌游和电子游戏、收集老式电子产品",
+        "性格: INTP型人格，好奇心驱动，热爱逻辑与想象力的碰撞，社交需求低但珍视深度连接"
+      ],
+      "expectations": [
+        "年龄28-38岁，有求知欲和开放思维",
+        "对科技、历史或科幻至少有一项感兴趣",
+        "能尊重并享受我大量的阅读和独处时间",
+        "不排斥偶尔“脑洞大开”的对话",
+        "长期在南京发展"
+      ],
+      "notImportant": [
+        "书房被书籍和奇怪的收藏品占据",
+        "聊天时容易从日常话题跳转到奇怪的技术史冷知识",
+        "会为了一篇论文或一个故事构思废寝忘食",
+        "对流行文化和时尚趋势不太敏感"
+      ],
+      "avoid": [
+        "认为研究历史和写小说都是“没用的空想”",
+        "对学习和探索新知识毫无兴趣",
+        "无法进行有逻辑的讨论，或拒绝想象",
+        "需要频繁的、流于表面的社交互动"
+      ],
+      "togetherActivities": [
+        {
+          "icon": "fas fa-star",
+          "title": "星空夜话",
+          "description": "去郊外观星，辨认星座，聊聊宇宙和未来"
+        },
+        {
+          "icon": "fas fa-puzzle-piece",
+          "title": "解谜挑战",
+          "description": "一起玩高难度的解谜游戏或逃脱密室"
+        },
+        {
+          "icon": "fas fa-film",
+          "title": "科幻影展",
+          "description": "刷科幻电影或剧集，分析其中的设定和思想实验"
+        }
+      ],
+      "contactInfo": {
+        "wechat": "future_archaeologist_053",
+        "email": "scifihistorian053@example.com",
+        "phone": "138-1111-1125"
+      },
+      "travelPhotos": [
+        "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1534447677768-be436bb09401?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1518837695005-2083093ee35b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      ]
+    }
+  },
+  {
+    "id": "054",
+    "name": "系统清道夫",
+    "age": 29,
+    "gender": "male",
+    "occupation": "软件测试工程师",
+    "location": "深圳 · 宝安",
+    "city": "shenzhen",
+    "occupationType": "tech",
+    "headerClass": "tech-header",
+    "tags": [
+      {
+        "text": "质量保证",
+        "class": "tag-tech"
+      },
+      {
+        "text": "用户体验",
+        "class": "tag-tech"
+      },
+      {
+        "text": "ISFJ型",
+        "class": "tag-personality"
+      },
+      {
+        "text": "整理收纳",
+        "class": "tag-hobby"
+      }
+    ],
+    "details": [
+      {
+        "icon": "fas fa-briefcase",
+        "text": "职业：中型互联网公司测试团队核心成员"
+      },
+      {
+        "icon": "fas fa-broom",
+        "text": "专长：从用户视角进行探索性测试，撰写清晰用例"
+      },
+      {
+        "icon": "fas fa-boxes",
+        "text": "爱好：家庭收纳整理、研究高效能工具、慢跑"
+      },
+      {
+        "icon": "fas fa-thumbs-up",
+        "text": "理念：我的工作是为产品上线前扫清障碍，让用户用得顺心"
+      }
+    ],
+    "quote": "我热衷于在复杂的系统中发现那些不和谐的“音符”并修复它们。对于生活，我也倾向于把它打理得井井有条，消除不必要的摩擦。寻找一位同样喜欢秩序、安稳，能一起构建高效舒适小系统的伴侣。",
+    "detailUrl": "detail.html?id=054",
+    "icons": [
+      "fas fa-filter",
+      "fas fa-user-check"
+    ],
+    "fullDetails": {
+      "tagline": "守护产品体验，经营有序生活",
+      "aboutMe": [
+        "职业：中型互联网公司测试团队核心成员",
+        "教育: 计算机专业，ISTQB认证基础级",
+        "专长: 探索性测试、用户体验测试、测试用例设计",
+        "爱好: 家庭收纳整理（治愈系）、研究各种提升效率的软硬件工具、慢跑、看社会纪实类纪录片",
+        "性格: ISFJ型人格，守护者类型，细心、耐心、务实，乐于在幕后提供支持，重视承诺与稳定"
+      ],
+      "expectations": [
+        "年龄26-33岁，情绪稳定，生活态度积极",
+        "理解支持我的工作（特别是版本发布前的加班）",
+        "对生活环境的整洁度有一定要求",
+        "对未来有共同规划，愿意一起储蓄和经营家庭",
+        "长期在深圳发展"
+      ],
+      "notImportant": [
+        "家里的物品都分门别类，有固定的位置",
+        "会花时间优化生活中的各种流程（如购物清单、旅行计划）",
+        "对数码产品的设置和功能研究得比较透彻",
+        "周末喜欢待在家里收拾、看电影，或去公园慢跑"
+      ],
+      "avoid": [
+        "生活极度邋遢混乱且拒绝改变",
+        "消费无计划，是月光族",
+        "沟通时喜欢抱怨而非解决问题",
+        "对未来没有任何实际打算"
+      ],
+      "togetherActivities": [
+        {
+          "icon": "fas fa-box-open",
+          "title": "整理日",
+          "description": "一起整理某个房间或角落，断舍离，让空间焕然一新"
+        },
+        {
+          "icon": "fas fa-film",
+          "title": "纪录片时光",
+          "description": "看一部关于建筑、设计或社会现象的纪录片"
+        },
+        {
+          "icon": "fas fa-running",
+          "title": "健康跑",
+          "description": "在附近的公园或绿道一起慢跑，聊聊一周琐事"
+        }
+      ],
+      "contactInfo": {
+        "wechat": "system_cleaner_054",
+        "email": "tester054@example.com",
+        "phone": "139-1111-1125"
+      },
+      "travelPhotos": [
+        "https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1542744095-fcf48d80b0fd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      ]
+    }
+  },
+  {
+    "id": "055",
+    "name": "像素园丁",
+    "age": 27,
+    "gender": "female",
+    "occupation": "UI/UX设计师",
+    "location": "广州 · 琶洲",
+    "city": "guangzhou",
+    "occupationType": "creative",
+    "headerClass": "creative-header",
+    "tags": [
+      {
+        "text": "界面设计",
+        "class": "tag-creative"
+      },
+      {
+        "text": "用户体验",
+        "class": "tag-tech"
+      },
+      {
+        "text": "ENFP型",
+        "class": "tag-personality"
+      },
+      {
+        "text": "陶艺",
+        "class": "tag-hobby"
+      }
+    ],
+    "details": [
+      {
+        "icon": "fas fa-briefcase",
+        "text": "职业：互联网公司设计团队负责人"
+      },
+      {
+        "icon": "fas fa-palette",
+        "text": "专长：移动端产品界面设计、设计系统构建"
+      },
+      {
+        "icon": "fas fa-hands",
+        "text": "爱好：做陶艺、逛设计展、研究家居美学"
+      },
+      {
+        "icon": "fas fa-eye",
+        "text": "理念：好的设计是无声的助手，让复杂变得简单优雅"
+      }
+    ],
+    "quote": "我在像素世界里耕种，精心排布每一个元素，只为用户那一下会心的“啊哈！”时刻。生活同样需要设计感——不是昂贵的堆砌，而是用巧思和爱，把平凡的日子过成赏心悦目的作品。",
+    "detailUrl": "detail.html?id=055",
+    "icons": [
+      "fas fa-object-group",
+      "fas fa-smile"
+    ],
+    "fullDetails": {
+      "tagline": "设计数字界面，构筑生活美感",
+      "aboutMe": [
+        "职业：互联网公司设计团队负责人",
+        "教育: 设计专业，对交互心理学有持续学习",
+        "专长: 移动端产品界面设计、用户体验研究、设计语言系统（DLS）",
+        "爱好: 做陶艺（从捏土到上釉）、逛各类设计展和家具店、研究家居软装、看独立电影",
+        "性格: ENFP型人格，热情开朗，充满创意，共情能力强，是团队里的“灵感催化剂”和“氛围担当”"
+      ],
+      "expectations": [
+        "年龄27-35岁，性格开朗，有基本的审美",
+        "尊重设计工作的价值，愿意听我分享创作思路",
+        "对生活有热情，愿意一起尝试新鲜事物",
+        "沟通直接，不猜忌，能一起解决问题",
+        "长期在广州发展"
+      ],
+      "notImportant": [
+        "对色彩、字体、间距有职业性的敏感，可能会“职业病”发作",
+        "家里布置得像个小展厅，有很多自己做的陶器和淘来的设计品",
+        "工作项目期需要集中精力，可能会暂时“消失”",
+        "喜欢组织朋友来家中小聚，展示厨艺和新收藏"
+      ],
+      "avoid": [
+        "认为设计就是“美工”，毫无技术含量",
+        "生活将就，对居住环境和生活细节毫不在意",
+        "无法进行有效沟通，习惯冷战",
+        "对艺术和创意活动完全无感且排斥"
+      ],
+      "togetherActivities": [
+        {
+          "icon": "fas fa-hands",
+          "title": "陶艺作坊",
+          "description": "一起去陶艺工作室，亲手做一对杯子或碗"
+        },
+        {
+          "icon": "fas fa-home",
+          "title": "家装实验",
+          "description": "一起策划和实施一个小型的家居改造项目"
+        },
+        {
+          "icon": "fas fa-utensils",
+          "title": "颜值晚餐",
+          "description": "研究一道摆盘漂亮的菜，一起烹饪并拍照留念"
+        }
+      ],
+      "contactInfo": {
+        "wechat": "pixel_gardener_055",
+        "email": "designer055@example.com",
+        "phone": "136-1111-1125"
+      },
+      "travelPhotos": [
+        "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1542744095-fcf48d80b0fd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      ]
+    }
+  },
+  {
+    "id": "056",
+    "name": "人心解码器",
+    "age": 40,
+    "gender": "male",
+    "occupation": "集团人力资源副总裁",
+    "location": "北京 · 望京",
+    "city": "beijing",
+    "occupationType": "business",
+    "headerClass": "business-header",
+    "tags": [
+      {
+        "text": "组织战略",
+        "class": "tag-business"
+      },
+      {
+        "text": "领导力教练",
+        "class": "tag-business"
+      },
+      {
+        "text": "ENFJ型",
+        "class": "tag-personality"
+      },
+      {
+        "text": "红酒",
+        "class": "tag-hobby"
+      }
+    ],
+    "details": [
+      {
+        "icon": "fas fa-briefcase",
+        "text": "职业：科技集团人力资源副总裁，董事会成员"
+      },
+      {
+        "icon": "fas fa-brain",
+        "text": "专长：组织变革管理、高管团队建设、企业文化塑造"
+      },
+      {
+        "icon": "fas fa-wine-glass-alt",
+        "text": "爱好：红酒品鉴、阅读人物传记、打网球"
+      },
+      {
+        "icon": "fas fa-comments",
+        "text": "生活：相信真诚的沟通能化解大部分难题，是朋友间的“人生教练”"
+      }
+    ],
+    "quote": "我职业生涯的核心是“识人”与“用人”，激发组织中个体的潜能。而在个人生活中，我寻求的是一位真正的“合伙人”——我们彼此欣赏，互相赋能，共同书写比商业成功更丰富的人生篇章。",
+    "detailUrl": "detail.html?id=056",
+    "icons": [
+      "fas fa-users-cog",
+      "fas fa-heart"
+    ],
+    "fullDetails": {
+      "tagline": "凝聚商业智慧，经营丰盛人生",
+      "aboutMe": [
+        "职业：科技集团人力资源副总裁，董事会成员",
+        "教育: 心理学与企业管理双硕士，高管教练认证",
+        "专长: 组织战略、人才盘点与继任计划、企业文化与员工体验",
+        "爱好: 红酒品鉴、阅读人物传记和历史、打网球、旅行（偏好文化历史目的地）",
+        "性格: ENFJ型人格，天生的领导者与凝聚者，洞察力强，富有感染力，追求意义与影响力"
+      ],
+      "expectations": [
+        "年龄35-45岁，成熟智慧，有良好的教育背景和事业成就",
+        "独立自信，有完整的人格和丰富的人生阅历",
+        "重视家庭，渴望建立深度、彼此成就的伴侣关系",
+        "乐于沟通与分享，能进行思想层面的对话",
+        "长期在北京发展"
+      ],
+      "notImportant": [
+        "工作需要高度的战略思考和大量的人际协调",
+        "对人和组织行为有深入的理解，有时会下意识地分析",
+        "享受高品质的生活，但更看重体验而非标签",
+        "是朋友圈中值得信赖的建议者和支持者"
+      ],
+      "avoid": [
+        "内心充满不安全感，需要不断通过外界确认价值",
+        "人生目标仅限于物质积累和享受",
+        "拒绝成长，思维固化",
+        "在关系中操控性强或极度依赖"
+      ],
+      "togetherActivities": [
+        {
+          "icon": "fas fa-wine-glass-alt",
+          "title": "品酒夜话",
+          "description": "开一瓶好酒，配着奶酪，天南海北地畅聊"
+        },
+        {
+          "icon": "fas fa-book",
+          "title": "传记共读",
+          "description": "读同一本人物传记，分享各自视角下的感悟"
+        },
+        {
+          "icon": "fas fa-plane",
+          "title": "文化旅行",
+          "description": "规划一次深度文化旅行，去探访古迹或参加当地节庆"
+        }
+      ],
+      "contactInfo": {
+        "wechat": "people_decoder_056",
+        "email": "hrexecutive056@example.com",
+        "phone": "137-1111-1126"
+      },
+      "travelPhotos": [
+        "https://images.unsplash.com/photo-1537724326059-2ea20251b9c8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1518837695005-2083093ee35b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+      ]
+    }
+  },
+  {
+    "id": "057",
+    "name": "荒野旅人",
+    "age": 34,
+    "gender": "female",
+    "occupation": "户外领队/自然摄影师",
+    "location": "成都 · 青羊",
+    "city": "chengdu",
+    "occupationType": "outdoor",
+    "headerClass": "outdoor-header",
+    "tags": [
+      {
+        "text": "高海拔徒步",
+        "class": "tag-outdoor"
+      },
+      {
+        "text": "户外摄影",
+        "class": "tag-creative"
+      },
+      {
+        "text": "ISTP型",
+        "class": "tag-personality"
+      },
+      {
+        "text": "攀岩",
+        "class": "tag-hobby"
+      }
+    ],
+    "details": [
+      {
+        "icon": "fas fa-briefcase",
+        "text": "职业：签约户外俱乐部领队，供稿《国家地理》等媒体"
+      },
+      {
+        "icon": "fas fa-mountain",
+        "text": "经历：完成多次喜马拉雅山脉及喀喇昆仑山脉徒步"
+      },
+      {
+        "icon": "fas fa-camera",
+        "text": "专长：野外环境人像与风光摄影、户外应急处理"
+      },
+      {
+        "icon": "fas fa-home",
+        "text": "生活：以成都为补给站，一年一半时间在野外或路上"
+      }
+    ],
+    "quote": "我的双脚丈量过最崎岖的山路，镜头捕捉过最纯净的星光。荒野教会我坚韧与谦卑，也让我格外珍惜人间烟火的温暖。我不需要你陪我走所有险路，但希望你是那个让我每次出征都满怀期待，每次归来都心有所属的人。",
+    "detailUrl": "detail.html?id=057",
+    "icons": [
+      "fas fa-hiking",
+      "fas fa-camera-retro"
+    ],
+    "fullDetails": {
+      "tagline": "向山而行，向心而归",
+      "aboutMe": [
+        "职业：签约户外俱乐部领队，自由自然摄影师",
+        "资质: 中国登山协会户外指导员，野外急救第一响应人（WFR）",
+        "经历: 多次带队完成高海拔徒步线路（如EBC, ACT），个人完成技术型山峰攀登",
+        "爱好: 攀岩、滑雪、阅读探险文学、整理行装（装备控）",
+        "性格: ISTP型人格，冷静果断，动手能力极强，享受在具体挑战中解决问题，不善言辞但真诚直接"
+      ],
+      "expectations": [
+        "年龄30-42岁，身心健康，有至少一项户外爱好",
+        "能完全理解并支持我工作的性质（长期在外）",
+        "独立，有自己充实的生活，不黏人",
+        "性格简单直接，不喜复杂猜忌",
+        "base在成都，或接受我长期以成都为家"
+      ],
+      "notImportant": [
+        "收入不错但大部分投入在装备和旅行上",
+        "外表比实际年龄看起来更“糙”一些，皮肤是健康的小麦色",
+        "社交圈非常垂直，多是山友和摄影师",
+        "在家的大部分时间是在整理照片、保养装备和规划下一次出行"
+      ],
+      "avoid": [
+        "对户外活动有恐惧或极度排斥",
+        "需要24小时紧密联系和情绪供给",
+        "无法接受我身上可能有的伤疤或晒斑",
+        "生活完全城市化，对自然无感"
+      ],
+      "togetherActivities": [
+        {
+          "icon": "fas fa-hiking",
+          "title": "轻探险",
+          "description": "带你体验一次入门级的徒步或露营，分享我的户外知识"
+        },
+        {
+          "icon": "fas fa-campground",
+          "title": "后院星空",
+          "description": "在郊区找一个安全的地方，一起搭帐篷看星星"
+        },
+        {
+          "icon": "fas fa-utensils",
+          "title": "能量厨房",
+          "description": "一起研究制作高能量的徒步路餐或恢复餐"
+        }
+      ],
+      "contactInfo": {
+        "wechat": "wilderness_traveler_057",
+        "email": "outdoorguide057@example.com",
+        "phone": "138-1111-1126"
+      },
+      "travelPhotos": [
+        "https://images.unsplash.com/photo-1501555088652-021faa106b9b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1534088568595-a066f410bcda?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
       ]
     }
   }

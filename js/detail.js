@@ -22,8 +22,13 @@ function loadProfileDetail(profileId) {
   const detailContainer = document.getElementById('profile-detail');
   const notFoundElement = document.getElementById('not-found');
   
-  // 从profiles.json加载数据
-  fetch('data/profiles.json')
+  console.log('加载征婚信息详情，ID:', profileId);
+  
+  // 从合并后的profiles.json文件中查找
+  const fileName = 'data/profiles.json';
+  console.log('从合并文件加载:', fileName);
+  
+  fetch(fileName)
     .then(response => {
       if (!response.ok) {
         throw new Error('网络响应异常');
@@ -34,22 +39,22 @@ function loadProfileDetail(profileId) {
       // 查找对应ID的profile
       const profile = profilesData.find(p => p.id === profileId);
       
-      // 清空加载提示
-      loadingElement.style.display = 'none';
-      
-      if (!profile) {
+      if (profile) {
+        // 找到匹配的profile
+        loadingElement.style.display = 'none';
+        detailContainer.innerHTML = createDetailPage(profile);
+        initDetailInteractions(profile);
+        console.log('找到征婚信息:', profile.name);
+      } else {
+        // 未找到
+        loadingElement.style.display = 'none';
         notFoundElement.style.display = 'block';
-        return;
+        console.log('未找到征婚信息，ID:', profileId);
       }
-      
-      // 生成详情页面
-      detailContainer.innerHTML = createDetailPage(profile);
-      
-      // 初始化交互功能（幻灯片等）
-      initDetailInteractions(profile);
     })
     .catch(error => {
-      console.error('加载征婚信息失败:', error);
+      // 加载失败
+      console.error('加载文件失败:', error);
       loadingElement.style.display = 'none';
       notFoundElement.style.display = 'block';
     });

@@ -1,73 +1,106 @@
 // 从JSON文件加载征婚信息
 document.addEventListener('DOMContentLoaded', function() {
-  // 加载征婚信息
-  loadProfiles();
+  // 加载所有征婚信息
+  loadAllProfiles();
   
   // 绑定筛选按钮事件
   document.getElementById('apply-filters').addEventListener('click', applyFilters);
   document.getElementById('reset-filters').addEventListener('click', resetFilters);
   
-  // 为分页按钮添加点击事件
-  const paginationBtns = document.querySelectorAll('.pagination-btn:not(.active)');
-  paginationBtns.forEach(btn => {
-    btn.addEventListener('click', function(e) {
-      e.preventDefault();
-      alert('这是一个示例页面，实际开发中这里会加载对应页码的内容。');
-    });
+  // 为关键词输入框添加回车键事件
+  document.getElementById('keyword').addEventListener('keypress', function(e) {
+    if (e.key === 'Enter') {
+      applyFilters();
+    }
   });
 });
 
-// 加载征婚信息
-function loadProfiles() {
+// 加载所有征婚信息
+function loadAllProfiles() {
+  console.log('开始加载所有征婚信息');
   const loadingElement = document.getElementById('loading');
   const profilesGrid = document.getElementById('profiles-grid');
   
-  // 从profiles.json加载数据
-  fetch('data/profiles.json')
+  console.log('loadingElement:', loadingElement);
+  console.log('profilesGrid:', profilesGrid);
+  
+  // 显示加载提示
+  if (loadingElement) {
+    loadingElement.style.display = 'flex';
+    console.log('加载提示已显示');
+  }
+  
+  // 从合并后的JSON文件加载数据
+  const fileName = 'data/profiles.json';
+  console.log('要加载的文件:', fileName);
+  
+  fetch(fileName)
     .then(response => {
+      console.log('网络响应:', response);
       if (!response.ok) {
         throw new Error('网络响应异常');
       }
       return response.json();
     })
     .then(profilesData => {
+      console.log('获取到的数据:', profilesData);
+      console.log('共', profilesData.length, '个征婚信息');
       // 清空加载提示
-      profilesGrid.innerHTML = '';
-      
-      // 生成征婚卡片
-      profilesData.forEach(profile => {
-        const profileCard = createProfileCard(profile);
-        profilesGrid.appendChild(profileCard);
-      });
-      
-      // 更新数量
-      updateProfileCount();
-      
-      // 为所有查看详情按钮添加点击事件（处理没有detailUrl的情况）
-      const viewButtons = document.querySelectorAll('.btn-view:not([href*="detail.html?id=001"])');
-      viewButtons.forEach(button => {
-        if (button.getAttribute('href') === '#') {
-          button.addEventListener('click', function(e) {
-            e.preventDefault();
-            const profileId = this.getAttribute('data-id');
-            // 跳转到默认详情页
-            window.location.href = `detail.html?id=${profileId}`;
-          });
-        }
-      });
+      if (profilesGrid) {
+        profilesGrid.innerHTML = '';
+        console.log('profilesGrid已清空');
+        
+        // 生成征婚卡片
+        profilesData.forEach(profile => {
+          console.log('处理征婚信息:', profile.name);
+          const profileCard = createProfileCard(profile);
+          profilesGrid.appendChild(profileCard);
+        });
+        
+        // 更新数量
+        updateProfileCount();
+        console.log('数量已更新');
+        
+        // 为所有查看详情按钮添加点击事件（处理没有detailUrl的情况）
+        const viewButtons = document.querySelectorAll('.btn-view');
+        viewButtons.forEach(button => {
+          if (button.getAttribute('href') === '#') {
+            button.addEventListener('click', function(e) {
+              e.preventDefault();
+              const profileId = this.getAttribute('data-id');
+              // 跳转到默认详情页
+              window.location.href = `detail.html?id=${profileId}`;
+              console.log('跳转到详情页:', profileId);
+            });
+          } else if (button.getAttribute('href').includes('detail.html')) {
+            // 确保所有详情链接都能正确跳转
+            button.addEventListener('click', function(e) {
+              const href = this.getAttribute('href');
+              console.log('跳转到详情页:', href);
+            });
+          }
+        });
+        
+        console.log('查看详情按钮事件已绑定');
+      }
     })
     .catch(error => {
       console.error('加载征婚信息失败:', error);
-      profilesGrid.innerHTML = `
-        <div class="empty-state">
-          <i class="fas fa-exclamation-circle"></i>
-          <h3>加载征婚信息失败</h3>
-          <p>请刷新页面重试</p>
-        </div>
-      `;
+      if (profilesGrid) {
+        profilesGrid.innerHTML = `
+          <div class="empty-state">
+            <i class="fas fa-exclamation-circle"></i>
+            <h3>加载征婚信息失败</h3>
+            <p>请刷新页面重试</p>
+          </div>
+        `;
+      }
     })
     .finally(() => {
-      loadingElement.style.display = 'none';
+      if (loadingElement) {
+        loadingElement.style.display = 'none';
+        console.log('加载提示已隐藏');
+      }
     });
 }
 

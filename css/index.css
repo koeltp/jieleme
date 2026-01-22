@@ -203,6 +203,55 @@
   background: linear-gradient(to right, #ffb8d9, #ffa8d0);
 }
 
+/* 新增headerClass样式 */
+.science-header {
+  background: linear-gradient(to right, #90caf9, #64b5f6);
+}
+
+.law-header {
+  background: linear-gradient(to right, #a5d6a7, #81c784);
+}
+
+.art-header {
+  background: linear-gradient(to right, #ffcc80, #ffb74d);
+}
+
+.aviation-header {
+  background: linear-gradient(to right, #ce93d8, #ba68c8);
+}
+
+.social-header {
+  background: linear-gradient(to right, #ffab91, #ff8a65);
+}
+
+.sports-header {
+  background: linear-gradient(to right, #80deea, #4dd0e1);
+}
+
+.language-header {
+  background: linear-gradient(to right, #d1c4e9, #9575cd);
+}
+
+.outdoor-header {
+  background: linear-gradient(to right, #aed581, #8bc34a);
+}
+
+.agriculture-header {
+  background: linear-gradient(to right, #c8e6c9, #a5d6a7);
+}
+
+.culture-header {
+  background: linear-gradient(to right, #ffd54f, #ffca28);
+}
+
+.engineering-header {
+  background: linear-gradient(to right, #b0bec5, #90a4ae);
+}
+
+.design-header {
+  background: linear-gradient(to right, #ffb74d, #ffa726);
+}
+
 .profile-id {
   position: absolute;
   top: 15px;
