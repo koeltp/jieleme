@@ -199,12 +199,9 @@ function createDetailPage(profile) {
         <h3 class="contact-title"><i class="fas fa-envelope"></i> 期待与你相遇</h3>
         <div class="contact-content">
           <p>如果你觉得我们可能合适，欢迎通过微信联系我，交换照片和更多故事。</p>
-          <div class="wechat-info" onclick="showWeChatModal('${fullDetails.contactInfo.wechat}')">
-            <div class="wechat-id">
-              <i class="fab fa-weixin"></i> 
-              <span class="wechat-text">${fullDetails.contactInfo.wechat}</span>
-              <i class="fas fa-copy copy-icon"></i>
-            </div>
+          <div class="wechat-qr-code">
+            <img src="${fullDetails.contactInfo.wechat}" alt="微信二维码" class="qr-code-image">
+            <p class="qr-code-hint">扫描二维码添加微信</p>
           </div>
         </div>
       </div>
@@ -219,19 +216,6 @@ function createDetailPage(profile) {
         <button class="modal-nav next" id="nextPhoto"><i class="fas fa-chevron-right"></i></button>
       </div>
       <div class="modal-caption"></div>
-    </div>
-    
-    <!-- 自定义弹窗 -->
-    <div id="customModal" class="custom-modal">
-      <div class="modal-content-box">
-        <div class="modal-icon">
-          <i class="fab fa-weixin"></i>
-        </div>
-        <h3 class="modal-title">微信号已复制</h3>
-        <p class="modal-text">已成功复制微信号到剪贴板</p>
-        <div class="wechat-id-modal" id="modalWechatId"></div>
-        <button class="modal-close-btn" onclick="closeWeChatModal()">关闭</button>
-      </div>
     </div>
   `;
 }
@@ -433,55 +417,3 @@ function initDetailInteractions(profile) {
   }
 }
 
-// 显示自定义微信弹窗
-function showWeChatModal(wechatId) {
-  if (!wechatId) return;
-  
-  // 复制到剪贴板
-  navigator.clipboard.writeText(wechatId)
-    .then(() => {
-      // 显示自定义弹窗
-      const modal = document.getElementById('customModal');
-      const wechatIdElement = document.getElementById('modalWechatId');
-      
-      if (modal && wechatIdElement) {
-        wechatIdElement.textContent = wechatId;
-        modal.style.display = 'flex';
-        document.body.style.overflow = 'hidden';
-      }
-    })
-    .catch(err => {
-      // 备用方法
-      const textArea = document.createElement('textarea');
-      textArea.value = wechatId;
-      document.body.appendChild(textArea);
-      textArea.select();
-      
-      try {
-        document.execCommand('copy');
-        // 显示自定义弹窗
-        const modal = document.getElementById('customModal');
-        const wechatIdElement = document.getElementById('modalWechatId');
-        
-        if (modal && wechatIdElement) {
-          wechatIdElement.textContent = wechatId;
-          modal.style.display = 'flex';
-          document.body.style.overflow = 'hidden';
-        }
-      } catch (err) {
-        // 如果复制失败，直接显示微信号
-        alert(`微信号：${wechatId}\n\n请手动复制添加好友。`);
-      }
-      
-      document.body.removeChild(textArea);
-    });
-}
-
-// 关闭微信弹窗
-function closeWeChatModal() {
-  const modal = document.getElementById('customModal');
-  if (modal) {
-    modal.style.display = 'none';
-    document.body.style.overflow = 'auto';
-  }
-}

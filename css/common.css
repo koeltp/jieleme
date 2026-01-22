@@ -657,7 +657,6 @@ footer::before {
 #seconds {
   color: #e74c3c;
 }
-}
 
 /* 网站链接特殊处理 */
 .website-link:hover {
@@ -670,3 +669,4 @@ footer::before {
   color: #ff3d7f;
   text-decoration: underline;
 }
+

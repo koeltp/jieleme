@@ -396,29 +396,36 @@
   transform: translateY(-3px);
 }
 
-.wechat-id {
-  font-family: 'Courier New', monospace;
-  font-size: 1.2rem;
-  letter-spacing: 1px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 15px;
-  flex-wrap: wrap;
+.wechat-qr-code {
+  text-align: center;
+  margin: 30px 0;
 }
 
-.wechat-text {
-  font-weight: 600;
+.qr-code-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+  transition: all 0.3s ease;
 }
 
-.copy-icon {
-  color: #ffd9e4;
+.wechat-qr-code:hover .qr-code-image {
+  transform: scale(1.05);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.qr-code-hint {
+  color: rgba(255, 255, 255, 0.9);
   font-size: 1.1rem;
-  transition: transform 0.3s;
+  margin: 0;
+  transition: all 0.3s ease;
 }
 
-.wechat-info:hover .copy-icon {
-  transform: scale(1.2);
+.wechat-qr-code:hover .qr-code-hint {
+  color: white;
+  transform: translateY(-2px);
+  font-weight: 600;
 }
 
 .btn-contact {
@@ -490,18 +497,7 @@
   line-height: 1.6;
 }
 
-.wechat-id-modal {
-  background: linear-gradient(to right, #fff9fb, #fff5f8);
-  padding: 20px;
-  border-radius: 15px;
-  margin: 20px 0;
-  border: 2px dashed #ff9ebb;
-  font-family: 'Courier New', monospace;
-  font-size: 1.4rem;
-  font-weight: 600;
-  color: #ff6b9d;
-  letter-spacing: 2px;
-}
+
 
 .modal-close-btn {
   background: linear-gradient(to right, #ff9ebb, #ff85a2);
@@ -748,16 +744,16 @@
     font-size: 1.5rem;
   }
 
-  .wechat-id {
-    flex-direction: column;
-    gap: 10px;
+  .qr-code-image {
+    width: 130px;
+    height: 130px;
+  }
+
+  .qr-code-hint {
     font-size: 1rem;
   }
 
-  .wechat-id-modal {
-    font-size: 1.2rem;
-    padding: 15px;
-  }
+  
 
   .modal-close-btn {
     padding: 12px 30px;
@@ -827,10 +823,7 @@
     margin: 20px 0;
   }
 
-  .wechat-id {
-    font-size: 1rem;
-    gap: 8px;
-  }
+  
 
   .slider-container {
     min-height: 280px;
@@ -907,11 +900,7 @@
     margin-bottom: 15px;
   }
 
-  .wechat-id-modal {
-    font-size: 1rem;
-    padding: 12px;
-    margin: 15px 0;
-  }
+  
 
   .modal-close-btn {
     padding: 11px 25px;
