@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jieleme.top/sitemap.xml
+
+# 不允许抓取的目录
+Disallow: /css/
+Disallow: /js/
+Disallow: /data/
+
+# 允许抓取的文件类型
+Allow: *.html
+Allow: *.png
+Allow: *.jpg
+Allow: *.jpeg
+Allow: *.gif
+Allow: *.ico
